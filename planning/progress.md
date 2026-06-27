@@ -45,3 +45,9 @@
 - Validazione: 12 pack ALL OK (titoli ≤140, 13 tag ≤20, 6 img, zip).
 - Pinterest pin Coffee: creato in builder ma board bloccata lato Pinterest (anche per utente → probabile conferma email account).
 - NEXT (domani): conferma email/board Pinterest + approvazione app Etsy → publish_all in batch.
+
+## 2026-06-27 (privacy scrub)
+- Vincolo permanente: nome reale + email utente mai visibili, nemmeno indirettamente.
+- Fatto: Gumroad nome profilo → Riddlewood; avatar iniziale rimosso; **username → riddlewood** (nuovo URL prodotto: riddlewood.gumroad.com/l/coffee-word-search, verificato live). Git history interamente riscritta (autore neutro + contenuti file + messaggi commit ripuliti).
+- Verificato 0 residui su: pagina pubblica, file repo, history, messaggi commit, autori.
+- Aperto (utente, opzionale): email login account → mail dedicata al brand; profilo Etsy in fase setup (evitare nome owner).
