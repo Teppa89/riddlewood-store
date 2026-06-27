@@ -1,0 +1,118 @@
+"""Launch catalog: themed word-search packs (English-first, Riddlewood).
+
+Each theme -> one sellable pack of 10 puzzles. Word lists curated for
+mass-appeal, giftable, evergreen Etsy niches. Colors are dark (light text
+on cover). Consumed by build_all.py.
+"""
+from wordsearch import Puzzle
+
+THEMES = [
+    {
+        "slug": "coffee-lovers-word-search",
+        "title": "Coffee Lover's Word Search",
+        "subtitle": "Cozy puzzles for people who run on coffee",
+        "color": (59, 41, 33),
+        "puzzles": [
+            Puzzle("Coffee Drinks", ["ESPRESSO", "LATTE", "CAPPUCCINO", "MOCHA", "MACCHIATO", "AMERICANO", "CORTADO", "FLATWHITE", "RISTRETTO", "AFFOGATO", "DOPPIO", "CACAO"]),
+            Puzzle("Brewing Methods", ["FRENCHPRESS", "POUROVER", "AEROPRESS", "MOKA", "DRIP", "SIPHON", "COLDBREW", "PERCOLATOR", "CHEMEX", "STEEP", "FILTER", "KETTLE"]),
+            Puzzle("Cafe Vibes", ["AROMA", "BARISTA", "CREMA", "FOAM", "MUG", "BEANS", "ROAST", "GRINDER", "STEAM", "COZY", "REFILL", "CAFFEINE"]),
+            Puzzle("Coffee Around The World", ["ITALY", "ETHIOPIA", "COLOMBIA", "BRAZIL", "VIENNA", "TURKISH", "CUBANO", "IRISH", "VIETNAM", "KENYA", "GUATEMALA", "JAVA"]),
+            Puzzle("Coffee And Sweets", ["BISCOTTI", "CROISSANT", "TIRAMISU", "MUFFIN", "BROWNIE", "DONUT", "COOKIE", "SCONE", "CARAMEL", "VANILLA", "CINNAMON", "HAZELNUT"]),
+            Puzzle("Espresso Bar", ["SHOT", "CREMA", "TAMPER", "PORTAFILTER", "GROUP", "DOSE", "GRIND", "EXTRACTION", "PUCK", "PITCHER", "MILK", "STEAMER"]),
+            Puzzle("Morning Ritual", ["WAKEUP", "SUNRISE", "STRETCH", "KETTLE", "BREW", "POUR", "SIP", "NEWSPAPER", "JOURNAL", "QUIET", "ROUTINE", "FRESH"]),
+            Puzzle("Coffee Flavors", ["VANILLA", "CARAMEL", "HAZELNUT", "MOCHA", "PUMPKIN", "CINNAMON", "TOFFEE", "CHOCOLATE", "COCONUT", "ALMOND", "MAPLE", "NUTMEG"]),
+            Puzzle("Coffee Gear", ["GRINDER", "KETTLE", "SCALE", "TAMPER", "FILTER", "CARAFE", "FROTHER", "THERMOS", "PRESS", "BREWER", "SPOON", "MUG"]),
+            Puzzle("Coffee Shop", ["MENU", "BARISTA", "COUNTER", "PASTRY", "LOUNGE", "ORDER", "LATTE", "TIPJAR", "BEANS", "BREW", "REGULAR", "STOOL"]),
+        ],
+    },
+    {
+        "slug": "cat-lovers-word-search",
+        "title": "Cat Lover's Word Search",
+        "subtitle": "Purr-fect puzzles for cat people",
+        "color": (45, 40, 58),
+        "puzzles": [
+            Puzzle("Cat Breeds", ["SIAMESE", "PERSIAN", "BENGAL", "RAGDOLL", "SPHYNX", "MAINECOON", "ABYSSINIAN", "BURMESE", "TABBY", "MANX", "BIRMAN", "SAVANNAH"]),
+            Puzzle("Cat Behavior", ["PURR", "KNEAD", "POUNCE", "GROOM", "ZOOMIES", "STALK", "CURIOUS", "NAP", "SCRATCH", "MEOW", "HISS", "CUDDLE"]),
+            Puzzle("Kitten Things", ["TINY", "PLAYFUL", "FLUFFY", "WHISKERS", "PAWS", "MITTENS", "YARN", "BASKET", "MILK", "SLEEPY", "CURIOUS", "SOFT"]),
+            Puzzle("Cat Toys", ["YARN", "MOUSE", "FEATHER", "LASER", "BALL", "STRING", "TUNNEL", "CATNIP", "SCRATCHER", "WAND", "PUZZLE", "BELL"]),
+            Puzzle("Famous Cats", ["GARFIELD", "FELIX", "SYLVESTER", "HELLOKITTY", "GRUMPY", "SIMBA", "CHESHIRE", "AZRAEL", "SALEM", "SNOWBELL", "TOM", "NYAN"]),
+            Puzzle("Cat Care", ["GROOMING", "BRUSHING", "LITTER", "FEEDING", "WATER", "VACCINE", "COLLAR", "SCRATCHPOST", "PLAY", "CHECKUP", "NAILS", "VET"]),
+            Puzzle("Cat Anatomy", ["WHISKERS", "PAWS", "TAIL", "EARS", "CLAWS", "NOSE", "EYES", "TONGUE", "BELLY", "PADS", "FANGS", "FUR"]),
+            Puzzle("Cat Sounds", ["MEOW", "PURR", "HISS", "CHIRP", "TRILL", "GROWL", "YOWL", "MURMUR", "CHATTER", "SQUEAK", "SNORE", "MEW"]),
+            Puzzle("Cat Naps", ["SUNBEAM", "WINDOWSILL", "BLANKET", "CUSHION", "CURLED", "COZY", "DREAM", "SNOOZE", "LAP", "BASKET", "WARM", "SOFT"]),
+            Puzzle("Popular Cat Names", ["LUNA", "MILO", "OLIVER", "BELLA", "CHLOE", "SIMBA", "NALA", "TIGER", "SHADOW", "PUMPKIN", "GINGER", "LEO"]),
+        ],
+    },
+    {
+        "slug": "garden-word-search",
+        "title": "In The Garden Word Search",
+        "subtitle": "Relaxing puzzles for green thumbs",
+        "color": (30, 58, 42),
+        "puzzles": [
+            Puzzle("Garden Flowers", ["ROSE", "TULIP", "DAISY", "LILY", "PEONY", "DAHLIA", "SUNFLOWER", "MARIGOLD", "LAVENDER", "IRIS", "POPPY", "ZINNIA"]),
+            Puzzle("Vegetables", ["TOMATO", "CARROT", "LETTUCE", "PEPPER", "ONION", "ZUCCHINI", "SPINACH", "RADISH", "CUCUMBER", "BEAN", "POTATO", "KALE"]),
+            Puzzle("Herbs", ["BASIL", "THYME", "ROSEMARY", "MINT", "PARSLEY", "SAGE", "OREGANO", "CILANTRO", "CHIVE", "DILL", "FENNEL", "TARRAGON"]),
+            Puzzle("Garden Tools", ["SHOVEL", "RAKE", "TROWEL", "HOE", "PRUNER", "GLOVES", "WATERINGCAN", "WHEELBARROW", "SPADE", "SHEARS", "FORK", "HOSE"]),
+            Puzzle("Trees", ["OAK", "MAPLE", "PINE", "BIRCH", "WILLOW", "CEDAR", "ELM", "CHERRY", "MAGNOLIA", "ASPEN", "BEECH", "SPRUCE"]),
+            Puzzle("Backyard Birds", ["ROBIN", "SPARROW", "FINCH", "CARDINAL", "BLUEJAY", "WREN", "CHICKADEE", "DOVE", "STARLING", "SWALLOW", "MAGPIE", "THRUSH"]),
+            Puzzle("Garden Pests", ["APHID", "SLUG", "SNAIL", "BEETLE", "CATERPILLAR", "WEEVIL", "MITE", "GRUB", "EARWIG", "WHITEFLY", "MOLE", "THRIP"]),
+            Puzzle("Planting", ["SEED", "SOIL", "COMPOST", "MULCH", "SPROUT", "SAPLING", "WATER", "SUNLIGHT", "TRANSPLANT", "BULB", "ROOT", "GROW"]),
+            Puzzle("Garden Wildlife", ["BEE", "BUTTERFLY", "LADYBUG", "HEDGEHOG", "FROG", "WORM", "DRAGONFLY", "SQUIRREL", "SNAIL", "TOAD", "BEETLE", "MOTH"]),
+            Puzzle("Garden Tasks", ["WEEDING", "PRUNING", "WATERING", "SOWING", "HARVEST", "MULCHING", "DIGGING", "RAKING", "PLANTING", "TRIMMING", "COMPOST", "POTTING"]),
+        ],
+    },
+    {
+        "slug": "self-care-word-search",
+        "title": "Self-Care & Calm Word Search",
+        "subtitle": "Gentle puzzles to slow down and unwind",
+        "color": (54, 46, 68),
+        "puzzles": [
+            Puzzle("Calm Words", ["PEACE", "BREATHE", "STILL", "QUIET", "GENTLE", "EASE", "RELAX", "SOOTHE", "TRANQUIL", "SERENE", "SOFTEN", "REST"]),
+            Puzzle("Self Care", ["REST", "HYDRATE", "JOURNAL", "WALK", "NOURISH", "PAUSE", "UNPLUG", "SLEEP", "STRETCH", "BOUNDARIES", "BATH", "BREATHE"]),
+            Puzzle("Meditation", ["BREATH", "MANTRA", "STILLNESS", "FOCUS", "PRESENCE", "BALANCE", "CALM", "AWARENESS", "SILENCE", "POSTURE", "MINDFUL", "ZEN"]),
+            Puzzle("Cozy Evening", ["BLANKET", "CANDLE", "TEA", "BOOK", "SLIPPERS", "FIREPLACE", "PLAYLIST", "PAJAMAS", "WARMTH", "SOFA", "DIM", "HUSH"]),
+            Puzzle("Positive Vibes", ["GRATITUDE", "JOY", "HOPE", "KINDNESS", "SMILE", "GROWTH", "COURAGE", "LIGHT", "THRIVE", "BLOOM", "SHINE", "TRUST"]),
+            Puzzle("Spa Day", ["MASSAGE", "FACIAL", "AROMATHERAPY", "SAUNA", "SOAK", "SCRUB", "LOTION", "ROBE", "CUCUMBER", "STEAM", "RELAX", "GLOW"]),
+            Puzzle("Gratitude", ["THANKFUL", "BLESSED", "APPRECIATE", "PRESENT", "ABUNDANCE", "KINDNESS", "GIVING", "WARMTH", "HUMBLE", "JOYFUL", "NOTICE", "SAVOR"]),
+            Puzzle("Slow Living", ["SIMPLE", "PRESENT", "UNHURRIED", "SAVOR", "MINDFUL", "NATURE", "PAUSE", "BALANCE", "INTENTION", "ENOUGH", "BREATHE", "LINGER"]),
+            Puzzle("Breathe", ["INHALE", "EXHALE", "DEEP", "SLOW", "PAUSE", "RHYTHM", "CALM", "RELEASE", "FILL", "EMPTY", "STEADY", "FLOW"]),
+            Puzzle("Comfort", ["WARM", "SOFT", "SAFE", "COZY", "HUG", "TEA", "BLANKET", "HOME", "GENTLE", "QUIET", "SOOTHE", "EMBRACE"]),
+        ],
+    },
+    {
+        "slug": "beach-summer-word-search",
+        "title": "Beach & Summer Word Search",
+        "subtitle": "Sunny puzzles for lazy summer days",
+        "color": (28, 58, 74),
+        "puzzles": [
+            Puzzle("At The Beach", ["SAND", "WAVES", "SHELL", "TOWEL", "UMBRELLA", "SUNSCREEN", "BUCKET", "SANDCASTLE", "TIDE", "SURF", "BAREFOOT", "COVE"]),
+            Puzzle("Summer Fun", ["BARBECUE", "PICNIC", "FIREWORKS", "CAMPING", "ROADTRIP", "FESTIVAL", "POOL", "HAMMOCK", "LEMONADE", "SUNGLASSES", "FRISBEE", "FERRY"]),
+            Puzzle("Ocean Life", ["DOLPHIN", "CRAB", "STARFISH", "SEAWEED", "TURTLE", "JELLYFISH", "CORAL", "SEAHORSE", "OCTOPUS", "CLAM", "URCHIN", "WHALE"]),
+            Puzzle("Beach Gear", ["TOWEL", "COOLER", "SANDALS", "GOGGLES", "SNORKEL", "FLOAT", "VISOR", "PARASOL", "TOTEBAG", "SURFBOARD", "CHAIR", "HAT"]),
+            Puzzle("Tropical", ["PALM", "COCONUT", "HIBISCUS", "PINEAPPLE", "LAGOON", "MANGO", "PARROT", "SUNSET", "BREEZE", "ISLAND", "ORCHID", "HUMID"]),
+            Puzzle("Ice Cream", ["VANILLA", "SUNDAE", "CONE", "SCOOP", "SPRINKLES", "SORBET", "GELATO", "POPSICLE", "CHERRY", "WAFFLE", "CARAMEL", "MINT"]),
+            Puzzle("Summer Sports", ["SURFING", "SWIMMING", "VOLLEYBALL", "KAYAKING", "SAILING", "SNORKELING", "PADDLE", "DIVING", "CYCLING", "JOGGING", "TENNIS", "ROWING"]),
+            Puzzle("Seaside Town", ["HARBOR", "PIER", "LIGHTHOUSE", "BOARDWALK", "FERRY", "MARINA", "SEAGULL", "ARCADE", "COTTAGE", "DOCK", "PROMENADE", "CAFE"]),
+            Puzzle("Sunny Days", ["SUNSHINE", "WARMTH", "BLUESKY", "BREEZE", "PICNIC", "SHADE", "GLOW", "HORIZON", "BRIGHT", "HEAT", "LAZY", "TAN"]),
+            Puzzle("Beach Picnic", ["BASKET", "SANDWICH", "LEMONADE", "WATERMELON", "CHIPS", "COOLER", "BLANKET", "NAPKIN", "GRAPES", "COOKIES", "THERMOS", "FRUIT"]),
+        ],
+    },
+    {
+        "slug": "christmas-word-search",
+        "title": "Christmas Word Search",
+        "subtitle": "Festive puzzles for the holiday season",
+        "color": (74, 30, 38),
+        "puzzles": [
+            Puzzle("Christmas Words", ["SANTA", "SLEIGH", "REINDEER", "STOCKING", "TINSEL", "MISTLETOE", "CAROL", "ORNAMENT", "WREATH", "CHIMNEY", "GIFT", "JOY"]),
+            Puzzle("All About Santa", ["BEARD", "SLEIGH", "WORKSHOP", "ELVES", "NORTHPOLE", "CHIMNEY", "LIST", "COOKIES", "MILK", "REDSUIT", "HOHOHO", "BELT"]),
+            Puzzle("Holiday Treats", ["GINGERBREAD", "COOKIES", "FRUITCAKE", "EGGNOG", "CANDYCANE", "TRUFFLE", "HOTCOCOA", "PEPPERMINT", "PIE", "FUDGE", "TOFFEE", "ROAST"]),
+            Puzzle("Winter", ["SNOW", "FROST", "ICICLE", "BLIZZARD", "MITTENS", "SCARF", "SLED", "FIREPLACE", "CHILL", "FLAKE", "SHIVER", "COCOA"]),
+            Puzzle("Christmas Songs", ["JINGLEBELLS", "NOEL", "SILENTNIGHT", "CAROL", "SLEIGHRIDE", "FROSTY", "RUDOLPH", "DECKHALLS", "ANGELS", "HYMN", "JOYFUL", "STAR"]),
+            Puzzle("Decorations", ["TREE", "LIGHTS", "GARLAND", "BAUBLE", "TINSEL", "WREATH", "STAR", "RIBBON", "CANDLE", "STOCKING", "BELLS", "HOLLY"]),
+            Puzzle("Gift Giving", ["PRESENT", "RIBBON", "WRAPPING", "BOW", "TAG", "SURPRISE", "GENEROSITY", "GIVING", "SECRETSANTA", "EXCHANGE", "JOY", "THANKS"]),
+            Puzzle("Reindeer", ["RUDOLPH", "DASHER", "DANCER", "PRANCER", "VIXEN", "COMET", "CUPID", "DONNER", "BLITZEN", "ANTLERS", "SLEIGH", "HOOVES"]),
+            Puzzle("Christmas Eve", ["STOCKING", "COOKIES", "FIREPLACE", "PAJAMAS", "STARRY", "HUSH", "BLANKET", "STORY", "WAITING", "COCOA", "DREAMS", "QUIET"]),
+            Puzzle("Festive Feelings", ["MERRY", "JOLLY", "CHEER", "TWINKLE", "SPARKLE", "WARMTH", "FAMILY", "FEAST", "LAUGHTER", "GLOW", "COZY", "BRIGHT"]),
+        ],
+    },
+]
