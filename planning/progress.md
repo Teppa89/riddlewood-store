@@ -34,3 +34,14 @@
 - Upload immagini/file su Gumroad = manuale (file-pick utente nel browser); Chrome MCP file_upload non utilizzabile.
 - Pipeline end-to-end validata su piattaforma reale: codice → PDF → prodotto → listing → pubblicato.
 - NEXT: Pinterest (pin → traffico, upload pin = file-pick utente); Etsy API quando approvata → scala il resto.
+
+## 2026-06-27 (sessione autonoma — scala + engineering)
+- Catalogo raddoppiato: +6 temi (Dog, Halloween, Fall/Thanksgiving, Wine, Tea, Travel) → **12 pack / 120 puzzle**, 0 scarti.
+- images.py potenziato: galleria Etsy (cover orizzontale Gumroad + whats_inside + two_sizes + sample_solution con soluzione evidenziata) + pin CTA neutro → 86 immagini (6 gallery/pack).
+- listings_data.py: 6 nuovi pack + galleria 6 img/listing; bundle → 120 puzzle / 12 temi / $19.99.
+- build.py: rigenerazione one-command (PDF + immagini + zip + bundle).
+- Engineering: tests/ (pytest, **39 test verdi** — placement parole, vincoli Etsy, asset esistenti), requirements.txt, README progetto, .gitignore segreti.
+- marketing/pinterest-plan.md: copy pin + board + cadenza stagionale per 12 pack.
+- Validazione: 12 pack ALL OK (titoli ≤140, 13 tag ≤20, 6 img, zip).
+- Pinterest pin Coffee: creato in builder ma board bloccata lato Pinterest (anche per utente → probabile conferma email account).
+- NEXT (domani): conferma email/board Pinterest + approvazione app Etsy → publish_all in batch.

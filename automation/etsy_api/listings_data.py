@@ -7,18 +7,23 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 PRICE = 4.49
-BUNDLE_PRICE = 14.99
+BUNDLE_PRICE = 19.99
 
 
 def _assets(slug, bundle=False):
     base = ROOT / "products" / slug
-    imgs = [base / "img" / f"{slug}_etsy_main.png"]
+    img = base / "img"
     pins = ROOT / "marketing" / "pins"
-    for p in (pins / f"{slug}_pin1.png", pins / f"{slug}_pin2.png"):
-        if p.exists():
-            imgs.append(p)
-    zip_path = base / f"{slug}.zip"
-    return [str(p) for p in imgs], str(zip_path)
+    candidates = [
+        img / f"{slug}_etsy_main.png",
+        img / f"{slug}_whats_inside.png",
+        img / f"{slug}_two_sizes.png",
+        img / f"{slug}_sample_solution.png",
+        pins / f"{slug}_pin1.png",
+        pins / f"{slug}_pin2.png",
+    ]
+    imgs = [str(p) for p in candidates if p.exists()]
+    return imgs, str(base / f"{slug}.zip")
 
 
 def _pack(slug, title, tags, description, price=PRICE):
@@ -95,6 +100,72 @@ PACKS = [
         "GREAT FOR: stocking stuffers, classroom parties, Christmas Eve, family game night.\n\n"
         "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
     ),
+    _pack(
+        "dog-lovers-word-search",
+        "Dog Word Search Printable | 10 Dog Lover Puzzles PDF | Adult Word Search Book | Instant Download Gift for Dog Lovers",
+        ["dog word search", "printable puzzles", "dog lover gift", "word search pdf",
+         "dog mom gift", "puzzle book pdf", "adult word search", "dog dad gift",
+         "dog puzzles", "instant download", "word puzzle game", "puppy gift", "activity printable"],
+        "For everyone who loves dogs! 10 dog-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: dog lover gifts, dog moms and dads, relaxing breaks, kids and adults.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "halloween-word-search",
+        "Halloween Word Search Printable | 10 Spooky Puzzles PDF | Kids & Adults Word Search | Classroom Activity | Instant Download",
+        ["halloween wordsearch", "printable puzzles", "halloween activity", "word search pdf",
+         "spooky printable", "puzzle book pdf", "kids word search", "classroom activity",
+         "halloween puzzles", "instant download", "word puzzle game", "trick or treat", "party printable"],
+        "Spooky fun for kids and adults! 10 Halloween word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: classroom parties, trick-or-treat downtime, Halloween gatherings, family game night.\n\n"
+        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "fall-thanksgiving-word-search",
+        "Fall Word Search Printable | 10 Autumn & Thanksgiving Puzzles PDF | Adult Word Search | Classroom Activity | Instant Download",
+        ["fall word search", "printable puzzles", "thanksgiving game", "word search pdf",
+         "autumn printable", "puzzle book pdf", "adult word search", "classroom activity",
+         "fall puzzles", "instant download", "word puzzle game", "thanksgiving gift", "family activity"],
+        "Cozy up with autumn! 10 fall and Thanksgiving word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: Thanksgiving table activities, classroom fun, cozy fall afternoons, family game night.\n\n"
+        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "wine-lovers-word-search",
+        "Wine Word Search Printable | 10 Wine Lover Puzzles PDF | Adult Word Search Book | Girls Night Gift | Instant Download",
+        ["wine word search", "printable puzzles", "wine lover gift", "word search pdf",
+         "wine gift idea", "puzzle book pdf", "adult word search", "girls night game",
+         "wine puzzles", "instant download", "word puzzle game", "wine tasting", "party printable"],
+        "For wine lovers! 10 wine-themed word search puzzles with full solutions - sip and solve.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: girls night, wine tasting parties, gifts for wine lovers, relaxing evenings.\n\n"
+        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "tea-lovers-word-search",
+        "Tea Word Search Printable | 10 Tea Lover Puzzles PDF | Relaxing Adult Word Search | Instant Download Gift for Tea Lovers",
+        ["tea word search", "printable puzzles", "tea lover gift", "word search pdf",
+         "tea gift idea", "puzzle book pdf", "adult word search", "relaxing puzzle",
+         "tea puzzles", "instant download", "word puzzle game", "afternoon tea", "activity printable"],
+        "For tea lovers! 10 tea-themed word search puzzles with full solutions - steep, sip, and solve.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: gifts for tea lovers, cozy afternoons, relaxing breaks, quiet moments.\n\n"
+        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "travel-word-search",
+        "Travel Word Search Printable | 10 Wanderlust Puzzles PDF | Adult Word Search Book | Vacation Activity | Instant Download",
+        ["travel word search", "printable puzzles", "travel gift idea", "word search pdf",
+         "wanderlust gift", "puzzle book pdf", "adult word search", "vacation activity",
+         "travel puzzles", "instant download", "word puzzle game", "road trip game", "activity printable"],
+        "For travel lovers and dreamers! 10 travel-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: road trips, flights, vacation downtime, gifts for travelers and adventurers.\n\n"
+        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+    ),
 ]
 
 
@@ -103,11 +174,11 @@ def bundle():
     base = ROOT / "products" / slug
     images = [str(ROOT / "products" / "coffee-lovers-word-search" / "img" / "coffee-lovers-word-search_etsy_main.png")]
     return {"slug": slug, "price": BUNDLE_PRICE, "file": str(base / f"{slug}.zip"), "images": images,
-            "title": "Word Search Bundle Printable | 60 Adult Word Search Puzzles PDF | 6 Themes | Instant Download Gift",
+            "title": "Word Search Bundle Printable | 120 Adult Word Search Puzzles PDF | 12 Themes | Instant Download Gift",
             "tags": ["word search bundle", "printable puzzles", "puzzle bundle pdf", "word search pdf",
                      "adult word search", "puzzle book pdf", "gift for grandma", "instant download",
                      "word puzzle game", "puzzles for adults", "activity printable", "senior activity", "large print puzzle"],
-            "description": "The whole collection! 6 themed packs - Coffee, Cats, Garden, Self-Care, Beach and Christmas - "
-                           "60 word search puzzles with full solutions. Best value.\n\n"
-                           "WHAT YOU GET: 60 unique puzzles across 6 themes + answer keys, in A4 and US Letter.\n\n"
+            "description": "The whole collection! 12 themed packs - Coffee, Cats, Dogs, Garden, Self-Care, Beach, "
+                           "Christmas, Halloween, Fall, Wine, Tea and Travel - 120 word search puzzles with full solutions. Best value.\n\n"
+                           "WHAT YOU GET: 120 unique puzzles across 12 themes + answer keys, in A4 and US Letter.\n\n"
                            "Instant digital download. No physical item. Personal use only; no resale.\n(c) Riddlewood"}
