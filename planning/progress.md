@@ -60,3 +60,11 @@
 - **PRIMO PIN PINTEREST PUBBLICATO** (Coffee), link aggiornato a riddlewood.gumroad.com/l/coffee-word-search. Verificato live (profilo riddlewoodshop, board 1 Pin).
 - Nota: pin Coffee usa immagine vecchia ("Find it on Etsy"); da sostituire coi pin neutri rigenerati.
 - NEXT: più pin quando più prodotti live (Etsy API in attesa approvazione; Gumroad manuale).
+
+## 2026-06-28 (Gumroad mirror + batch pin)
+- **4 prodotti Gumroad LIVE:** Coffee, Beach, Cat, Dog (riddlewood.gumroad.com/l/<slug>), cover orizzontali, €4.49, brand Riddlewood.
+- **4 pin Pinterest LIVE** (1/prodotto) sulla board "Printable Word Search Puzzles" → traffico verso i 4 prodotti. Immagine pin neutra ("Printable Puzzles · Riddlewood").
+- Learning Gumroad: il resize finestra cambia le coordinate (verificare prima di click ciechi); creazione prodotto = pagina deve essere caricata prima di compilare.
+- Learning Pinterest: Pubblica pin = doppio click; board si auto-mantiene tra pin.
+- Decisione utente: prioritizzare pin dei live (traffico) vs mirror completo Gumroad (canale senza traffico organico).
+- NEXT: altri 8 prodotti Gumroad + pin (grind) OPPURE attendere Etsy API (auto, 0 upload, traffico organico di ricerca)."
