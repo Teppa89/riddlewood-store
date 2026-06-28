@@ -21,6 +21,7 @@ class EtsyClient:
     def __init__(self):
         self.env = load_env()
         self.keystring = self.env["ETSY_KEYSTRING"]
+        self.shared_secret = self.env["ETSY_SHARED_SECRET"]
         self.token = self._load_token()
 
     # ---- auth ----
@@ -48,7 +49,8 @@ class EtsyClient:
 
     def _headers(self, json_ct=False) -> dict:
         self._refresh_if_needed()
-        h = {"x-api-key": self.keystring,
+        # Etsy expects x-api-key as "keystring:shared_secret" for this app
+        h = {"x-api-key": f"{self.keystring}:{self.shared_secret}",
              "Authorization": f"Bearer {self.token['access_token']}"}
         if json_ct:
             h["Content-Type"] = "application/json"
@@ -79,13 +81,15 @@ class EtsyClient:
     def get_shop_id(self) -> int:
         if self.env.get("ETSY_SHOP_ID"):
             return int(self.env["ETSY_SHOP_ID"])
-        me = self.get_me()
-        shop_id = me.get("shop_id")
-        if not shop_id:
-            uid = me.get("user_id") or self.token["access_token"].split(".")[0]
-            shops = self._req("GET", f"/users/{uid}/shops")
-            shop_id = (shops.get("results") or [shops])[0]["shop_id"]
-        return int(shop_id)
+        # user_id is the prefix of the OAuth access token ("<uid>.<rand>")
+        uid = self.token["access_token"].split(".")[0]
+        shops = self._req("GET", f"/users/{uid}/shops")
+        if isinstance(shops, dict) and shops.get("shop_id"):
+            return int(shops["shop_id"])
+        results = shops.get("results") if isinstance(shops, dict) else None
+        if results:
+            return int(results[0]["shop_id"])
+        raise SystemExit("No Etsy shop found for this account — open an Etsy shop first.")
 
     # ---- taxonomy ----
     def find_taxonomy_id(self, name="Puzzles") -> int | None:
