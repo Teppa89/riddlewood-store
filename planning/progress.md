@@ -68,3 +68,9 @@
 - Learning Pinterest: Pubblica pin = doppio click; board si auto-mantiene tra pin.
 - Decisione utente: prioritizzare pin dei live (traffico) vs mirror completo Gumroad (canale senza traffico organico).
 - NEXT: altri 8 prodotti Gumroad + pin (grind) OPPURE attendere Etsy API (auto, 0 upload, traffico organico di ricerca)."
+
+## 2026-06-28 (catalogo evergreen completo su Gumroad)
+- **9/12 prodotti Gumroad LIVE** (tutti evergreen + estivo): Coffee, Beach, Cat, Dog, Garden, Self-Care, Wine, Tea, Travel. €4.49, cover orizzontali, brand Riddlewood, slug puliti (riddlewood.gumroad.com/l/<slug>).
+- 3 stagionali RIMANDATI alla stagione: Halloween / Fall-Thanksgiving / Christmas (pin off-season inutili ora; pubblicare a set-ott, probabilmente via Etsy API).
+- Pin Pinterest: 4 live oggi (Coffee/Beach/Cat/Dog). Restanti 5 (Garden/Self-Care/Wine/Tea/Travel) da distribuire 1-3/giorno (Pinterest penalizza i pin a raffica).
+- NEXT: pin restanti 5 (cadenza giornaliera); Etsy API all'approvazione (auto 12 + traffico organico); stagionali a stagione."
