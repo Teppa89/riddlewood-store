@@ -51,3 +51,12 @@
 - Fatto: Gumroad nome profilo → Riddlewood; avatar iniziale rimosso; **username → riddlewood** (nuovo URL prodotto: riddlewood.gumroad.com/l/coffee-word-search, verificato live). Git history interamente riscritta (autore neutro + contenuti file + messaggi commit ripuliti).
 - Verificato 0 residui su: pagina pubblica, file repo, history, messaggi commit, autori.
 - Aperto (utente, opzionale): email login account → mail dedicata al brand; profilo Etsy in fase setup (evitare nome owner).
+
+## 2026-06-27 (Pinterest sbloccato + 1° pin LIVE)
+- Causa board-block: l'estensione Claude-in-Chrome blocca il modal "crea bacheca". **WORKAROUND: creare le board da Safari** (lato server → poi visibili anche in Chrome). Pubblicazione pin in Chrome funziona.
+- Email account Pinterest = confermata → NON era quello il blocco.
+- Privacy Pinterest sistemata: Nome → "Riddlewood", username → "riddlewoodshop" (riddlewood preso), avatar "R", sito web → store.
+- Board "Printable Word Search Puzzles" creata (pubblica).
+- **PRIMO PIN PINTEREST PUBBLICATO** (Coffee), link aggiornato a riddlewood.gumroad.com/l/coffee-word-search. Verificato live (profilo riddlewoodshop, board 1 Pin).
+- Nota: pin Coffee usa immagine vecchia ("Find it on Etsy"); da sostituire coi pin neutri rigenerati.
+- NEXT: più pin quando più prodotti live (Etsy API in attesa approvazione; Gumroad manuale).
