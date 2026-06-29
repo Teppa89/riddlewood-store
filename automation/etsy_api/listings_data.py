@@ -172,7 +172,7 @@ PACKS = [
 def bundle():
     slug = "big-word-search-bundle"
     base = ROOT / "products" / slug
-    images = [str(ROOT / "products" / "coffee-lovers-word-search" / "img" / "coffee-lovers-word-search_etsy_main.png")]
+    images = [str(base / "img" / "bundle_main.png"), str(base / "img" / "bundle_whats_inside.png")]
     return {"slug": slug, "price": BUNDLE_PRICE, "file": str(base / f"{slug}.zip"), "images": images,
             "title": "Word Search Bundle Printable | 120 Adult Word Search Puzzles PDF | 12 Themes | Instant Download Gift",
             "tags": ["word search bundle", "printable puzzles", "puzzle bundle pdf", "word search pdf",

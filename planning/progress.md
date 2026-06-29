@@ -84,4 +84,5 @@
 - Shop pubblico live: etsy.com/shop/RiddlewoodCo — 12 articoli, 0 vendite (nuovo).
 - **Shop completato (testi via browser):** slogan/SEO-title "Printable Word Search Puzzles | Instant Download PDF" (meta Google), annuncio, storia About (brand, no nome reale). Policy resi: Etsy auto-applica "Resi e cambi non accettati" agli articoli digitali (12 listing coperti) — corretto, niente da fare.
 - APERTO (utente): icona + banner shop (2 upload file, cosmetici); **stato venditore UE** (Impostazioni → Dati del venditore — fiscale + dati personali → decisione utente, legato a P.IVA; possibile "1 fattore" visibilità).
+- **BUNDLE Etsy LIVE:** big-word-search-bundle €19.99 (120 puzzle / 12 temi) creato+pubblicato via API → **shop 13 listing attivi** (12 pack + bundle). Alza AOV. Generata cover bundle corretta (collage 12 cover + "What's Inside") via products/generator/bundle_images.py — la vecchia img era solo la cover Coffee (fuorviante per un bundle).
 - NEXT: Etsy SEO ramp (settimane, come Pinterest); pin restanti; pin verso i listing Etsy.
