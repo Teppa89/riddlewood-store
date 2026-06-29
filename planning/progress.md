@@ -74,3 +74,13 @@
 - 3 stagionali RIMANDATI alla stagione: Halloween / Fall-Thanksgiving / Christmas (pin off-season inutili ora; pubblicare a set-ott, probabilmente via Etsy API).
 - Pin Pinterest: 4 live oggi (Coffee/Beach/Cat/Dog). Restanti 5 (Garden/Self-Care/Wine/Tea/Travel) da distribuire 1-3/giorno (Pinterest penalizza i pin a raffica).
 - NEXT: pin restanti 5 (cadenza giornaliera); Etsy API all'approvazione (auto 12 + traffico organico); stagionali a stagione."
+
+## 2026-06-29 (ETSY LIVE — 12 listing via API)
+- App Etsy approvata. **Bug auth scoperto+risolto:** x-api-key deve essere `keystring:shared_secret` (non solo keystring) — altrimenti 403.
+- Shop aperto dall'utente: **RiddlewoodCo**, valuta EUR, digital onboarded. Taxonomy Puzzles=1559.
+- **publish_all.py → 12 listing creati via API** (6 immagini galleria + file digitale + 13 tag + €4.49 ciascuno, categoria Puzzles, who=i_did, when=2020_2026), poi PATCH state=active → **12 LIVE**.
+- **Privacy:** nome profilo pubblico "mattia agosto" → "Riddlewood" (verificato su etsy.com/shop/RiddlewoodCo: nessun nome reale pubblico).
+- Prezzo: €4.49 base; Etsy mostra €5.48 incl. IVA 22% IT (IVA gestita/remessa da Etsy, NON intacca il netto venditore).
+- Shop pubblico live: etsy.com/shop/RiddlewoodCo — 12 articoli, 0 vendite (nuovo).
+- APERTO (utente, opzionale): icona + banner shop (2 upload file); About/announcement/policy (SEO/completezza).
+- NEXT: Etsy SEO ramp (settimane, come Pinterest); pin restanti; pin verso i listing Etsy.
