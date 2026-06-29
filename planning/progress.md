@@ -99,3 +99,9 @@
 - Utente ha caricato **icona + banner** → dashboard conferma "Logo ✓ / Banner ✓" (Personalizza negozio 4/5; 5° item = "foto venditore" = **SKIP per privacy**). Shop ora completo.
 - **Primo messaggio Etsy = phishing scam.** Mittente "PROFILE VERIFY - CLICK ETSLLY.COM" (typosquat di etsy.com) + esca "is this item still available?". Azione: **Segnala → spostato in Spam**. NON aperto, NON cliccato il link, NON risposto.
 - **POLICY scam (ricorrente su shop nuovi):** messaggi con link esterni / "verifica account" / paga fuori Etsy / WhatsApp/email = spam → Segnala, mai cliccare, login SOLO su etsy.com. Messaggi legittimi = domande reali sui prodotti, senza link/urgenza.
+
+## 2026-06-29 (SEO: titoli ottimizzati + flag visibilità RISOLTO)
+- "1 fattore" di visibilità Etsy = suggeriva titoli più chiari per i 13 listing. Valutati prima di accettare: puliti, keyword core mantenute (tema + "Word Search Puzzles" + formato + "Full Solutions"); perse "printable"/"adult"/gift-terms → **restano nei tag** (13/listing). Reversibile via API.
+- **Accettati tutti i 13** (Etsy li premia esplicitamente + allineati al SEO Etsy attuale anti-stuffing; nuovo shop senza dati → seguo guida Etsy). 11 al 1° tentativo + 2 (Garden/Coffee) al retry dopo errore transitorio.
+- **Flag RISOLTO:** pagina visibilità ora "Il tuo negozio è impostato per il successo!" — 3/3 verde (negozio ✓, tutte le inserzioni ✓, servizio clienti = attende 5 ordini).
+- Nota: titoli live Etsy ora divergono da listings_data.py (che resta con gli originali, usati solo per eventuale ricreazione di NUOVI listing). Non sincronizzato = basso valore.
