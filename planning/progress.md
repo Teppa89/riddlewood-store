@@ -82,5 +82,6 @@
 - **Privacy:** nome profilo pubblico "mattia agosto" → "Riddlewood" (verificato su etsy.com/shop/RiddlewoodCo: nessun nome reale pubblico).
 - Prezzo: €4.49 base; Etsy mostra €5.48 incl. IVA 22% IT (IVA gestita/remessa da Etsy, NON intacca il netto venditore).
 - Shop pubblico live: etsy.com/shop/RiddlewoodCo — 12 articoli, 0 vendite (nuovo).
-- APERTO (utente, opzionale): icona + banner shop (2 upload file); About/announcement/policy (SEO/completezza).
+- **Shop completato (testi via browser):** slogan/SEO-title "Printable Word Search Puzzles | Instant Download PDF" (meta Google), annuncio, storia About (brand, no nome reale). Policy resi: Etsy auto-applica "Resi e cambi non accettati" agli articoli digitali (12 listing coperti) — corretto, niente da fare.
+- APERTO (utente): icona + banner shop (2 upload file, cosmetici); **stato venditore UE** (Impostazioni → Dati del venditore — fiscale + dati personali → decisione utente, legato a P.IVA; possibile "1 fattore" visibilità).
 - NEXT: Etsy SEO ramp (settimane, come Pinterest); pin restanti; pin verso i listing Etsy.
