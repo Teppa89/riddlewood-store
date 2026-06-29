@@ -94,3 +94,8 @@
 - Restano (AUTONOMI): pin → bundle + stagionali (a stagione) + 2°pin/repeat → prossimi giorni.
 - **Stato venditore UE = già "Privato"** (corretto; path: shop editor → fondo → "Dati del venditore" → "Modifica") — nessuna azione finché si vende da privato. Mio path precedente ("Impostazioni") era errato.
 - USER-only rimasto: SOLO icona+banner shop Etsy (2 upload file).
+
+## 2026-06-29 (icona+banner caricati + 1° scam message)
+- Utente ha caricato **icona + banner** → dashboard conferma "Logo ✓ / Banner ✓" (Personalizza negozio 4/5; 5° item = "foto venditore" = **SKIP per privacy**). Shop ora completo.
+- **Primo messaggio Etsy = phishing scam.** Mittente "PROFILE VERIFY - CLICK ETSLLY.COM" (typosquat di etsy.com) + esca "is this item still available?". Azione: **Segnala → spostato in Spam**. NON aperto, NON cliccato il link, NON risposto.
+- **POLICY scam (ricorrente su shop nuovi):** messaggi con link esterni / "verifica account" / paga fuori Etsy / WhatsApp/email = spam → Segnala, mai cliccare, login SOLO su etsy.com. Messaggi legittimi = domande reali sui prodotti, senza link/urgenza.
