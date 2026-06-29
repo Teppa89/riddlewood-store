@@ -86,3 +86,10 @@
 - APERTO (utente): icona + banner shop (2 upload file, cosmetici); **stato venditore UE** (Impostazioni → Dati del venditore — fiscale + dati personali → decisione utente, legato a P.IVA; possibile "1 fattore" visibilità).
 - **BUNDLE Etsy LIVE:** big-word-search-bundle €19.99 (120 puzzle / 12 temi) creato+pubblicato via API → **shop 13 listing attivi** (12 pack + bundle). Alza AOV. Generata cover bundle corretta (collage 12 cover + "What's Inside") via products/generator/bundle_images.py — la vecchia img era solo la cover Coffee (fuorviante per un bundle).
 - NEXT: Etsy SEO ramp (settimane, come Pinterest); pin restanti; pin verso i listing Etsy.
+
+## 2026-06-29 (Pinterest pinning AUTONOMO + 3 pin → Etsy)
+- **SCOPERTA: pin senza upload.** URL `pinterest.com/pin/create/button/?url=<URL-pagina-live>` → Pinterest scrapa l'immagine principale della pagina (no file-pick!) → scegli board → "Salva". Supera il vincolo storico "upload pin = manuale" PER pagine live. Scrape ~10-20s (schermo grigio), poi Salva = 1 click sulla board.
+- **3 pin nuovi → listing Etsy** (board "Printable Word Search Puzzles"): Garden, Wine, Travel. Immagine = cover Etsy scrapeata, link → listing Etsy (anche segnale traffico off-site = SEO Etsy).
+- Totale pin: **7** (4 ieri → Gumroad; 3 oggi → Etsy). Cadenza 3/giorno rispettata (account nuovo).
+- Restano da pinnare (ora AUTONOMI): Self-Care, Tea + eventuali pin verso bundle/altri listing → prossimi giorni, 1-3/giorno.
+- USER-only rimasti: icona+banner shop Etsy (2 upload file); stato venditore UE (Dati venditore, fiscale).

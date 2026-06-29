@@ -24,3 +24,10 @@ Formato: data — decisione — razionale — reversibile?
 - Tempo: <5h/settimana → serve massima automazione + fulfillment automatico.
 - Obiettivo: 500–1000€/mese netti, veloce, poi scalare gradualmente.
 - **Asset: Canva Pro** (utente, dichiarato 2026-06-27). Uso previsto: (1) mockup lifestyle Etsy opzionali per +conversione (pilotabili da Claude nel browser); (2) futura linea #2 = template Canva editabili (M3+, best-seller Etsy). Produzione PRIMARIA resta automatizzata via codice (0-touch) = miglior fit coi vincoli; Canva non reintroduce lavoro manuale obbligatorio.
+
+## 2026-06-29 (Etsy live + Pinterest autonomo)
+- **Etsy x-api-key (confermato):** header `x-api-key` = `keystring:shared_secret` (NON solo keystring) → altrimenti 403 "Shared secret is required". Fix in etsy_client._headers().
+- **Etsy publish via API:** create_draft_listing → upload immagini/file DA DISCO (no limite browser) → PATCH `state=active`. **13 listing live** (12 pack €4.49 + bundle €19.99/120 puzzle). Bundle cover generata da products/generator/bundle_images.py (collage 12 cover) perché la singola cover Coffee era fuorviante. Reversibile: sì.
+- **Pinterest pinning AUTONOMO (scoperto):** `pinterest.com/pin/create/button/?url=<URL-pagina-live>` → Pinterest scrapa l'immagine principale della pagina (no file-pick) → scegli board → Salva. SUPERA il vincolo "upload pin = manuale" per pagine live (Etsy/Gumroad). Pin → Etsy = anche segnale traffico off-site (SEO). Cadenza account nuovo 1-3/giorno. Reversibile: sì.
+- **Privacy Etsy (fatto):** nome profilo pubblico → "Riddlewood" (Impostazioni account → Profilo pubblico → "Cambia o rimuovi" → Nome=Riddlewood, Cognome vuoto). Verificato su shop pubblico: nessun nome reale.
+- **Policy resi Etsy:** articoli digitali → Etsy auto-applica "Resi e cambi non accettati" (non modificabile, corretto). Nessuna policy fisica da creare. Stato venditore UE (Dati venditore) = fiscale/dati personali → decisione utente (legata a P.IVA).
