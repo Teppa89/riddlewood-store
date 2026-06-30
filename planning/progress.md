@@ -105,3 +105,10 @@
 - **Accettati tutti i 13** (Etsy li premia esplicitamente + allineati al SEO Etsy attuale anti-stuffing; nuovo shop senza dati → seguo guida Etsy). 11 al 1° tentativo + 2 (Garden/Coffee) al retry dopo errore transitorio.
 - **Flag RISOLTO:** pagina visibilità ora "Il tuo negozio è impostato per il successo!" — 3/3 verde (negozio ✓, tutte le inserzioni ✓, servizio clienti = attende 5 ordini).
 - Nota: titoli live Etsy ora divergono da listings_data.py (che resta con gli originali, usati solo per eventuale ricreazione di NUOVI listing). Non sincronizzato = basso valore.
+
+## 2026-06-29 (catalogo espanso +6 temi → 19 listing Etsy)
+- **+6 temi evergreen giftable** (codice→API, 100% autonomo): Music, Kitchen&Baking, Ocean&Sea, Birds, Camping&Outdoors, Yoga&Mindfulness. 60 nuovi puzzle / 720 parole, **build 0 skipped, 57 test verdi**.
+- themes.py +6 temi (10 puzzle×12 parole, ≤15 char); listings_data.py +6 _pack (titoli ≤140, 13 tag ≤20, descrizioni); build.py rigenera PDF + 128 immagini + zip.
+- publish_all.py → 6 draft via API (6 img galleria + file da disco) → PATCH state=active → **shop 19 listing attivi** (18 pack €4.49 + bundle €19.99). Fee 6×€0.20.
+- Strategia "volume" del piano (più listing nicchiati = più superficie di ricerca Etsy). Pin per i nuovi 6 → prossimi giorni (autonomi via share-URL).
+- **NOTA bundle:** build.py ha rigenerato il bundle zip LOCALE a 180 puzzle/18 temi, ma il listing LIVE resta 120/12 (non ri-pubblicato) — divergenza innocua. FOLLOW-UP: espandere bundle live a 18 temi (update title/desc + bundle_images.py collage 18 + re-upload file/cover via API).

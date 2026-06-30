@@ -166,6 +166,72 @@ PACKS = [
         "GREAT FOR: road trips, flights, vacation downtime, gifts for travelers and adventurers.\n\n"
         "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
     ),
+    _pack(
+        "music-lovers-word-search",
+        "Music Word Search Printable | 10 Music Lover Puzzles PDF | Adult Word Search Book | Instant Download Gift for Musicians",
+        ["music word search", "printable puzzles", "music lover gift", "word search pdf",
+         "gift for musician", "puzzle book pdf", "adult word search", "band gift",
+         "music puzzles", "instant download", "word puzzle game", "music teacher gift", "activity printable"],
+        "For everyone who loves music! 10 music-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: musicians, music teachers, band members, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "cooking-baking-word-search",
+        "Kitchen Word Search Printable | 10 Cooking & Baking Puzzles PDF | Adult Word Search Book | Instant Download Gift for Foodies",
+        ["kitchen word search", "printable puzzles", "foodie gift", "word search pdf",
+         "gift for cook", "puzzle book pdf", "adult word search", "baking gift",
+         "cooking puzzles", "instant download", "word puzzle game", "chef gift", "activity printable"],
+        "For everyone who loves to cook and bake! 10 kitchen-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: home cooks, bakers, foodies, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "ocean-sea-word-search",
+        "Ocean Word Search Printable | 10 Sea Life Puzzles PDF | Adult Word Search Book | Instant Download Gift for Beach Lovers",
+        ["ocean word search", "printable puzzles", "beach lover gift", "word search pdf",
+         "sea life puzzles", "puzzle book pdf", "adult word search", "nautical gift",
+         "ocean puzzles", "instant download", "word puzzle game", "summer activity", "activity printable"],
+        "For everyone who loves the sea! 10 ocean and sea life word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: beach lovers, ocean fans, summer trips, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "birds-word-search",
+        "Bird Word Search Printable | 10 Birdwatching Puzzles PDF | Adult Word Search Book | Instant Download Gift for Bird Lovers",
+        ["bird word search", "printable puzzles", "bird lover gift", "word search pdf",
+         "birdwatching gift", "puzzle book pdf", "adult word search", "birder gift",
+         "bird puzzles", "instant download", "word puzzle game", "nature activity", "activity printable"],
+        "For everyone who loves birds! 10 bird and birdwatching word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: birdwatchers, nature lovers, grandparents, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "camping-word-search",
+        "Camping Word Search Printable | 10 Outdoor Puzzles PDF | Adult Word Search Book | Instant Download Gift for Campers",
+        ["camping word search", "printable puzzles", "camping gift", "word search pdf",
+         "outdoor puzzles", "puzzle book pdf", "adult word search", "camper gift",
+         "nature puzzles", "instant download", "word puzzle game", "road trip game", "activity printable"],
+        "For everyone who loves the outdoors! 10 camping and outdoor word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: campers, hikers, road trips, family camping nights.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "yoga-mindfulness-word-search",
+        "Yoga Word Search Printable | 10 Mindfulness Puzzles PDF | Adult Word Search Book | Instant Download Self Care Gift",
+        ["yoga word search", "printable puzzles", "mindfulness gift", "word search pdf",
+         "self care puzzles", "puzzle book pdf", "adult word search", "yoga gift",
+         "wellness puzzles", "instant download", "word puzzle game", "relaxing activity", "activity printable"],
+        "For everyone who loves yoga and calm! 10 yoga and mindfulness word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: yogis, wellness lovers, self-care, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
 ]
 
 
