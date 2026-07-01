@@ -306,11 +306,12 @@ def bundle():
     base = ROOT / "products" / slug
     images = [str(base / "img" / "bundle_main.png"), str(base / "img" / "bundle_whats_inside.png")]
     return {"slug": slug, "price": BUNDLE_PRICE, "file": str(base / f"{slug}.zip"), "images": images,
-            "title": "Word Search Bundle Printable | 120 Adult Word Search Puzzles PDF | 12 Themes | Instant Download Gift",
+            "title": "Word Search Bundle Printable | 240 Adult Word Search Puzzles PDF | 24 Themes | Instant Download Gift",
             "tags": ["word search bundle", "printable puzzles", "puzzle bundle pdf", "word search pdf",
                      "adult word search", "puzzle book pdf", "gift for grandma", "instant download",
                      "word puzzle game", "puzzles for adults", "activity printable", "senior activity", "large print puzzle"],
-            "description": "The whole collection! 12 themed packs - Coffee, Cats, Dogs, Garden, Self-Care, Beach, "
-                           "Christmas, Halloween, Fall, Wine, Tea and Travel - 120 word search puzzles with full solutions. Best value.\n\n"
-                           "WHAT YOU GET: 120 unique puzzles across 12 themes + answer keys, in A4 and US Letter.\n\n"
+            "description": "The whole collection! 24 themed packs - 240 word search puzzles with full solutions. Best value!\n\n"
+                           "THEMES: Coffee, Cat, Garden, Self-Care, Beach, Christmas, Dog, Halloween, Fall, Wine, Tea, Travel, "
+                           "Music, Kitchen & Baking, Ocean, Birds, Camping, Yoga, Sports, Flowers, Farm, Space, Fishing and Horses.\n\n"
+                           "WHAT YOU GET: 240 unique puzzles across 24 themes + answer keys, in A4 and US Letter.\n\n"
                            "Instant digital download. No physical item. Personal use only; no resale.\n(c) Riddlewood"}

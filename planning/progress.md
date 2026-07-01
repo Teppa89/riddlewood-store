@@ -118,3 +118,8 @@
 - publish_all.py → 6 draft via API → PATCH active → **shop 25 listing attivi** (24 pack €4.49 + bundle). Catalogo ora **24 temi / 240 puzzle**. Fee 6×€0.20.
 - Bundle zip locale ora 240 puzzle (build.py) ma listing live sempre 120 (non ri-pubblicato) — vedi nota bundle sopra.
 - Pin per i 12 nuovi temi (music…horses) → prossimi giorni via share-URL (1-3/gg).
+
+## 2026-06-29 (bundle live espanso a 240/24)
+- Bundle live aggiornato via API a **240 puzzle / 24 temi** (era 120/12): title + description + **cover collage 24** (bundle_images.py ora 6×4 dinamico + lista 24) + **file zip 240** ricaricato. Vecchio file + 2 vecchie immagini eliminati.
+- etsy_client: aggiunti list_images/delete_image/list_files/delete_file/update_listing. **Quirk Etsy:** getListingImages = path SENZA shop_id (`/listings/{id}/images`); getListing idem (`/listings/{id}`); upload/delete/patch = CON shop_id. 
+- Verificato live: title "240...24 Themes", state active, 1 file, 2 immagini, shop 25 attivi. Divergenza bundle risolta.

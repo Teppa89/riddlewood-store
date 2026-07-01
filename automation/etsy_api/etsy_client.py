@@ -144,6 +144,22 @@ class EtsyClient:
                              f"/shops/{shop_id}/listings/{listing_id}/files",
                              data={"name": fname}, files=files)
 
+    def list_images(self, shop_id: int, listing_id: int):
+        # Etsy quirk: getListingImages has NO shop_id in the path (unlike upload/delete)
+        return self._req("GET", f"/listings/{listing_id}/images").get("results", [])
+
+    def delete_image(self, shop_id: int, listing_id: int, image_id: int):
+        return self._req("DELETE", f"/shops/{shop_id}/listings/{listing_id}/images/{image_id}")
+
+    def list_files(self, shop_id: int, listing_id: int):
+        return self._req("GET", f"/shops/{shop_id}/listings/{listing_id}/files").get("results", [])
+
+    def delete_file(self, shop_id: int, listing_id: int, file_id: int):
+        return self._req("DELETE", f"/shops/{shop_id}/listings/{listing_id}/files/{file_id}")
+
+    def update_listing(self, shop_id: int, listing_id: int, **fields):
+        return self._req("PATCH", f"/shops/{shop_id}/listings/{listing_id}", data=fields)
+
 
 if __name__ == "__main__":
     c = EtsyClient()
