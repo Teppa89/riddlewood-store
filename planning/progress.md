@@ -112,3 +112,9 @@
 - publish_all.py → 6 draft via API (6 img galleria + file da disco) → PATCH state=active → **shop 19 listing attivi** (18 pack €4.49 + bundle €19.99). Fee 6×€0.20.
 - Strategia "volume" del piano (più listing nicchiati = più superficie di ricerca Etsy). Pin per i nuovi 6 → prossimi giorni (autonomi via share-URL).
 - **NOTA bundle:** build.py ha rigenerato il bundle zip LOCALE a 180 puzzle/18 temi, ma il listing LIVE resta 120/12 (non ri-pubblicato) — divergenza innocua. FOLLOW-UP: espandere bundle live a 18 temi (update title/desc + bundle_images.py collage 18 + re-upload file/cover via API).
+
+## 2026-06-29 (catalogo +6 → 25 listing Etsy)
+- **+6 temi evergreen** (codice→API, autonomo): Sports&Games, Flowers&Botanical, Farm&Country, Space&Astronomy, Fishing, Horses&Equestrian. 60 puzzle/720 parole, 0 skipped, **75 test verdi**.
+- publish_all.py → 6 draft via API → PATCH active → **shop 25 listing attivi** (24 pack €4.49 + bundle). Catalogo ora **24 temi / 240 puzzle**. Fee 6×€0.20.
+- Bundle zip locale ora 240 puzzle (build.py) ma listing live sempre 120 (non ri-pubblicato) — vedi nota bundle sopra.
+- Pin per i 12 nuovi temi (music…horses) → prossimi giorni via share-URL (1-3/gg).

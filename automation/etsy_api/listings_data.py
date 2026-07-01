@@ -232,6 +232,72 @@ PACKS = [
         "GREAT FOR: yogis, wellness lovers, self-care, relaxing breaks.\n\n"
         "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
     ),
+    _pack(
+        "sports-word-search",
+        "Sports Word Search Printable | 10 Sports Fan Puzzles PDF | Adult Word Search Book | Instant Download Gift for Sports Lovers",
+        ["sports word search", "printable puzzles", "sports fan gift", "word search pdf",
+         "gift for him", "puzzle book pdf", "adult word search", "coach gift",
+         "sports puzzles", "instant download", "word puzzle game", "teen activity", "activity printable"],
+        "For every sports fan! 10 sports-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: sports fans, players, coaches, teens, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "flowers-word-search",
+        "Flower Word Search Printable | 10 Floral & Botanical Puzzles PDF | Adult Word Search Book | Instant Download Gift for Her",
+        ["flower word search", "printable puzzles", "floral gift", "word search pdf",
+         "gift for her", "puzzle book pdf", "adult word search", "botanical gift",
+         "flower puzzles", "instant download", "word puzzle game", "garden lover gift", "activity printable"],
+        "For flower and garden lovers! 10 floral and botanical word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: flower lovers, gardeners, mothers, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "farm-word-search",
+        "Farm Word Search Printable | 10 Country & Farm Animal Puzzles PDF | Adult Word Search Book | Instant Download Gift",
+        ["farm word search", "printable puzzles", "farm animal gift", "word search pdf",
+         "country gift", "puzzle book pdf", "adult word search", "farmhouse gift",
+         "farm puzzles", "instant download", "word puzzle game", "kids activity", "activity printable"],
+        "For country and farm lovers! 10 farm and country word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: farm lovers, country living, kids and adults, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "space-word-search",
+        "Space Word Search Printable | 10 Astronomy Puzzles PDF | Adult & Kids Word Search | Instant Download Gift for Space Fans",
+        ["space word search", "printable puzzles", "astronomy gift", "word search pdf",
+         "space lover gift", "puzzle book pdf", "adult word search", "science gift",
+         "space puzzles", "instant download", "word puzzle game", "kids activity", "activity printable"],
+        "For space and astronomy fans! 10 space-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: space lovers, stargazers, students, kids and adults.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "fishing-word-search",
+        "Fishing Word Search Printable | 10 Angler Puzzles PDF | Adult Word Search Book | Instant Download Gift for Fishermen",
+        ["fishing word search", "printable puzzles", "fishing gift", "word search pdf",
+         "gift for dad", "puzzle book pdf", "adult word search", "angler gift",
+         "fishing puzzles", "instant download", "word puzzle game", "gift for grandpa", "activity printable"],
+        "For everyone who loves fishing! 10 fishing and angling word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: anglers, dads, grandpas, cabin trips, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "horses-word-search",
+        "Horse Word Search Printable | 10 Equestrian Puzzles PDF | Adult Word Search Book | Instant Download Gift for Horse Lovers",
+        ["horse word search", "printable puzzles", "horse lover gift", "word search pdf",
+         "equestrian gift", "puzzle book pdf", "adult word search", "pony gift",
+         "horse puzzles", "instant download", "word puzzle game", "girls activity", "activity printable"],
+        "For horse lovers and riders! 10 horse and equestrian word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: horse lovers, riders, girls, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
 ]
 
 
