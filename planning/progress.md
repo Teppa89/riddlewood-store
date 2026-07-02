@@ -123,3 +123,9 @@
 - Bundle live aggiornato via API a **240 puzzle / 24 temi** (era 120/12): title + description + **cover collage 24** (bundle_images.py ora 6×4 dinamico + lista 24) + **file zip 240** ricaricato. Vecchio file + 2 vecchie immagini eliminati.
 - etsy_client: aggiunti list_images/delete_image/list_files/delete_file/update_listing. **Quirk Etsy:** getListingImages = path SENZA shop_id (`/listings/{id}/images`); getListing idem (`/listings/{id}`); upload/delete/patch = CON shop_id. 
 - Verificato live: title "240...24 Themes", state active, 1 file, 2 immagini, shop 25 attivi. Divergenza bundle risolta.
+
+## 2026-06-29 (Pinterest multi-bacheca: 4 bacheche nuove + 4 pin)
+- Utente ha creato **4 nuove bacheche** (Word Search Puzzles for Adults, Printable Puzzle Gifts, Self Care & Relaxing Printables, Seasonal & Holiday Printables) da Safari → verificate nel dialog share.
+- **4 pin nuovi**, 1 per ogni nuova bacheca (valida il multi-bacheca): Music→Puzzle Gifts, Yoga→Self Care, Sports→Adults, Ocean→Seasonal. **Totale 13 pin** (9 oggi, limite giornaliero rispettato).
+- **Tecnica multi-bacheca:** nel dialog "Salva" (dopo scrape ~20-30s), click sulla RIGA della bacheca = salva lì direttamente; se la bacheca non è visibile (lista lunga), usa il campo "Cerca" bacheca + Salva.
+- Restano ~12 senza pin (christmas/halloween/fall/cooking/birds/camping/flowers/farm/space/fishing/horses/bundle) → prossimi giorni, distribuiti su più bacheche (ogni prodotto → 2-4 bacheche nel tempo).
