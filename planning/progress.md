@@ -127,6 +127,7 @@
 ## 2026-06-29 (Pinterest multi-bacheca: 4 bacheche nuove + 4 pin)
 - Utente ha creato **4 nuove bacheche** (Word Search Puzzles for Adults, Printable Puzzle Gifts, Self Care & Relaxing Printables, Seasonal & Holiday Printables) da Safari → verificate nel dialog share.
 - **6 pin nuovi** distribuiti sulle bacheche (valida il multi-bacheca): Music→Puzzle Gifts, Yoga→Self Care, Sports→Adults, Ocean→Seasonal, Cooking→Puzzle Gifts, Flowers→Self Care. **Totale 15 pin.**
-- A fine sessione l'estensione Chrome è diventata instabile (tab si chiudono / extension si disconnette a metà) → stop pinning, ripresa prossima sessione.
+- Estensione Chrome instabile a tratti (tab si chiudono) ma recuperata → **ripresa: +6 pin** (Fishing→Word Search Puzzles, Horses→Adults, Birds→Self Care, Camping→Adults, Farm→Puzzle Gifts, Space→Puzzle Gifts).
+- **Totale 21 pin — TUTTI i 21 prodotti evergreen ora pinnati** (24 temi − 3 stagionali), distribuiti sulle 5 bacheche. Restano solo: 3 stagionali (Christmas/Halloween/Fall → a stagione, set-ott) + bundle.
 - **Tecnica multi-bacheca:** nel dialog "Salva" (dopo scrape ~20-30s), click sulla RIGA della bacheca = salva lì direttamente; se la bacheca non è visibile (lista lunga), usa il campo "Cerca" bacheca + Salva.
 - Restano ~12 senza pin (christmas/halloween/fall/cooking/birds/camping/flowers/farm/space/fishing/horses/bundle) → prossimi giorni, distribuiti su più bacheche (ogni prodotto → 2-4 bacheche nel tempo).
