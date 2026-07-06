@@ -129,5 +129,11 @@
 - **6 pin nuovi** distribuiti sulle bacheche (valida il multi-bacheca): Music→Puzzle Gifts, Yoga→Self Care, Sports→Adults, Ocean→Seasonal, Cooking→Puzzle Gifts, Flowers→Self Care. **Totale 15 pin.**
 - Estensione Chrome instabile a tratti (tab si chiudono) ma recuperata → **ripresa: +6 pin** (Fishing→Word Search Puzzles, Horses→Adults, Birds→Self Care, Camping→Adults, Farm→Puzzle Gifts, Space→Puzzle Gifts).
 - **Totale 21 pin — TUTTI i 21 prodotti evergreen ora pinnati** (24 temi − 3 stagionali), distribuiti sulle 5 bacheche. Restano solo: 3 stagionali (Christmas/Halloween/Fall → a stagione, set-ott) + bundle.
+
+## 2026-07-06 (prima lettura statistiche Etsy — baseline)
+- Dal lancio (29 giu-6 lug, ~1 settimana): **15 visite, 0 ordini, €0.** Inserzioni viste 5 volte (0,33/visita).
+- **Fonti traffico:** Etsy app/pagine 8 + traffico diretto 7 = **quasi tutto rumore del mio setup** (navigazione shop/listing). **Ricerca Etsy = 0, Social media/Pinterest = 0, Etsy Ads = 0, Marketing Etsy = 0.**
+- **Lettura:** zero traffico esterno reale finora — ATTESO per shop <1 settimana. Etsy Search + Pinterest = canali slow-start (settimane-mesi per indicizzazione pin + ranking shop nuovo; Etsy "sandboxa" i nuovi). Setup corretto → collo di bottiglia = SOLO TEMPO, non azioni.
+- **DECISIONE:** non spendere altro sforzo/denaro ora. Attendere 2-4 settimane e ri-controllare. Segnali di avvio flywheel da cercare: **Social media >0** (pin indicizzati) e **Ricerca Etsy >0** (shop entra nel ranking). Etsy Ads = NO ora (shop non provato + 0 recensioni → brucerebbe budget). Manutenzione leggera: pin 2° giro / stagionali a stagione, pochi/settimana per tenere l'account Pinterest attivo.
 - **Tecnica multi-bacheca:** nel dialog "Salva" (dopo scrape ~20-30s), click sulla RIGA della bacheca = salva lì direttamente; se la bacheca non è visibile (lista lunga), usa il campo "Cerca" bacheca + Salva.
 - Restano ~12 senza pin (christmas/halloween/fall/cooking/birds/camping/flowers/farm/space/fishing/horses/bundle) → prossimi giorni, distribuiti su più bacheche (ogni prodotto → 2-4 bacheche nel tempo).
