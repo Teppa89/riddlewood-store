@@ -298,6 +298,39 @@ PACKS = [
         "GREAT FOR: horse lovers, riders, girls, relaxing breaks.\n\n"
         "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
     ),
+    _pack(
+        "hiking-word-search",
+        "Hiking Word Search Printable | 10 Mountain Trail Puzzles PDF | Adult Word Search Book | Instant Download Gift for Hikers",
+        ["hiking word search", "printable puzzles", "hiker gift", "word search pdf",
+         "mountain puzzles", "puzzle book pdf", "adult word search", "trail gift",
+         "hiking puzzles", "instant download", "word puzzle game", "outdoor activity", "activity printable"],
+        "For everyone who loves the trails! 10 hiking and mountain word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: hikers, trail runners, mountain lovers, camping trips, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "butterflies-word-search",
+        "Butterfly Word Search Printable | 10 Insect & Garden Puzzles PDF | Adult Word Search Book | Instant Download Nature Gift",
+        ["butterfly puzzles", "printable puzzles", "nature lover gift", "word search pdf",
+         "insect puzzles", "puzzle book pdf", "adult word search", "garden gift",
+         "butterfly search", "instant download", "word puzzle game", "spring activity", "activity printable"],
+        "For nature and butterfly lovers! 10 butterfly and insect word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: nature lovers, gardeners, kids, spring activities, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "wildlife-word-search",
+        "Wildlife Word Search Printable | 10 Wild Animal Puzzles PDF | Adult Word Search Book | Instant Download Safari Gift",
+        ["wildlife word search", "printable puzzles", "animal lover gift", "word search pdf",
+         "safari puzzles", "puzzle book pdf", "adult word search", "zoo gift",
+         "wildlife puzzles", "instant download", "word puzzle game", "nature activity", "activity printable"],
+        "For wildlife and animal fans! 10 wild animal and safari word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: animal lovers, safari fans, zoo visits, kids and adults, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
 ]
 
 
@@ -306,12 +339,13 @@ def bundle():
     base = ROOT / "products" / slug
     images = [str(base / "img" / "bundle_main.png"), str(base / "img" / "bundle_whats_inside.png")]
     return {"slug": slug, "price": BUNDLE_PRICE, "file": str(base / f"{slug}.zip"), "images": images,
-            "title": "Word Search Bundle Printable | 240 Adult Word Search Puzzles PDF | 24 Themes | Instant Download Gift",
+            "title": "Word Search Bundle Printable | 270 Adult Word Search Puzzles PDF | 27 Themes | Instant Download Gift",
             "tags": ["word search bundle", "printable puzzles", "puzzle bundle pdf", "word search pdf",
                      "adult word search", "puzzle book pdf", "gift for grandma", "instant download",
                      "word puzzle game", "puzzles for adults", "activity printable", "senior activity", "large print puzzle"],
-            "description": "The whole collection! 24 themed packs - 240 word search puzzles with full solutions. Best value!\n\n"
+            "description": "The whole collection! 27 themed packs - 270 word search puzzles with full solutions. Best value!\n\n"
                            "THEMES: Coffee, Cat, Garden, Self-Care, Beach, Christmas, Dog, Halloween, Fall, Wine, Tea, Travel, "
-                           "Music, Kitchen & Baking, Ocean, Birds, Camping, Yoga, Sports, Flowers, Farm, Space, Fishing and Horses.\n\n"
-                           "WHAT YOU GET: 240 unique puzzles across 24 themes + answer keys, in A4 and US Letter.\n\n"
+                           "Music, Kitchen & Baking, Ocean, Birds, Camping, Yoga, Sports, Flowers, Farm, Space, Fishing, Horses, "
+                           "Hiking, Butterflies and Wildlife.\n\n"
+                           "WHAT YOU GET: 270 unique puzzles across 27 themes + answer keys, in A4 and US Letter.\n\n"
                            "Instant digital download. No physical item. Personal use only; no resale.\n(c) Riddlewood"}

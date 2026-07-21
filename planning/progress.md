@@ -151,3 +151,10 @@
 - **Finanze:** "Le vendite hanno coperto le tariffe" — importo dovuto 0€. Netto 1,95€ trattenuto fino a verifica conto bancario.
 - **AZIONE UTENTE:** verificare conto bancario in Finanze → Conto dei pagamenti → "Inizia" per sbloccare i pagamenti.
 - **Lettura:** Farm = nicchia nature/outdoors funziona. Conversione altissima. Shop esce dalla sandbox Etsy. Flywheel avviato — Ricerca Etsy >0 = segnale chiave cercato. Prossimo obiettivo: più visite (Pinterest indicizzazione + pin 2° giro) + prima recensione per boost ranking.
+- **13 titoli Etsy ottimizzati** via tool "Visibilità nelle ricerche" (2 batch: 10+3). Titoli più corti, inglesi, SEO-focused.
+- **6 pin 2° giro nature niche** (Farm/Garden/Camping/Horses/Fishing/Birds) ciascuno su bacheca DIVERSA dal 1° pin. Totale 28 pin.
+- **3 nuovi temi creati:** Hiking (10 puzzle), Butterflies (10 puzzle), Wildlife (10 puzzle). PDFs + immagini + zip generati.
+- **3 listing LIVE su Etsy** via API: hiking (4541273285), butterflies (4541273513), wildlife (4541290604). **Totale: 28 listing attivi** (27 pack + bundle).
+- **Bundle aggiornato** a 27 temi / 270 puzzle: nuove immagini collage + zip + title/description via API.
+- **3 pin Pinterest** nuovi prodotti: Hiking→"Word Search Puzzles for Adults", Butterflies→"Printable Puzzle Gifts", Wildlife→"Printable Word Search Puzzles". **Totale: 31 pin.**
+- **Catalogo attuale: 27 temi, 270 puzzle, 54 PDF.** Shop Etsy: 28 listing attivi (27×€4.49 + bundle €19.99).
