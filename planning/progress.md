@@ -138,3 +138,16 @@
 - **Automazione impostata:** scheduled task `recheck-riddlewood-etsy-stats` (fire **2026-07-20**) → ricontrolla stats+fonti, confronta col baseline, decide. + **Bundle pinnato** (Pinterest scrapa la cover 24-temi nuova) → Printable Puzzle Gifts. **22 pin totali** — tutti 21 evergreen + bundle; restano solo 3 stagionali (a stagione).
 - **Tecnica multi-bacheca:** nel dialog "Salva" (dopo scrape ~20-30s), click sulla RIGA della bacheca = salva lì direttamente; se la bacheca non è visibile (lista lunga), usa il campo "Cerca" bacheca + Salva.
 - Restano ~12 senza pin (christmas/halloween/fall/cooking/birds/camping/flowers/farm/space/fishing/horses/bundle) → prossimi giorni, distribuiti su più bacheche (ogni prodotto → 2-4 bacheche nel tempo).
+
+## 2026-07-21 (PRIMA VENDITA!)
+- **1 ordine: Farm Word Search Printable — 4,49€ lordo, 1,95€ netto** (commissioni Etsy 2,54€).
+- Stats luglio (1-21 lug): **5 visite, 1 ordine, tasso conversione 20%** (media Etsy 1-3%).
+- **Fonti traffico — segnali positivi vs baseline (6 lug):**
+  - Ricerca Etsy: 0→**1** = shop indicizzato, algoritmo mostra i listing.
+  - Marketing e SEO Etsy: 0→**2** = Etsy promuove attivamente.
+  - Social media: 0→0 (Pinterest ancora in indicizzazione).
+  - Carrelli abbandonati: 1 (qualcuno ha quasi comprato).
+- **Inserzioni viste:** 4 visualizzazioni, 0,80/visita. Beach Summer (2 views), Farm (1 view → 1 sale).
+- **Finanze:** "Le vendite hanno coperto le tariffe" — importo dovuto 0€. Netto 1,95€ trattenuto fino a verifica conto bancario.
+- **AZIONE UTENTE:** verificare conto bancario in Finanze → Conto dei pagamenti → "Inizia" per sbloccare i pagamenti.
+- **Lettura:** Farm = nicchia nature/outdoors funziona. Conversione altissima. Shop esce dalla sandbox Etsy. Flywheel avviato — Ricerca Etsy >0 = segnale chiave cercato. Prossimo obiettivo: più visite (Pinterest indicizzazione + pin 2° giro) + prima recensione per boost ranking.
