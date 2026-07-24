@@ -331,6 +331,61 @@ PACKS = [
         "GREAT FOR: animal lovers, safari fans, zoo visits, kids and adults, relaxing breaks.\n\n"
         "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
     ),
+    _pack(
+        "fitness-word-search",
+        "Fitness Word Search Printable | 10 Workout Puzzles PDF | Adult Word Search Book | Instant Download Gift for Gym Lovers",
+        ["fitness word search", "printable puzzles", "gym lover gift", "word search pdf",
+         "workout puzzles", "puzzle book pdf", "adult word search", "fitness gift",
+         "exercise puzzles", "instant download", "word puzzle game", "gym gift", "activity printable"],
+        "For fitness fans! 10 workout and gym word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: gym lovers, personal trainers, fitness buffs, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "movie-night-word-search",
+        "Movie Word Search Printable | 10 Cinema Puzzles PDF | Adult Word Search Book | Instant Download Movie Night Gift",
+        ["movie word search", "printable puzzles", "movie lover gift", "word search pdf",
+         "cinema puzzles", "puzzle book pdf", "adult word search", "film gift",
+         "movie night game", "instant download", "word puzzle game", "family game", "activity printable"],
+        "For movie lovers! 10 cinema and film word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: movie nights, film buffs, family game night, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "baking-word-search",
+        "Baking Word Search Printable | 10 Pastry Puzzles PDF | Adult Word Search Book | Instant Download Gift for Bakers",
+        ["baking word search", "printable puzzles", "baker gift", "word search pdf",
+         "pastry puzzles", "puzzle book pdf", "adult word search", "kitchen gift",
+         "baking puzzles", "instant download", "word puzzle game", "bread lover", "activity printable"],
+        "For everyone who loves to bake! 10 baking and pastry word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: bakers, pastry chefs, bread lovers, relaxing breaks.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "book-lovers-word-search",
+        "Book Word Search Printable | 10 Reading Puzzles PDF | Adult Word Search Book | Instant Download Gift for Readers",
+        ["book word search", "printable puzzles", "book lover gift", "word search pdf",
+         "reading puzzles", "puzzle book pdf", "adult word search", "reader gift",
+         "bookworm puzzles", "instant download", "word puzzle game", "library gift", "activity printable"],
+        "For bookworms and readers! 10 book and reading word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: book lovers, readers, librarians, book club gifts.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "teachers-word-search",
+        "Teacher Word Search Printable | 10 School Puzzles PDF | Classroom Activity | Instant Download Teacher Gift",
+        ["teacher word search", "printable puzzles", "teacher gift", "word search pdf",
+         "classroom activity", "puzzle book pdf", "school printable", "educator gift",
+         "school puzzles", "instant download", "word puzzle game", "end of year gift", "activity printable"],
+        "For teachers and educators! 10 school-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: teacher appreciation, classroom activities, end-of-year gifts.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
 ]
 
 
@@ -339,13 +394,13 @@ def bundle():
     base = ROOT / "products" / slug
     images = [str(base / "img" / "bundle_main.png"), str(base / "img" / "bundle_whats_inside.png")]
     return {"slug": slug, "price": BUNDLE_PRICE, "file": str(base / f"{slug}.zip"), "images": images,
-            "title": "Word Search Bundle Printable | 270 Adult Word Search Puzzles PDF | 27 Themes | Instant Download Gift",
+            "title": "Word Search Bundle Printable | 320 Adult Word Search Puzzles PDF | 32 Themes | Instant Download Gift",
             "tags": ["word search bundle", "printable puzzles", "puzzle bundle pdf", "word search pdf",
                      "adult word search", "puzzle book pdf", "gift for grandma", "instant download",
                      "word puzzle game", "puzzles for adults", "activity printable", "senior activity", "large print puzzle"],
-            "description": "The whole collection! 27 themed packs - 270 word search puzzles with full solutions. Best value!\n\n"
+            "description": "The whole collection! 32 themed packs - 320 word search puzzles with full solutions. Best value!\n\n"
                            "THEMES: Coffee, Cat, Garden, Self-Care, Beach, Christmas, Dog, Halloween, Fall, Wine, Tea, Travel, "
                            "Music, Kitchen & Baking, Ocean, Birds, Camping, Yoga, Sports, Flowers, Farm, Space, Fishing, Horses, "
-                           "Hiking, Butterflies and Wildlife.\n\n"
-                           "WHAT YOU GET: 270 unique puzzles across 27 themes + answer keys, in A4 and US Letter.\n\n"
+                           "Hiking, Butterflies, Wildlife, Fitness, Movie Night, Baking, Book Lovers and Teachers.\n\n"
+                           "WHAT YOU GET: 320 unique puzzles across 32 themes + answer keys, in A4 and US Letter.\n\n"
                            "Instant digital download. No physical item. Personal use only; no resale.\n(c) Riddlewood"}

@@ -158,3 +158,13 @@
 - **Bundle aggiornato** a 27 temi / 270 puzzle: nuove immagini collage + zip + title/description via API.
 - **3 pin Pinterest** nuovi prodotti: Hiking→"Word Search Puzzles for Adults", Butterflies→"Printable Puzzle Gifts", Wildlife→"Printable Word Search Puzzles". **Totale: 31 pin.**
 - **Catalogo attuale: 27 temi, 270 puzzle, 54 PDF.** Shop Etsy: 28 listing attivi (27×€4.49 + bundle €19.99).
+
+## 2026-07-23 (Wave 4 lifestyle + bundle update + Pinterest)
+- **5 nuovi temi lifestyle** creati: Fitness, Movie Night, Baking, Book Lovers, Teachers. 50 puzzle/600 parole, 0 skipped.
+- PDFs + immagini + zip generati. **5 listing LIVE su Etsy** via API: fitness (4542897340), movie-night (4542884443), baking (4542884547), book-lovers (4542884633), teachers (4542884721).
+- **Bundle aggiornato** a 32 temi / 320 puzzle: collage + zip + title/description via API.
+- **Butterflies tag fix:** "butterfly word search" (21 chars) → "butterfly puzzles" + "butterfly search" (≤20). Re-published with `--only`.
+- **Review request sent** to Farm buyer via Etsy messaging.
+- **Growth strategy created:** planning/strategy.md — 5 levers (Social Proof, Etsy Ads, Catalog, Pinterest, Shop Quality), timeline through Dec 2026.
+- **5 Wave 4 Pinterest pins:** Fitness→Self Care, Movie Night→Puzzle Gifts, Baking→Printable Word Search, Book Lovers→Adults, Teachers→Seasonal & Holiday. **Totale: ~41 pin.**
+- **Catalogo attuale: 32 temi, 320 puzzle, 64 PDF.** Shop Etsy: 33 listing attivi (32×€4.49 + bundle €19.99).
