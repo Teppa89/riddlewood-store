@@ -187,4 +187,34 @@
   - CLAUDE.md con startup autonomo (pull → publish → stats → pin → report)
   - ISSUE: Theme Factory non può clonare repo privato (auth GitHub non collegata a Claude cloud). Fix needed.
 - **Pinterest totale: ~44 pin** (41 precedenti + 3 secondi pin nature)
+
+## 2026-08-01 (Wave 5 + 3-platform report)
+- **Wave 5: 5 nuovi temi** creati: Dinosaurs, Baby Shower, Nursing, Video Games, Greek Mythology. 50 puzzle/600 parole, 0 skipped.
+- PDFs + immagini + zip generati. **5 listing DRAFT su Etsy** via API: dinosaurs (4547982919), baby-shower (4547996988), nursing (4547997068), video-games (4547997132), mythology (4547997390).
+- **Bundle aggiornato** a 37 temi / 370 puzzle: collage + zip + title/description/images/file via API.
+- **Mythology tag fix:** "mythology word search" (21 chars) → "myth word search" (≤20).
+- **Catalogo attuale: 37 temi, 370 puzzle, 74 PDF.** Shop Etsy: 33 attivi + 5 draft = 38 listing totali.
+
+### Stats Etsy (30 giorni: 3 lug - 1 ago)
+- Visite: 6, Ordini: 1, Conversione: 16.7%, Entrate: 4.49€
+- Top listing: Farm (3 views, 1 order), Beach Summer (2 views), Yoga (1 view)
+- Fonti: Marketing/SEO Etsy 3, Ricerca Etsy 1, Social media 1, Traffico diretto 1
+- Preferenze: 0, Follower: 0, Recensioni: 0
+
+### 3-PLATFORM REPORT
+
+**ETSY — Piattaforma principale**
+- Cosa va: prima vendita (Farm), motore API automatizzato, 33 listing attivi, conversion rate alto (16.7%), Marketing/SEO Etsy in crescita (3 visite = segnale che Etsy inizia a mostrare i prodotti nelle ricerche)
+- Cosa non va: traffico bassissimo (6 visite/mese), 0 recensioni, 0 follower, 0 preferenze, Ads non attivi, 5 nuovi listing ancora in draft
+- Azioni: (1) UTENTE: pubblicare i 5 draft + attivare Etsy Ads 1€/gg su Farm+Beach+Hiking. (2) UTENTE: verificare conto bancario per ricevere pagamenti. (3) Continuare ad aggiungere temi per volume listing. (4) Ottimizzare "Visibilità nelle ricerche" per tutti i listing.
+
+**GUMROAD — Mirror/backup**
+- Cosa va: 9 prodotti pubblicati, brand pulito, costa 0€
+- Cosa non va: 0 vendite, 0 visite, nessun traffico. Gumroad non genera traffico organico — dipende da traffico esterno (Pinterest/social)
+- Azioni: (1) Aggiungere i nuovi temi a Gumroad. (2) Non prioritario — focus su Etsy dove c'è traffico organico. Gumroad serve come mirror anti-ban e per link diretti da social.
+
+**PINTEREST — Traffico engine**
+- Cosa va: social media 0→1 su Etsy (Pinterest inizia a mandare traffico!), account attivo
+- Cosa non va: 0 follower, profilo ancora "personal" (non business = no analytics), bio non aggiornata (ancora testo riddles), bacheche word search NON VISIBILI sul profilo (possibile problema di visibilità o pin non salvati correttamente in sessioni precedenti)
+- Azioni CRITICHE: (1) Convertire a account business (per analytics). (2) Aggiornare bio con word search branding. (3) Verificare se i 44 pin precedenti sono effettivamente visibili o se c'è stato un problema. (4) Continuare pinning dei 5 nuovi temi. (5) Pinnare almeno 3-5 pin/settimana per crescita organica.
 - **USER-only pendente:** verifica conto bancario + attiva Etsy Ads
