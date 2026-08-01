@@ -386,6 +386,61 @@ PACKS = [
         "GREAT FOR: teacher appreciation, classroom activities, end-of-year gifts.\n\n"
         "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
     ),
+    _pack(
+        "dinosaurs-word-search",
+        "Dinosaur Word Search Printable | 10 Prehistoric Puzzles PDF | Dino Lover Activity | Instant Download Fossil Gift",
+        ["dinosaur word search", "printable puzzles", "dino lover gift", "word search pdf",
+         "prehistoric puzzle", "puzzle book pdf", "fossil printable", "jurassic puzzles",
+         "dinosaur activity", "instant download", "word puzzle game", "dino gift idea", "activity printable"],
+        "Roar into puzzle time! 10 dinosaur-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: dino fans, kids and adults, paleontology lovers, birthday party activities.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "baby-shower-word-search",
+        "Baby Shower Word Search Printable | 10 Baby Puzzles PDF | Shower Game Activity | Instant Download Party Gift",
+        ["baby shower game", "printable puzzles", "shower word search", "word search pdf",
+         "baby shower activity", "puzzle book pdf", "party game", "new baby gift",
+         "baby puzzles", "instant download", "word puzzle game", "shower printable", "baby party game"],
+        "Sweet puzzles for baby showers! 10 baby-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: baby shower games, gender reveal parties, new parent gifts.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "nursing-word-search",
+        "Nurse Word Search Printable | 10 Healthcare Puzzles PDF | Nursing Gift | Instant Download Nurse Appreciation",
+        ["nurse word search", "printable puzzles", "nurse gift idea", "word search pdf",
+         "healthcare puzzle", "puzzle book pdf", "nursing printable", "nurse week gift",
+         "medical puzzles", "instant download", "word puzzle game", "rn gift idea", "activity printable"],
+        "For healthcare heroes! 10 nursing-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: Nurse Appreciation Week, nursing students, hospital staff gifts.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "video-games-word-search",
+        "Video Games Word Search Printable | 10 Gaming Puzzles PDF | Gamer Gift Activity | Instant Download",
+        ["gaming word search", "printable puzzles", "gamer gift idea", "word search pdf",
+         "video game puzzle", "puzzle book pdf", "retro gaming", "gaming printable",
+         "gamer puzzles", "instant download", "word puzzle game", "nerd gift idea", "activity printable"],
+        "Level up with puzzles! 10 video game-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: gamers, retro gaming fans, birthday gifts, game night activities.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
+    _pack(
+        "mythology-word-search",
+        "Greek Mythology Word Search Printable | 10 Ancient Legend Puzzles PDF | Mythology Lover Gift | Instant Download",
+        ["myth word search", "printable puzzles", "greek mythology", "word search pdf",
+         "ancient greece", "puzzle book pdf", "mythology gift", "olympian puzzles",
+         "legend puzzles", "instant download", "word puzzle game", "mythology lover", "activity printable"],
+        "Epic puzzles from ancient legends! 10 Greek mythology-themed word search puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "GREAT FOR: mythology fans, history buffs, students, classical literature lovers.\n\n"
+        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+    ),
 ]
 
 
@@ -394,13 +449,14 @@ def bundle():
     base = ROOT / "products" / slug
     images = [str(base / "img" / "bundle_main.png"), str(base / "img" / "bundle_whats_inside.png")]
     return {"slug": slug, "price": BUNDLE_PRICE, "file": str(base / f"{slug}.zip"), "images": images,
-            "title": "Word Search Bundle Printable | 320 Adult Word Search Puzzles PDF | 32 Themes | Instant Download Gift",
+            "title": "Word Search Bundle Printable | 370 Adult Word Search Puzzles PDF | 37 Themes | Instant Download Gift",
             "tags": ["word search bundle", "printable puzzles", "puzzle bundle pdf", "word search pdf",
                      "adult word search", "puzzle book pdf", "gift for grandma", "instant download",
                      "word puzzle game", "puzzles for adults", "activity printable", "senior activity", "large print puzzle"],
-            "description": "The whole collection! 32 themed packs - 320 word search puzzles with full solutions. Best value!\n\n"
+            "description": "The whole collection! 37 themed packs - 370 word search puzzles with full solutions. Best value!\n\n"
                            "THEMES: Coffee, Cat, Garden, Self-Care, Beach, Christmas, Dog, Halloween, Fall, Wine, Tea, Travel, "
                            "Music, Kitchen & Baking, Ocean, Birds, Camping, Yoga, Sports, Flowers, Farm, Space, Fishing, Horses, "
-                           "Hiking, Butterflies, Wildlife, Fitness, Movie Night, Baking, Book Lovers and Teachers.\n\n"
-                           "WHAT YOU GET: 320 unique puzzles across 32 themes + answer keys, in A4 and US Letter.\n\n"
+                           "Hiking, Butterflies, Wildlife, Fitness, Movie Night, Baking, Book Lovers, Teachers, Dinosaurs, "
+                           "Baby Shower, Nursing, Video Games and Greek Mythology.\n\n"
+                           "WHAT YOU GET: 370 unique puzzles across 37 themes + answer keys, in A4 and US Letter.\n\n"
                            "Instant digital download. No physical item. Personal use only; no resale.\n(c) Riddlewood"}
