@@ -168,3 +168,23 @@
 - **Growth strategy created:** planning/strategy.md — 5 levers (Social Proof, Etsy Ads, Catalog, Pinterest, Shop Quality), timeline through Dec 2026.
 - **5 Wave 4 Pinterest pins:** Fitness→Self Care, Movie Night→Puzzle Gifts, Baking→Printable Word Search, Book Lovers→Adults, Teachers→Seasonal & Holiday. **Totale: ~41 pin.**
 - **Catalogo attuale: 32 temi, 320 puzzle, 64 PDF.** Shop Etsy: 33 listing attivi (32×€4.49 + bundle €19.99).
+
+## 2026-08-01 (stats check + automazione)
+- **Stats ultimi 30 giorni (3 lug-1 ago):**
+  - Visite: 6, Ordini: 1, Conversione: 16.7%, Entrate: 4.49€
+  - Inserzioni viste: 7 (1.17/visita)
+  - Preferenze: 0, Follower: 0, Recensioni: 0, Carrelli abbandonati: 0
+- **Fonti traffico — segnali vs baseline (21 lug):**
+  - Ricerca Etsy: 1 (stabile)
+  - Marketing/SEO Etsy: 3 (era 2 → +50%)
+  - **Social media: 1 (era 0 → PRIMO SEGNALE PINTEREST!)**
+  - Traffico diretto: 1
+  - Etsy Ads: 0 (non attivati)
+- **Lettura:** Pinterest inizia a indicizzare (social media 0→1). Etsy Marketing/SEO cresce. Traffico ancora basso ma segnali organici positivi. Manca ancora la spinta Ads + recensione.
+- **Automazione:**
+  - Repo GitHub privato creato: github.com/Teppa89/riddlewood-store
+  - Theme Factory routine cloud attiva (trig_01Sedw7pQKUCZXi1GLGHBwJu) — 1°+15 ogni mese
+  - CLAUDE.md con startup autonomo (pull → publish → stats → pin → report)
+  - ISSUE: Theme Factory non può clonare repo privato (auth GitHub non collegata a Claude cloud). Fix needed.
+- **Pinterest totale: ~44 pin** (41 precedenti + 3 secondi pin nature)
+- **USER-only pendente:** verifica conto bancario + attiva Etsy Ads
