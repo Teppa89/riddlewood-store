@@ -26,11 +26,14 @@ Read `planning/progress.md` — check date of last stats entry. If >12 days ago:
 - Update progress.md with new entry
 - Make recommendations based on data
 
-### 4. Pinterest maintenance
-Check `planning/progress.md` for pin count. If new products were published since last pin session:
-- Pin each new product to an appropriate board via `pinterest.com/pin/create/button/?url=<listing-url>`
-- Max 5 pins per session (Pinterest rate limit)
-- Distribute across 5 boards: Printable Word Search Puzzles, Word Search Puzzles for Adults, Printable Puzzle Gifts, Self Care & Relaxing Printables, Seasonal & Holiday Printables
+### 4. Pinterest Pin Engine
+Pin Engine handles automated daily pinning (scheduled task `pinterest-pin-engine`, 10am daily).
+- If Pinterest API configured (`automation/pinterest/.env` + `token.json`): engine auto-posts 5 pins/day
+- If not configured: during sessions, pin new products via browser (`pinterest.com/pin/create/button/?url=<listing-url>`)
+- Pin images: 5 variants per theme in `marketing/pins/{slug}_pin{1-5}.png`
+- Tracker: `automation/pinterest/pin_tracker.json` — tracks all posted pins
+- Run manually: `python automation/pinterest/pin_engine.py --count 5 [--dry-run]`
+- 5 boards: Printable Word Search Puzzles, Word Search Puzzles for Adults, Printable Puzzle Gifts, Self Care & Relaxing Printables, Seasonal & Holiday Printables
 
 ### 5. Report to user
 Brief summary: what was auto-done, current stats snapshot, any items needing user action.
@@ -46,6 +49,12 @@ Brief summary: what was auto-done, current stats snapshot, any items needing use
 - `automation/etsy_api/results.json` — published listing IDs (gitignored)
 - `automation/etsy_api/.env` — API credentials (gitignored)
 - `automation/etsy_api/token.json` — OAuth tokens (gitignored)
+- `automation/pinterest/pinterest_client.py` — Pinterest API client
+- `automation/pinterest/pin_engine.py` — automated pinning scheduler + tracker
+- `automation/pinterest/auth.py` — Pinterest OAuth2 flow
+- `automation/pinterest/pin_tracker.json` — posted pin history (gitignored)
+- `automation/pinterest/.env` — Pinterest API credentials (gitignored)
+- `automation/pinterest/token.json` — Pinterest OAuth tokens (gitignored)
 - `planning/strategy.md` — growth strategy
 - `planning/progress.md` — activity log
 - `planning/context_summary.md` — current state snapshot
@@ -55,12 +64,13 @@ Brief summary: what was auto-done, current stats snapshot, any items needing use
 - Etsy: tags ≤20 chars, 13 tags max, title ≤140 chars, price €4.49/pack, €19.99/bundle
 - Etsy API: x-api-key = `keystring:shared_secret`; shop ID = 66735289
 - Etsy image quirk: upload new images BEFORE deleting old ones (min 1 image)
-- Pinterest: scrape takes 20-40s; max 5 pins/session; distribute across boards
+- Pinterest: 5 pin variants per theme; Pin Engine posts 5/day via API; 925 total possible pin placements
 - Bundle: dynamically includes ALL themes
 - Communication: /caveman ultra active
 
-## Scheduled Cloud Agents
+## Scheduled Agents
 - **Theme Factory** (routine `trig_01Sedw7pQKUCZXi1GLGHBwJu`): runs 1st & 15th of month, 9am Italy. Creates 5 new themes, builds, commits, pushes to GitHub.
+- **Pin Engine** (scheduled task `pinterest-pin-engine`): runs daily 10am. Posts 5 pins via Pinterest API. Requires API setup (see automation/pinterest/.env.example).
 - GitHub repo: https://github.com/Teppa89/riddlewood-store (private)
 
 ## User-Only Pending Actions

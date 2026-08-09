@@ -197,22 +197,116 @@ def sample_solution(theme, out):
     img.save(out)
 
 
+PIN_PERSONAS = {
+    "coffee-lovers-word-search": "Coffee Lovers",
+    "cat-lovers-word-search": "Cat Lovers",
+    "garden-word-search": "Gardeners",
+    "self-care-word-search": "Anyone Needing to Relax",
+    "beach-summer-word-search": "Beach & Summer Fans",
+    "christmas-word-search": "The Whole Family",
+    "dog-lovers-word-search": "Dog Lovers",
+    "halloween-word-search": "Halloween Fans",
+    "fall-thanksgiving-word-search": "Thanksgiving Hosts",
+    "wine-lovers-word-search": "Wine Lovers",
+    "tea-lovers-word-search": "Tea Lovers",
+    "travel-word-search": "Travel Lovers",
+    "music-lovers-word-search": "Music Lovers",
+    "cooking-baking-word-search": "Home Cooks",
+    "ocean-sea-word-search": "Ocean Lovers",
+    "birds-word-search": "Birdwatchers",
+    "camping-word-search": "Outdoor Enthusiasts",
+    "yoga-mindfulness-word-search": "Yoga Lovers",
+    "sports-word-search": "Sports Fans",
+    "flowers-word-search": "Flower Lovers",
+    "farm-word-search": "Country Living Fans",
+    "space-word-search": "Space Enthusiasts",
+    "fishing-word-search": "Fishing Enthusiasts",
+    "horses-word-search": "Horse Lovers",
+    "hiking-word-search": "Hikers",
+    "butterflies-word-search": "Nature Lovers",
+    "wildlife-word-search": "Wildlife Enthusiasts",
+    "fitness-word-search": "Fitness Enthusiasts",
+    "movie-night-word-search": "Movie Fans",
+    "baking-word-search": "Baking Lovers",
+    "book-lovers-word-search": "Book Lovers",
+    "teachers-word-search": "Teachers",
+    "dinosaurs-word-search": "Dinosaur Fans",
+    "baby-shower-word-search": "New Parents",
+    "nursing-word-search": "Nurses",
+    "video-games-word-search": "Gamers",
+    "mythology-word-search": "Mythology Fans",
+}
+
+
 def pin(theme, variant, out):
     W, H = 1000, 1500
     img = Image.new("RGB", (W, H), theme["color"])
     d = ImageDraw.Draw(img)
-    title_fill = CREAM
-    if variant == 2:
+    grid, sol = _preview(theme)
+
+    if variant == 1:
+        d.text((W / 2, 90), "PRINTABLE WORD SEARCH", font=font(SANS_B, 34), fill=CREAM, anchor="mm")
+        y = draw_block(d, W / 2, 150, theme["title"], font(SERIF_B, 86), CREAM, W - 130, 100)
+        d.text((W / 2, y + 35), "10 puzzles + solutions", font=font(SERIF, 40), fill=CREAM, anchor="mm")
+        grid_card(img, grid, (W - 620) / 2, 560, 620)
+        d.text((W / 2, 1300), "Instant download PDF", font=font(SANS, 38), fill=CREAM, anchor="mm")
+        d.text((W / 2, 1380), "Printable Puzzles  ·  Riddlewood", font=font(SANS_B, 44), fill=CREAM, anchor="mm")
+
+    elif variant == 2:
         d.rectangle([0, 0, W, 470], fill=CREAM)
-        title_fill = theme["color"]
-    d.text((W / 2, 90), "PRINTABLE WORD SEARCH", font=font(SANS_B, 34), fill=title_fill, anchor="mm")
-    y = draw_block(d, W / 2, 150, theme["title"], font(SERIF_B, 86), title_fill, W - 130, 100)
-    d.text((W / 2, y + 35), "10 puzzles + solutions", font=font(SERIF, 40), fill=title_fill, anchor="mm")
-    gsize = 620
-    grid, _ = _preview(theme)
-    grid_card(img, grid, (W - gsize) / 2, 560, gsize)
-    d.text((W / 2, 1300), "Instant download PDF", font=font(SANS, 38), fill=CREAM, anchor="mm")
-    d.text((W / 2, 1380), "Printable Puzzles  -  Riddlewood", font=font(SANS_B, 44), fill=CREAM, anchor="mm")
+        tc = theme["color"]
+        d.text((W / 2, 90), "PRINTABLE WORD SEARCH", font=font(SANS_B, 34), fill=tc, anchor="mm")
+        y = draw_block(d, W / 2, 150, theme["title"], font(SERIF_B, 86), tc, W - 130, 100)
+        d.text((W / 2, y + 35), "10 puzzles + solutions", font=font(SERIF, 40), fill=tc, anchor="mm")
+        grid_card(img, grid, (W - 620) / 2, 560, 620)
+        d.text((W / 2, 1300), "Instant download PDF", font=font(SANS, 38), fill=CREAM, anchor="mm")
+        d.text((W / 2, 1380), "Printable Puzzles  ·  Riddlewood", font=font(SANS_B, 44), fill=CREAM, anchor="mm")
+
+    elif variant == 3:
+        d.text((W / 2, 80), "WORD SEARCH CHALLENGE", font=font(SANS_B, 32), fill=CREAM, anchor="mm")
+        d.text((W / 2, 190), "Can You Find", font=font(SERIF, 64), fill=CREAM, anchor="mm")
+        d.text((W / 2, 290), "All 12 Words?", font=font(SERIF_B, 88), fill=CREAM, anchor="mm")
+        grid_card(img, grid, (W - 700) / 2, 400, 700)
+        d.text((W / 2, 1200), theme["title"], font=font(SERIF_B, 42), fill=CREAM, anchor="mm")
+        d.text((W / 2, 1300), "Printable PDF  ·  Instant Download", font=font(SANS, 36), fill=CREAM, anchor="mm")
+        _brandmark(d, W / 2, 1400)
+
+    elif variant == 4:
+        persona = PIN_PERSONAS.get(theme["slug"], "Puzzle Lovers")
+        d.text((W / 2, 100), "THE PERFECT GIFT FOR", font=font(SANS_B, 34), fill=CREAM, anchor="mm")
+        y = draw_block(d, W / 2, 180, persona, font(SERIF_B, 90), CREAM, W - 100, 110)
+        d.line([(200, y + 30), (800, y + 30)], fill=CREAM, width=2)
+        grid_card(img, grid, (W - 520) / 2, y + 70, 520)
+        by = y + 70 + 520 + 60
+        fnt = font(SANS_B, 28)
+        for i, label in enumerate(["10 PUZZLES", "PRINT AT HOME", "INSTANT PDF"]):
+            bx = W / 2 - 300 + i * 300
+            badge(d, bx, by, label, fnt, h=50)
+        d.text((W / 2, 1380), "Riddlewood  ·  Printable Puzzles", font=font(SANS_B, 38), fill=CREAM, anchor="mm")
+
+    elif variant == 5:
+        img = Image.new("RGB", (W, H), CREAM)
+        d = ImageDraw.Draw(img)
+        tc = theme["color"]
+        _brandmark(d, W / 2, 80, fill=tc)
+        y = draw_block(d, W / 2, 180, theme["title"], font(SERIF_B, 76), tc, W - 120, 94)
+        y += 40
+        benefits = [
+            "Relaxing brain exercise",
+            "10 unique word search puzzles",
+            "Full answer keys included",
+            "A4 + US Letter sizes",
+            "Print at home instantly",
+        ]
+        bfnt = font(SERIF, 40)
+        for b in benefits:
+            d.text((160, y), "·", font=font(SERIF_B, 48), fill=tc)
+            d.text((210, y + 4), b, font=bfnt, fill=tc)
+            y += 70
+        y += 20
+        grid_card(img, grid, (W - 480) / 2, y, 480, fg=tc)
+        d.text((W / 2, 1420), "Available now  ·  Riddlewood", font=font(SANS_B, 36), fill=tc, anchor="mm")
+
     img.save(out)
 
 
@@ -250,14 +344,14 @@ def main():
         two_sizes(t, d / f"{t['slug']}_two_sizes.png")
         sample_solution(t, d / f"{t['slug']}_sample_solution.png")
         count += 5
-        for v in (1, 2):
+        for v in (1, 2, 3, 4, 5):
             pin(t, v, pins_dir / f"{t['slug']}_pin{v}.png")
             count += 1
     banner(brand_dir / "shop_banner.png")
     icon(brand_dir / "shop_icon.png")
     count += 2
     print(f"Generated {count} images for {len(THEMES)} packs "
-          f"(5 gallery + 2 pins each, + 2 brand).")
+          f"(5 gallery + 5 pins each, + 2 brand).")
 
 
 if __name__ == "__main__":

@@ -218,3 +218,51 @@
 - Cosa non va: 0 follower, profilo ancora "personal" (non business = no analytics), bio non aggiornata (ancora testo riddles), bacheche word search NON VISIBILI sul profilo (possibile problema di visibilità o pin non salvati correttamente in sessioni precedenti)
 - Azioni CRITICHE: (1) Convertire a account business (per analytics). (2) Aggiornare bio con word search branding. (3) Verificare se i 44 pin precedenti sono effettivamente visibili o se c'è stato un problema. (4) Continuare pinning dei 5 nuovi temi. (5) Pinnare almeno 3-5 pin/settimana per crescita organica.
 - **USER-only pendente:** verifica conto bancario + attiva Etsy Ads
+
+## 2026-08-09 (Pinterest Wave 5 pinning)
+- Pinned all 5 Wave 5 themes on Pinterest (`riddlewoodshop` account):
+  1. Dinosaurs & Fossils → Printable Puzzle Gifts (10 pin totali)
+  2. Baby Shower → Seasonal & Holiday Printables (3 pin totali)
+  3. Nurses & Healthcare → Self Care & Relaxing Printables (6 pin totali)
+  4. Video Games → Word Search Puzzles for Adults (9 pin totali)
+  5. Greek Mythology → Printable Word Search Puzzles (16 pin totali)
+- Distribuzione bilanciata su tutte 5 bacheche. Totale pin: ~44 (precedenti) + 5 = ~49 pin
+- Tutti i pin linkano direttamente ai listing Etsy attivi
+- **Gumroad:** creati 5 nuovi prodotti Wave 5 (nome+desc+prezzo+slug). Totale: 14 prodotti
+  - riddlewood.gumroad.com/l/dinosaurs-word-search
+  - riddlewood.gumroad.com/l/baby-shower-word-search
+  - riddlewood.gumroad.com/l/nursing-word-search
+  - riddlewood.gumroad.com/l/video-games-word-search
+  - riddlewood.gumroad.com/l/mythology-word-search
+- **Mancano su tutti 5:** cover image + zip file (Chrome MCP non supporta file upload da disco)
+- **USER ACTION:** per ogni prodotto: (1) apri su Gumroad, (2) trascina cover da products/[slug]/img/[slug]_cover_landscape.png, (3) vai tab Content, trascina zip da products/[slug]/[slug].zip, (4) Publish
+
+## 2026-08-09 (3 blocking actions)
+- **Pinterest → account Business: FATTO.** Conversione completata (Settings → Gestione account → Converti account → Esegui l'upgrade). Verificato: analytics.pinterest.com ora accessibile con dashboard completa (Impressioni, Interazioni, Clic in uscita, Salvataggi, Pubblico totale, Pubblico coinvolto). Dati ancora a "-" (appena convertito, popola in qualche giorno).
+- **Etsy Ads: PARZIALE.** Navigato a Etsy Marketing → Pubblicità → obiettivo "Aumentare visibilità" → budget personalizzato. Campo aperto a 5,00€. **Bloccato da auto-mode** (digitare budget = azione finanziaria). USER deve: cambiare importo a 1,00€ → "Avvia pubblicità" → selezionare listing (Farm, Beach Summer, Hiking).
+- **Verifica conto bancario: RINVIATO dall'utente** ("lo verifico quando avrò più soldi da ritirare").
+- **Diagnosi crescita 3 piattaforme:** Etsy = shop troppo giovane, 0 recensioni, Ads non attivi. Gumroad = 0 traffico organico (mirror only). Pinterest = pin indicizzano lentamente, ora business → analytics attivi per monitorare.
+- **USER-only pendenti:** (1) Etsy Ads 1€/gg, (2) Gumroad 5 prodotti cover+zip+publish, (3) verifica bancaria
+
+## 2026-08-09 (Pin Engine — automated daily pinning)
+- **Diagnosi Pinterest:** 49 pin in 6 settimane = troppo pochi. Pinterest vuole 5-15 pin FRESCHI/giorno. 1 pin/prodotto = zero segnale. Strategia bisettimanale (1°/15°) = sbagliata per pinning (va bene per creazione temi, non per posting).
+- **3 nuovi template pin** aggiunti a images.py (varianti 3-4-5):
+  - V3 "Challenge": "Can You Find All 12 Words?" — engagement hook, griglia grande
+  - V4 "Gift": "The Perfect Gift For [persona]" — intent regalo, badges
+  - V5 "Benefits": lista benefici su sfondo crema invertito, design pulito
+- **185 immagini pin generate** (37 temi × 5 varianti). Prima: 74 (2 varianti). Ora 2.5× più immagini.
+- **Potenziale pinning:** 185 immagini × 5 bacheche = **925 pin placement possibili**. Copertura attuale: 41/925 = 4.4%.
+- **Pin Engine costruito** (`automation/pinterest/`):
+  - `pinterest_client.py` — API client Pinterest v5 (OAuth2, token refresh, create_pin con image_base64)
+  - `pin_engine.py` — scheduler: pick_next_pins (prioritizza temi meno pinnati), descrizioni SEO per variante, tracking JSON
+  - `auth.py` — OAuth2 flow (localhost:3004 callback)
+  - `pin_tracker.json` — tracker inizializzato con 41 pin esistenti
+- **Scheduled task `pinterest-pin-engine`**: runs daily 10am, posts 5 pins via API.
+- **BLOCCO:** Pinterest API richiede registrazione app su developers.pinterest.com. USER deve:
+  1. Andare su developers.pinterest.com/apps/
+  2. Creare app (business account già attivo)
+  3. Copiare App ID + Secret in `automation/pinterest/.env`
+  4. Eseguire `python automation/pinterest/auth.py`
+  Poi il Pin Engine pinna 5/giorno automaticamente.
+- **Proiezione:** a 5 pin/giorno = copertura completa (925 pin) in ~6 mesi. Pinterest vedrà attività giornaliera costante → indicizzazione rapida.
+- CLAUDE.md aggiornato con architettura Pin Engine + scheduled agents.
