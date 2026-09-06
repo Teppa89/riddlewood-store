@@ -266,3 +266,40 @@
   Poi il Pin Engine pinna 5/giorno automaticamente.
 - **Proiezione:** a 5 pin/giorno = copertura completa (925 pin) in ~6 mesi. Pinterest vedrà attività giornaliera costante → indicizzazione rapida.
 - CLAUDE.md aggiornato con architettura Pin Engine + scheduled agents.
+
+## 2026-09-06 (Stats check + shop reactivation)
+
+### SHOP SOSPESO → RIATTIVATO
+- **Problema:** shop Etsy completamente sospeso — tutti 38 listing "Disattivata Da Etsy", 5 draft Wave 5 "frozen" (403 su publish API). Violazioni pagina diceva "Tutto bene" (fuorviante).
+- **Causa reale:** conto bancario non verificato. Trovato in Finanze → Conto dei pagamenti: "Versamenti non disponibili — Il tuo negozio è stato sospeso."
+- **Fix:** utente ha verificato conto bancario → shop riattivato immediatamente → **38 listing attivi** (inclusi 5 Wave 5 ora live).
+- **Impatto:** shop offline per ~1 mese (ago→set). Zero traffico/vendite in quel periodo.
+
+### STATS ALL-TIME (giu-set 2026)
+- **Visite:** 31 (di cui set: 1)
+- **Ordini:** 1 (Farm Word Search, 21 luglio)
+- **Entrate:** 4,49€
+- **Tasso conversione:** 3.2%
+- **Visualizzazioni listing:** 18 (media 0.58/visita)
+- **Preferenze:** 0 | **Follower:** 0 | **Recensioni:** 0
+- **Clienti ritorno:** 0 | **Città:** 1 | **Carrelli abbandonati:** 0
+
+### SORGENTI TRAFFICO
+- **Etsy 58%:** App Etsy 9, Marketing/SEO 7, Ricerca Etsy 2
+- **Tu 42%:** Traffico diretto 12, Social media 1, Etsy Ads 0
+
+### TOP LISTINGS
+1. Floral Botanical — 3 views, 0 orders
+2. Farm — 3 views, 1 order, 4.49€
+3. Bundle (370 puzzles) — 3 views, 0 orders
+
+### PINTEREST DEVELOPER APP
+- App "app riddlewood" creata (ID 1599204). Stato: "Accesso a Trial in sospeso".
+- In attesa approvazione Pinterest per ottenere App Secret → attivare Pin Engine automatico.
+- Account business già attivo da agosto.
+
+### AZIONI PENDENTI
+- [ ] **Attesa:** Pinterest Trial approval (per Pin Engine API)
+- [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
+- [ ] **USER:** Gumroad 5 Wave 5 prodotti — upload cover image + zip file
+- [x] Verifica conto bancario Etsy — FATTO

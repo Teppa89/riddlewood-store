@@ -4,19 +4,32 @@
 Business digitale autonomo. Founder: skill-zero, <5h/sett, budget lean ≤50€ fase 1, obiettivo 500–1k€/mese veloce e scalabile. Motore operativo = Claude (produzione + automazione); utente solo autorizza/paga/credenziali. Modello: **A — prodotti digitali** su Etsy+Gumroad, traffico Pinterest. Prodotto: **puzzle/worksheet printable PDF** generati via codice — nicchia low-competition (creazione manuale tediosa per umani) dove automazione = moat reale, produzione costo 0. Extra: multilingue italiano (competizione ~0 su Etsy anglofono) + espansione Amazon KDP a costo marginale nullo. Strategia: volume di listing ultra-nicchiati (top seller fanno 300+), fulfillment automatico, Pinterest = traffico gratis compounding. Metodologia GSD lightweight per minimizzare coinvolgimento utente.
 
 ## Current State (≤300w)
-**PRIMA VENDITA 21 luglio 2026:** Farm Word Search — 4,49€ lordo, 1,95€ netto. Tasso conversione 16.7%. **38 listing Etsy** (shop RiddlewoodCo, 33 attivi + 5 draft, 37 pack €4.49 + bundle €19.99/370 puzzle). **~44 pin Pinterest** (visibilità profilo da verificare). Catalogo: **37 temi/370 puzzle** (12 orig + 12 exp + 3 nature + 5 lifestyle + 5 wave5). Growth strategy in planning/strategy.md. **9 prodotti LIVE su Gumroad** (0 vendite). Privacy pulita. Costo: ~8€ (listing fees). **Theme Factory cloud routine attiva** (1°+15 mese). GitHub: github.com/Teppa89/riddlewood-store (PUBLIC). **AZIONI UTENTE PENDENTI:** (1) verificare conto bancario Etsy, (2) attivare Etsy Ads 1€/gg, (3) pubblicare 5 draft Wave 5, (4) convertire Pinterest a business account.
+**Ultimo aggiornamento: 6 settembre 2026.**
+
+**PRIMA VENDITA 21 luglio 2026:** Farm Word Search — 4,49€ lordo. **38 listing Etsy ATTIVI** (shop RiddlewoodCo, 37 pack €4.49 + bundle €19.99/370 puzzle). Shop sospeso ago-set per conto bancario non verificato → riattivato 6 settembre.
+
+**Stats all-time:** 31 visite, 1 ordine, 4.49€, 3.2% conversione. Traffico: Etsy 58% (SEO 7, App 9, Ricerca 2), diretto 42% (12 dirette, 1 social).
+
+**Pinterest:** account business attivo, ~49 pin su 5 bacheche. App developer "app riddlewood" (ID 1599204) creata, Trial in sospeso. Pin Engine pronto ma bloccato su API approval.
+
+**Gumroad:** 14 prodotti (9 completi + 5 Wave 5 senza cover/zip). 0 vendite.
+
+**Catalogo:** 37 temi/370 puzzle, 185 pin images (5 varianti/tema). Theme Factory cloud routine attiva (1°+15 mese).
+
+**Costo totale:** ~8€ (listing fees). GitHub: private repo.
 
 ## Open Tasks
-- [x] Pipeline + catalogo 12 pack + marketing + brand + engineering
-- [x] 9 prodotti evergreen LIVE su Gumroad + 4 pin Pinterest
+- [x] Pipeline + catalogo 37 pack + marketing + brand + engineering
+- [x] 9 prodotti evergreen LIVE su Gumroad + pin Pinterest
 - [x] Privacy scrub completo (Gumroad/git/Pinterest)
-- [ ] **Pin AUTONOMI** (verso bundle + stagionali a stagione + 2°pin/repeat) → 1-3/giorno via `pinterest.com/pin/create/button/?url=<etsy-listing-url>` (scrape immagine, no upload), board "Printable Word Search Puzzles", click Salva. [9 evergreen già pinnati]
-- [x] **Etsy: 13 listing LIVE via API** (12 pack + bundle €19.99) + shop testi/privacy completi
-- [x] Stagionali (halloween/fall/christmas): LIVE su Etsy. Pin Pinterest a stagione (set-ott)
-- [ ] **USER-only:** icona+banner shop Etsy (2 upload file). [Stato venditore UE = GIÀ "Privato"/corretto — shop editor → fondo → Dati del venditore; nessuna azione finché privato]
-- [ ] **USER-only:** verificare conto bancario Etsy per ricevere pagamenti
-- [ ] **Pin 2° giro:** Farm + nicchia nature/outdoors su più bacheche (boost bestseller)
-- [ ] Futuro: Amazon KDP; pin variations (pin2); P.IVA prima di scalare incassi (utente)
+- [x] Etsy: 38 listing LIVE via API (37 pack + bundle €19.99)
+- [x] Pinterest: account business + ~49 pin su 5 bacheche
+- [x] Verifica conto bancario Etsy — FATTO 6 settembre
+- [ ] **Pin Engine API:** attesa Pinterest Trial approval → App Secret → auth → daily 5 pin
+- [ ] **USER-only:** attivare Etsy Ads 1€/gg su Farm + Beach Summer + Hiking
+- [ ] **USER-only:** Gumroad Wave 5 — upload cover image + zip file (5 prodotti)
+- [ ] **USER-only:** icona+banner shop Etsy (2 upload file)
+- [ ] Futuro: Amazon KDP; P.IVA prima di scalare incassi (utente)
 
 ## Key Decisions
 Modello A · prodotto PDF printable puzzle · budget ≤50€ · GSD lightweight · geo IT-UE. Dettaglio: decisions.md
