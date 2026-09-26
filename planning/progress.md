@@ -326,9 +326,66 @@
 - Privacy policy: https://riddlewood.gumroad.com/privacy-policy (OK).
 - Pin Engine bloccato fino a Trial approval.
 
+### OTTIMIZZAZIONI FATTE (26 set, sessione 2)
+- **Etsy SEO:** 11 titoli listing aggiornati via "Visibilità nelle ricerche"
+- **Pinterest pins:** 5 pin originali pubblicati manualmente:
+  1. Farm pin3 (Challenge) → Word Search Puzzles for Adults
+  2. Hiking pin4 (Gift) → Printable Puzzle Gifts
+  3. Beach Summer pin5 (Benefits) → Self Care & Relaxing Printables
+  4. Yoga pin2 (CTA) → Printable Word Search Puzzles
+  5. Coffee pin1 (Standard) → Seasonal & Holiday Printables
+- **Pinterest totale:** ~54 pin (49 precedenti + 5 oggi), 5 temi diversi, 5 board diversi, 5 varianti diverse
+- **Pinterest icon:** icona app caricata su developer portal (non più placeholder)
+
+### STATS SETTEMBRE COMPLETI (1-26 set 2026) — check bisettimanale
+- **Visite:** 4 (vs 31 in agosto = -87%)
+- **Ordini:** 0 (vs 1 in agosto)
+- **Entrate:** 0€ (vs 4,49€ in agosto)
+- **Conversione:** 0% (vs 3.2% in agosto)
+- **Visualizzazioni listing:** 8 (media 2/visita)
+- **Preferenze:** 0 | **Follower:** 0 | **Recensioni:** 0
+- **Clienti ritorno:** 0 | **Città:** 0 | **Carrelli abbandonati:** 0
+
+### SORGENTI TRAFFICO SETTEMBRE
+- **Da Etsy (100%):** Marketing/SEO 4, App/pagine 0, Ricerca Etsy 0
+- **Da te (0%):** Diretto/referral 0, Social media 0, Etsy Ads 0
+- **Analisi:** crollo totale da agosto. Causa: sospensione shop agosto → reset ranking Etsy. No Pinterest traffic (pin insufficienti). No Ads. Recovery lenta.
+
+### TOP LISTINGS SETTEMBRE
+1. Greek Mythology — 4 views, 0 ordini
+2. Dog Lover — 3 views, 0 ordini
+3. Fall Thanksgiving — 1 view, 0 ordini
+4. Video Games — 0 views
+
+### PINTEREST API — ANALISI DETTAGLIATA
+- **App 1 (1599204) "app riddlewood":** RIFIUTATA. Motivi: icona placeholder, privacy policy URL puntava a homepage (non /privacy-policy), URL sito HTTP non HTTPS, descrizione troppo corta.
+- **App 2 (1609452) "Riddlewood Pin Scheduler":** in sospeso da 19 giorni (dal 7 set). Tutti i campi corretti: icona custom, privacy policy funzionante, HTTPS, descrizione dettagliata.
+- **Attesa normale:** Pinterest review 2-6 settimane. Siamo nella finestra.
+- **Azione consigliata:** eliminare app rifiutata (segnale negativo sull'account).
+
+### CONFRONTO TREND (ago vs set)
+| Metrica | Agosto | Settembre | Delta |
+|---------|--------|-----------|-------|
+| Visite | 31 | 4 | -87% |
+| Ordini | 1 | 0 | -100% |
+| Entrate | 4,49€ | 0€ | -100% |
+| Listing views | 18 | 8 | -56% |
+| Social traffic | 1 | 0 | -100% |
+
+### DIAGNOSI + RACCOMANDAZIONI
+1. **Sospensione agosto = reset ranking.** Shop riattivato ma Etsy algorithm lo tratta come nuovo. Recovery richiede 2-3 mesi di attività costante.
+2. **Pinterest deve scalare.** 5 pin/giorno per 30 giorni = 150 pin nuovi. Oggi primo batch di 5. Serve Pin Engine automatico o pinning manuale ogni sessione.
+3. **Etsy Ads critici ora.** Con traffico organico quasi zero, Ads 1€/gg sono unica leva per ricominciare a generare impressioni. Priorità.
+4. **SEO funziona lentamente.** Greek Mythology 4 views e Dog Lover 3 views = temi con domanda reale. Ottimizzazione titoli fatta oggi aiuterà.
+5. **Gumroad come backup.** Diversificazione urgente dato stallo Etsy.
+
 ### AZIONI PENDENTI
-- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~41 giorni da oggi.**
+- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~41 giorni da 26 set.**
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
-- [ ] **USER:** Gumroad 5 Wave 5 prodotti — upload cover image + zip file
-- [ ] **Attesa:** Pinterest Trial approval (app 1609452) — ricaricare icona app
-- [x] Verifica conto bancario Etsy (set 6) — FATTO ma Etsy richiede ri-verifica micro-deposito
+- [ ] **USER:** Gumroad Wave 5 — upload cover image + zip file (dinosaurs, baby-shower, nursing, video-games, mythology)
+- [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) per pulire segnale account
+- [ ] **Attesa:** Pinterest Trial approval (app 1609452) — tutti i campi OK, attesa nella norma
+- [x] Verifica conto bancario Etsy (set 6) — FATTO ma ri-verifica richiesta (tentativo fallito 26 set → nuovo micro-deposito inviato)
+- [x] Etsy SEO 11 titoli aggiornati (26 set)
+- [x] Pinterest 5 pin originali pubblicati (26 set)
+- [x] Pinterest app icon caricata (26 set)
