@@ -298,8 +298,37 @@
 - In attesa approvazione Pinterest per ottenere App Secret → attivare Pin Engine automatico.
 - Account business già attivo da agosto.
 
-### AZIONI PENDENTI
+### AZIONI PENDENTI (da set 6)
 - [ ] **Attesa:** Pinterest Trial approval (per Pin Engine API)
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
 - [ ] **USER:** Gumroad 5 Wave 5 prodotti — upload cover image + zip file
 - [x] Verifica conto bancario Etsy — FATTO
+
+## 2026-09-26 (stats check + bank re-verification)
+
+### ETSY — NUOVA VERIFICA BANCARIA RICHIESTA
+- **Problema:** Etsy richiede conferma micro-versamento entro 41 giorni. Avviso: "Conferma entro 41 giorni il versamento che abbiamo inviato" (conto ...2996).
+- **Dettaglio:** Etsy/Adyen ha inviato micro-deposito tra 7-14 set. Utente deve controllare estratto conto per importo esatto da Etsy/Adyen/Envoy/Worldpay e inserirlo nel form di verifica.
+- **Se non confermato:** shop verrà sospeso di nuovo (stessa situazione agosto → sospensione 1 mese).
+- **Shop attivo:** 38 listing attivi, nessuna sospensione al momento.
+
+### STATS SETTEMBRE (1-26 set 2026)
+- **Visite:** 4
+- **Ordini:** 0
+- **Entrate:** 0€
+- **Fonti traffico:** Marketing/SEO Etsy 4 (100%). Ricerca Etsy 0, Social media 0, Traffico diretto 0, Etsy Ads 0.
+- **Lettura:** traffico quasi nullo. Mese perso per sospensione agosto → reset ranking. Pinterest API bloccata → 0 pin nuovi. Ads non attivati. Shop in stallo.
+
+### PINTEREST API — ANCORA IN ATTESA
+- App "Riddlewood Pin Scheduler" (ID 1609452, nuova app creata set 7). Stato: "Accesso a Trial in sospeso" dopo 19 giorni.
+- App Secret: "Non disponibile durante Accesso a trial in sospeso".
+- Icona app = placeholder (possibile causa ritardo approvazione). Da ricaricare.
+- Privacy policy: https://riddlewood.gumroad.com/privacy-policy (OK).
+- Pin Engine bloccato fino a Trial approval.
+
+### AZIONI PENDENTI
+- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~41 giorni da oggi.**
+- [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
+- [ ] **USER:** Gumroad 5 Wave 5 prodotti — upload cover image + zip file
+- [ ] **Attesa:** Pinterest Trial approval (app 1609452) — ricaricare icona app
+- [x] Verifica conto bancario Etsy (set 6) — FATTO ma Etsy richiede ri-verifica micro-deposito
