@@ -379,13 +379,36 @@
 4. **SEO funziona lentamente.** Greek Mythology 4 views e Dog Lover 3 views = temi con domanda reale. Ottimizzazione titoli fatta oggi aiuterà.
 5. **Gumroad come backup.** Diversificazione urgente dato stallo Etsy.
 
-### AZIONI PENDENTI
+### PINTEREST SEO OPTIMIZATION (27 set)
+- **Profilo bio:** aggiunta keyword-rich bio (era vuota): "Printable word search puzzles for adults & kids. 37 themed packs, instant PDF download. Brain games & unique gifts by Riddlewood."
+- **Website URL:** impostato a https://riddlewood.gumroad.com (Pinterest mostra come http, comportamento noto piattaforma)
+- **Board descriptions:** aggiunte a tutti i 5 board (erano tutti vuoti):
+  1. Printable Word Search Puzzles — temi, formati, uso
+  2. Word Search Puzzles for Adults — target adulti, relax, temi specifici
+  3. Self Care & Relaxing Printables — self-care, yoga, mindfulness
+  4. Printable Puzzle Gifts — regali, occasioni, target
+  5. Seasonal & Holiday Printables — stagioni, festività, eventi
+- **Scheduled tasks creati/aggiornati:**
+  - Pin Engine: daily 10:10am, controlla API + stats coverage
+  - Bi-weekly Stats: 1° e 15° del mese, 9am, Etsy + Pinterest analytics
+
+### PINTEREST PINS (27 set) — 5 nuovi pin manuali
+1. Christmas Word Search pin1 → Seasonal & Holiday Printables
+2. Fall Thanksgiving Word Search pin1 → Seasonal & Holiday Printables
+3. Halloween Word Search pin1 → Printable Word Search Puzzles
+4. Tea Lover's Word Search pin2 → Self Care & Relaxing Printables
+5. Dinosaurs Word Search pin2 → Printable Puzzle Gifts
+- **Totale pin:** 50/925 (5% coverage). +5 oggi, +5 ieri recuperati nel tracker.
+
+### AZIONI PENDENTI (aggiornato 27 set)
 - [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~41 giorni da 26 set.**
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
 - [ ] **USER:** Gumroad Wave 5 — upload cover image + zip file (dinosaurs, baby-shower, nursing, video-games, mythology)
-- [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) per pulire segnale account
+- [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) — Pinterest non ha tasto elimina, non bloccante
 - [ ] **Attesa:** Pinterest Trial approval (app 1609452) — tutti i campi OK, attesa nella norma
 - [x] Verifica conto bancario Etsy (set 6) — FATTO ma ri-verifica richiesta (tentativo fallito 26 set → nuovo micro-deposito inviato)
 - [x] Etsy SEO 11 titoli aggiornati (26 set)
 - [x] Pinterest 5 pin originali pubblicati (26 set)
 - [x] Pinterest app icon caricata (26 set)
+- [x] Pinterest profilo SEO: bio + URL + 5 board descriptions (27 set)
+- [x] Scheduled tasks: Pin Engine daily + Bi-weekly Stats (26-27 set)
