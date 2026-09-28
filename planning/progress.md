@@ -400,7 +400,15 @@
 5. Dinosaurs Word Search pin2 → Printable Puzzle Gifts
 - **Totale pin:** 50/925 (5% coverage). +5 oggi, +5 ieri recuperati nel tracker.
 
-### AZIONI PENDENTI (aggiornato 27 set)
+### PINTEREST PINS (28 set) — 5 nuovi pin manuali
+1. Coffee Lover's Word Search pin2 → Seasonal & Holiday Printables
+2. Self Care Word Search pin2 → Self Care & Relaxing Printables
+3. Nursing Word Search pin2 → Word Search Puzzles for Adults
+4. Butterflies Word Search pin2 → Printable Puzzle Gifts
+5. Sports Word Search pin2 → Printable Word Search Puzzles
+- **Totale pin:** 55/925 (6% coverage). Distribuzione board: tutte e 5 le board coperte oggi.
+
+### AZIONI PENDENTI (aggiornato 28 set)
 - [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~41 giorni da 26 set.**
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
 - [ ] **USER:** Gumroad Wave 5 — upload cover image + zip file (dinosaurs, baby-shower, nursing, video-games, mythology)
@@ -412,3 +420,4 @@
 - [x] Pinterest app icon caricata (26 set)
 - [x] Pinterest profilo SEO: bio + URL + 5 board descriptions (27 set)
 - [x] Scheduled tasks: Pin Engine daily + Bi-weekly Stats (26-27 set)
+- [x] Pinterest 5 pin manuali pubblicati (28 set)
