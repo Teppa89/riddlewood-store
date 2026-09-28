@@ -408,12 +408,30 @@
 5. Sports Word Search pin2 → Printable Word Search Puzzles
 - **Totale pin:** 55/925 (6% coverage). Distribuzione board: tutte e 5 le board coperte oggi.
 
-### AZIONI PENDENTI (aggiornato 28 set)
-- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~41 giorni da 26 set.**
+### PINTEREST PINS (29 set) — 5 nuovi pin manuali
+1. Wine Lover's Word Search pin2 → Seasonal & Holiday Printables
+2. Travel Word Search pin2 → Seasonal & Holiday Printables
+3. Cat Lover's Word Search pin2 → Self Care & Relaxing Printables
+4. Dog Lover's Word Search pin2 → Word Search Puzzles for Adults
+5. Movie Night Word Search pin2 → Word Search Puzzles for Adults
+- **Totale pin:** 60/925 (6.5% coverage). Board coverage ampliata.
+
+### GUMROAD WAVE 5 (29 set) — 5 prodotti pubblicati
+Upload completo (cover landscape + thumbnail square + zip content) e pubblicazione:
+1. Greek Mythology Word Search — riddlewood.gumroad.com/l/mythology-word-search
+2. Video Games Word Search — riddlewood.gumroad.com/l/video-games-word-search
+3. Nurses & Healthcare Word Search — riddlewood.gumroad.com/l/nursing-word-search
+4. Baby Shower Word Search — riddlewood.gumroad.com/l/baby-shower-word-search
+5. Dinosaurs & Fossils Word Search — riddlewood.gumroad.com/l/dinosaurs-word-search
+- **Totale Gumroad:** 14 prodotti pubblicati (9 precedenti + 5 nuovi). Tutti €4.49.
+
+### AZIONI PENDENTI (aggiornato 29 set)
+- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~40 giorni da 26 set.**
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
-- [ ] **USER:** Gumroad Wave 5 — upload cover image + zip file (dinosaurs, baby-shower, nursing, video-games, mythology)
 - [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) — Pinterest non ha tasto elimina, non bloccante
 - [ ] **Attesa:** Pinterest Trial approval (app 1609452) — tutti i campi OK, attesa nella norma
+- [x] Gumroad Wave 5 pubblicato (29 set) — 5 prodotti con cover + thumbnail + zip
+- [x] Pinterest 5 pin manuali pubblicati (29 set)
 - [x] Verifica conto bancario Etsy (set 6) — FATTO ma ri-verifica richiesta (tentativo fallito 26 set → nuovo micro-deposito inviato)
 - [x] Etsy SEO 11 titoli aggiornati (26 set)
 - [x] Pinterest 5 pin originali pubblicati (26 set)
