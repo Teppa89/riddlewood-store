@@ -425,13 +425,22 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 5. Dinosaurs & Fossils Word Search — riddlewood.gumroad.com/l/dinosaurs-word-search
 - **Totale Gumroad:** 14 prodotti pubblicati (9 precedenti + 5 nuovi). Tutti €4.49.
 
-### AZIONI PENDENTI (aggiornato 29 set)
+### PINTEREST PINS (30 set) — 5 nuovi pin manuali
+1. Baby Shower Word Search pin2 → Seasonal & Holiday Printables
+2. Baking Word Search pin2 → Seasonal & Holiday Printables
+3. Flowers Word Search pin2 → Self Care & Relaxing Printables
+4. Fitness Word Search pin2 → Word Search Puzzles for Adults
+5. Book Lovers Word Search pin2 → Printable Puzzle Gifts
+- **Totale pin:** 65/925 (7% coverage). Tutte e 5 le board coperte.
+
+### AZIONI PENDENTI (aggiornato 30 set)
 - [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~40 giorni da 26 set.**
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
 - [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) — Pinterest non ha tasto elimina, non bloccante
 - [ ] **Attesa:** Pinterest Trial approval (app 1609452) — tutti i campi OK, attesa nella norma
 - [x] Gumroad Wave 5 pubblicato (29 set) — 5 prodotti con cover + thumbnail + zip
 - [x] Pinterest 5 pin manuali pubblicati (29 set)
+- [x] Pinterest 5 pin manuali pubblicati (30 set)
 - [x] Verifica conto bancario Etsy (set 6) — FATTO ma ri-verifica richiesta (tentativo fallito 26 set → nuovo micro-deposito inviato)
 - [x] Etsy SEO 11 titoli aggiornati (26 set)
 - [x] Pinterest 5 pin originali pubblicati (26 set)
