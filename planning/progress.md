@@ -433,7 +433,15 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 5. Book Lovers Word Search pin2 → Printable Puzzle Gifts
 - **Totale pin:** 65/925 (7% coverage). Tutte e 5 le board coperte.
 
-### AZIONI PENDENTI (aggiornato 30 set)
+### PINTEREST PINS (1 ott) — 5 nuovi pin manuali
+1. Ocean & Sea Word Search pin2 → Seasonal & Holiday Printables
+2. Music Lovers Word Search pin2 → Seasonal & Holiday Printables
+3. Space Word Search pin2 → Self Care & Relaxing Printables
+4. Wildlife Word Search pin2 → Word Search Puzzles for Adults
+5. Cooking & Baking Word Search pin2 → Printable Puzzle Gifts
+- **Totale pin:** 70/925 (7.6% coverage). Tutte e 5 le board coperte.
+
+### AZIONI PENDENTI (aggiornato 1 ott)
 - [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~40 giorni da 26 set.**
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
 - [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) — Pinterest non ha tasto elimina, non bloccante
@@ -441,6 +449,7 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 - [x] Gumroad Wave 5 pubblicato (29 set) — 5 prodotti con cover + thumbnail + zip
 - [x] Pinterest 5 pin manuali pubblicati (29 set)
 - [x] Pinterest 5 pin manuali pubblicati (30 set)
+- [x] Pinterest 5 pin manuali pubblicati (1 ott)
 - [x] Verifica conto bancario Etsy (set 6) — FATTO ma ri-verifica richiesta (tentativo fallito 26 set → nuovo micro-deposito inviato)
 - [x] Etsy SEO 11 titoli aggiornati (26 set)
 - [x] Pinterest 5 pin originali pubblicati (26 set)
