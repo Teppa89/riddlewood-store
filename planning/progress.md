@@ -441,11 +441,29 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 5. Cooking & Baking Word Search pin2 → Printable Puzzle Gifts
 - **Totale pin:** 70/925 (7.6% coverage). Tutte e 5 le board coperte.
 
-### AZIONI PENDENTI (aggiornato 1 ott)
-- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~40 giorni da 26 set.**
+### PINTEREST PINS (2 ott) — 5 nuovi pin manuali
+1. Beach Summer Word Search pin2 → Printable Word Search Puzzles
+2. Christmas Word Search pin2 → Seasonal & Holiday Printables
+3. Fall/Thanksgiving Word Search pin2 → Self Care & Relaxing Printables
+4. Halloween Word Search pin2 → Seasonal & Holiday Printables
+5. Hiking Word Search pin2 → Word Search Puzzles for Adults
+- **Totale pin:** 75/925 (8.1% coverage)
+
+### PINTEREST PINS (3 ott) — 5 nuovi pin manuali
+1. Mythology Word Search pin2 → Self Care & Relaxing Printables
+2. Teachers Word Search pin2 → Word Search Puzzles for Adults
+3. Video Games Word Search pin2 → Seasonal & Holiday Printables
+4. Ocean & Sea Word Search pin3 → Printable Puzzle Gifts
+5. Coffee Lovers Word Search pin3 → Printable Word Search Puzzles
+- **Totale pin:** 80/925 (8.6% coverage). Tutte e 5 le board coperte.
+
+### AZIONI PENDENTI (aggiornato 3 ott)
+- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~33 giorni da 26 set.**
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
 - [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) — Pinterest non ha tasto elimina, non bloccante
 - [ ] **Attesa:** Pinterest Trial approval (app 1609452) — tutti i campi OK, attesa nella norma
+- [x] Pinterest 5 pin manuali pubblicati (3 ott)
+- [x] Pinterest 5 pin manuali pubblicati (2 ott)
 - [x] Gumroad Wave 5 pubblicato (29 set) — 5 prodotti con cover + thumbnail + zip
 - [x] Pinterest 5 pin manuali pubblicati (29 set)
 - [x] Pinterest 5 pin manuali pubblicati (30 set)
