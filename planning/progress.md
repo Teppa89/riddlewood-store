@@ -473,11 +473,20 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 5. Horses Word Search pin3 → Printable Word Search Puzzles
 - **Totale pin:** 90/925 (9.7% coverage). Tutte e 5 le board coperte, una per pin.
 
-### AZIONI PENDENTI (aggiornato 5 ott)
+### PINTEREST PINS (6 ott) — 5 nuovi pin manuali
+1. Beach & Summer Word Search pin3 → Printable Puzzle Gifts
+2. Christmas Word Search pin3 → Seasonal & Holiday Printables
+3. Halloween Word Search pin3 → Word Search Puzzles for Adults
+4. Fall & Thanksgiving Word Search pin3 → Self Care & Relaxing Printables
+5. Cooking & Baking Word Search pin3 → Printable Word Search Puzzles
+- **Totale pin:** 95/925 (10.3% coverage). Tutte e 5 le board coperte, una per pin.
+
+### AZIONI PENDENTI (aggiornato 6 ott)
 - [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~33 giorni da 26 set.**
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
 - [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) — Pinterest non ha tasto elimina, non bloccante
 - [ ] **Attesa:** Pinterest Trial approval (app 1609452) — tutti i campi OK, attesa nella norma
+- [x] Pinterest 5 pin manuali pubblicati (6 ott)
 - [x] Pinterest 5 pin manuali pubblicati (5 ott)
 - [x] Pinterest 5 pin manuali pubblicati (4 ott)
 - [x] Pinterest 5 pin manuali pubblicati (3 ott)
