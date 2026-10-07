@@ -481,11 +481,29 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 5. Cooking & Baking Word Search pin3 → Printable Word Search Puzzles
 - **Totale pin:** 95/925 (10.3% coverage). Tutte e 5 le board coperte, una per pin.
 
-### AZIONI PENDENTI (aggiornato 6 ott)
-- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~33 giorni da 26 set.**
+### PINTEREST API SETUP (7 ott)
+- Pinterest app 1609452 approvata (Trial access)
+- Secret key configurato in `.env`
+- OAuth2 flow completato: token.json con scopes boards:read,write + pins:read,write + user_accounts:read
+- API read funzionante (user info, board listing, board IDs salvati in pin_tracker.json)
+- API write **BLOCCATO**: Trial access = read-only in produzione, write solo in sandbox
+- **NEXT:** upgrade a Standard access richiede video demo (~30-60s screencast) → developers.pinterest.com/apps/1609452/upgrade/
+
+### PINTEREST PINS (7 ott) — 5 nuovi pin manuali
+1. Birds Word Search pin3 → Printable Puzzle Gifts
+2. Camping Word Search pin3 → Seasonal & Holiday Printables
+3. Yoga & Mindfulness Word Search pin3 → Self Care & Relaxing Printables
+4. Flowers Word Search pin3 → Word Search Puzzles for Adults
+5. Space Word Search pin3 → Printable Word Search Puzzles
+- **Totale pin:** 100/925 (10.8% coverage). Milestone: 100 pin raggiunti! 🎯
+
+### AZIONI PENDENTI (aggiornato 7 ott)
+- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~25 giorni da 26 set.**
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
+- [ ] **USER:** registrare video demo (~30-60s) per upgrade Pinterest API da Trial a Standard → sblocca pin creation via API
 - [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) — Pinterest non ha tasto elimina, non bloccante
-- [ ] **Attesa:** Pinterest Trial approval (app 1609452) — tutti i campi OK, attesa nella norma
+- [x] Pinterest API: OAuth token ottenuto, read funzionante, write bloccato da Trial (7 ott)
+- [x] Pinterest 5 pin manuali pubblicati (7 ott) — **100 pin totali!**
 - [x] Pinterest 5 pin manuali pubblicati (6 ott)
 - [x] Pinterest 5 pin manuali pubblicati (5 ott)
 - [x] Pinterest 5 pin manuali pubblicati (4 ott)
