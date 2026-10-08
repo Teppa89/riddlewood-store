@@ -505,11 +505,30 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 5. Book Lovers Word Search pin3 → Printable Word Search Puzzles
 - **Totale pin:** 105/925 (11.4% coverage)
 
+### STATS OTTOBRE 1-8 — CHECK BISETTIMANALE
+
+**Etsy (ott 1-8):** 3 visite (tutte da "Marketing e SEO Etsy"), 0 ordini, 0€, 0 preferiti, 0 follower, 0 recensioni. Traffico da ricerca Etsy: 0. Traffico da social: 0. Traffico diretto: 0.
+
+**Pinterest (ultimi 30gg):** 18 impression, 0 interazioni, 0 clic in uscita, 0 salvataggi, 5 pubblico totale, 0 pubblico coinvolto. Top pin: Coffee Lovers (2 imp), Farm (2), Dog Lover's (2).
+
+**Gumroad:** ~14 prodotti pubblicati su 37, 0 vendite, $0 revenue totale. No bundle.
+
+**All-time totale:** 31 visite Etsy, 1 ordine (Farm 21 lug), €4.49 revenue, ~€8 costi.
+
+**Diagnosi:** prodotto validato (20% conversione) ma 0 canali di acquisizione funzionanti. Pinterest → Etsy funnel rotto (105 pin → 18 impression → 0 clic). Etsy search a zero. Ads mai attivati. Necessaria ottimizzazione SEO + engagement social Pinterest + completamento Gumroad.
+
 ### AZIONI PENDENTI (aggiornato 8 ott)
-- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~13 giorni rimasti!**
-- [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
-- [ ] **USER:** registrare video demo (~30-60s) per upgrade Pinterest API da Trial a Standard → sblocca pin creation via API
-- [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) — Pinterest non ha tasto elimina, non bloccante
+- [x] **USER:** verifica conto bancario Etsy — FATTO (verificato 8 ott, no alert)
+- [x] **USER:** video demo Pinterest API Standard — FATTO (caricato 8 ott, in attesa approvazione)
+- [ ] **USER P1:** chiedere recensione al compratore Farm — sblocca algoritmo Etsy
+- [ ] **USER P2:** attività social Pinterest 15 min/gg per 2 settimane (follow, repin, commenti)
+- [ ] **USER P3:** compilare About shop Etsy + caricare icona e banner
+- [ ] **USER P4:** claim sito Etsy su Pinterest (rich pins)
+- [ ] **USER (quando pronto):** attivare Etsy Ads 1€/gg (Farm + Beach Summer)
+- [ ] **CLAUDE:** SEO audit completo listing Etsy + descrizioni Pinterest
+- [ ] **CLAUDE:** completare Gumroad (23 prodotti + bundle + Discover)
+- [ ] **CLAUDE:** creare temi Q4 stagionali (Halloween, Christmas Gift)
+- [ ] **ATTESA:** Pinterest Standard upgrade (in review)
 - [x] Pinterest 5 pin manuali pubblicati (8 ott) — 105 pin totali
 - [x] Pinterest API: OAuth token ottenuto, read funzionante, write bloccato da Trial (7 ott)
 - [x] Pinterest 5 pin manuali pubblicati (7 ott) — **100 pin totali!**
