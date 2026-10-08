@@ -497,11 +497,20 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 5. Space Word Search pin3 → Printable Word Search Puzzles
 - **Totale pin:** 100/925 (10.8% coverage). Milestone: 100 pin raggiunti! 🎯
 
-### AZIONI PENDENTI (aggiornato 7 ott)
-- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~25 giorni da 26 set.**
+### PINTEREST PINS (8 ott) — 5 nuovi pin manuali
+1. Fishing Word Search pin3 → Printable Puzzle Gifts
+2. Wildlife Word Search pin3 → Seasonal & Holiday Printables
+3. Baby Shower Word Search pin3 → Self Care & Relaxing Printables
+4. Baking Word Search pin3 → Word Search Puzzles for Adults
+5. Book Lovers Word Search pin3 → Printable Word Search Puzzles
+- **Totale pin:** 105/925 (11.4% coverage)
+
+### AZIONI PENDENTI (aggiornato 8 ott)
+- [ ] **USER URGENTE:** verificare micro-versamento bancario Etsy (controlla estratto conto per importo Etsy/Adyen/Envoy/Worldpay tra 7-14 set → inserisci nel form verifica). **Deadline: ~13 giorni rimasti!**
 - [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
 - [ ] **USER:** registrare video demo (~30-60s) per upgrade Pinterest API da Trial a Standard → sblocca pin creation via API
 - [ ] **USER/CLAUDE:** eliminare app Pinterest rifiutata (1599204) — Pinterest non ha tasto elimina, non bloccante
+- [x] Pinterest 5 pin manuali pubblicati (8 ott) — 105 pin totali
 - [x] Pinterest API: OAuth token ottenuto, read funzionante, write bloccato da Trial (7 ott)
 - [x] Pinterest 5 pin manuali pubblicati (7 ott) — **100 pin totali!**
 - [x] Pinterest 5 pin manuali pubblicati (6 ott)
