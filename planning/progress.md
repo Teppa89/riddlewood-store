@@ -529,6 +529,7 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 - [ ] **CLAUDE:** completare Gumroad (23 prodotti + bundle + Discover)
 - [ ] **CLAUDE:** creare temi Q4 stagionali (Halloween, Christmas Gift)
 - [ ] **ATTESA:** Pinterest Standard upgrade (in review)
+- [x] Pinterest 5 pin manuali pubblicati (9 ott) — 110 pin totali
 - [x] Pinterest 5 pin manuali pubblicati (8 ott) — 105 pin totali
 - [x] Pinterest API: OAuth token ottenuto, read funzionante, write bloccato da Trial (7 ott)
 - [x] Pinterest 5 pin manuali pubblicati (7 ott) — **100 pin totali!**
