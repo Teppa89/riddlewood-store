@@ -519,7 +519,7 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 
 ### AZIONI PENDENTI (aggiornato 8 ott)
 - [x] **USER:** verifica conto bancario Etsy — FATTO (verificato 8 ott, no alert)
-- [x] **USER:** video demo Pinterest API Standard — FATTO (caricato 8 ott, in attesa approvazione)
+- [x] **USER:** video demo Pinterest API Standard — v1 rifiutata (8 ott), v2 risottomessa (9 ott, in review)
 - [ ] **USER P1:** chiedere recensione al compratore Farm — sblocca algoritmo Etsy
 - [ ] **USER P2:** attività social Pinterest 15 min/gg per 2 settimane (follow, repin, commenti)
 - [ ] **USER P3:** compilare About shop Etsy + caricare icona e banner
@@ -548,3 +548,17 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 - [x] Pinterest profilo SEO: bio + URL + 5 board descriptions (27 set)
 - [x] Scheduled tasks: Pin Engine daily + Bi-weekly Stats (26-27 set)
 - [x] Pinterest 5 pin manuali pubblicati (28 set)
+
+### PINTEREST STANDARD ACCESS — VIDEO DEMO v2 (9 ott)
+- **Problema:** primo video demo (slideshow) rifiutato da Pinterest. Motivi: (1) non mostrava integrazione API live, (2) non mostrava flusso OAuth completo.
+- **Soluzione:** creato video v2 terminal-style con dati REALI dall'API:
+  - Slide 1: titolo + panoramica app
+  - Slide 2-4: OAuth completo (auth URL → consent browser → callback → token exchange)
+  - Slide 5: GET /user_account con risposta reale (riddlewoodshop, BUSINESS, 109 pin, 5 board)
+  - Slide 6: GET /boards con dati reali + Pin Engine dry run
+  - Slide 7: POST /pins → errore 403 (prova necessità Standard)
+  - Slide 8: summary
+- **File:** `marketing/pinterest_api_demo.mp4` (620KB, 57s, 1920x1080, 30fps, h264)
+- **Caricato:** su developers.pinterest.com/apps/1609452/upgrade/ e richiesta inviata
+- **Stato:** "Esegui l'upgrade all'accesso in attesa per Standard" — in review
+- **ATTESA:** risposta Pinterest (2-6 settimane tipico)
