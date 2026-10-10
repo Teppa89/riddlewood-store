@@ -525,10 +525,13 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 - [ ] **USER P3:** compilare About shop Etsy + caricare icona e banner
 - [ ] **USER P4:** claim sito Etsy su Pinterest (rich pins)
 - [ ] **USER (quando pronto):** attivare Etsy Ads 1€/gg (Farm + Beach Summer)
-- [ ] **CLAUDE:** SEO audit completo listing Etsy + descrizioni Pinterest
+- [x] **CLAUDE:** SEO audit completo listing Etsy — FATTO (10 ott, 37+bundle aggiornati via API)
 - [ ] **CLAUDE:** completare Gumroad (23 prodotti + bundle + Discover)
-- [ ] **CLAUDE:** creare temi Q4 stagionali (Halloween, Christmas Gift)
+- [x] **CLAUDE:** creare temi Q4 stagionali — FATTO (10 ott, 5 temi: Winter Cozy, New Year, Hanukkah, Gratitude, Board Games)
 - [ ] **ATTESA:** Pinterest Standard upgrade (in review)
+- [x] **SEO audit COMPLETO** (10 ott) — 37 listing live aggiornati via API
+- [x] **5 temi Q4 creati** (10 ott) — Winter Cozy, New Year, Hanukkah, Gratitude, Board Games
+- [x] **Bundle aggiornato** (10 ott) — 42 temi / 420 puzzles
 - [x] Pinterest 5 pin manuali pubblicati (10 ott) — 115 pin totali (12.4% coverage)
 - [x] Pinterest 5 pin manuali pubblicati (9 ott) — 110 pin totali
 - [x] Pinterest 5 pin manuali pubblicati (8 ott) — 105 pin totali
@@ -564,3 +567,48 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
 - **Caricato:** su developers.pinterest.com/apps/1609452/upgrade/ e richiesta inviata
 - **Stato:** "Esegui l'upgrade all'accesso in attesa per Standard" — in review
 - **ATTESA:** risposta Pinterest (2-6 settimane tipico)
+
+### SEO AUDIT COMPLETO (10 ott) — 37 listing + bundle aggiornati via API
+
+**Cosa fatto:**
+- Analisi keyword: "large print word search" = 5.400 ricerche mensili, difficulty 19/100 (facile)
+- Riscritto TUTTI i titoli: formato `[Niche] Word Search Printable | Large Print [Detail] Puzzles PDF | [Gift/Audience] | Instant Download`
+- Rimossi 7 tag generici sprecati per listing (parole già nel titolo, frasi >20 char)
+- Sostituiti con tag niche/audience/gift: "print at home", "word find puzzle", "brain teaser game", "easy for seniors", "screen free game"
+- Riscritte descrizioni: prime 160 char ottimizzate per snippet SEO
+- `seo_update.py` script creato per push via API
+- **37 listing live + bundle aggiornati** via PATCH API in un batch
+
+**File modificati:**
+- `automation/etsy_api/listings_data.py` — riscrittura completa (42 pack + bundle)
+- `automation/etsy_api/seo_update.py` — nuovo script per push SEO
+
+### 5 TEMI Q4 CREATI (10 ott) — da 37 a 42 temi
+
+**Nuovi temi:**
+1. **Winter Cozy** — 10 puzzle: Cozy Drinks, Winter Clothing, Fireplace Night, Snow Activities, Cozy Home, Winter Animals, Winter Treats, Hygge Living, Winter Weather, Warm Comfort Food
+2. **New Year** — 10 puzzle: Countdown, Resolutions, Celebrations, Cities At Midnight, New Beginnings, Times Square, Lucky Symbols, Party Food, Time And Clocks, New Traditions
+3. **Hanukkah** — 10 puzzle: Menorah, Dreidel, Festival Foods, Eight Nights, Hebrew Words, Hanukkah Gifts, Story Of Light, Winter Symbols, Celebration, Blue And White
+4. **Gratitude** — 10 puzzle: Thankfulness, People We Love, Simple Joys, Home Comforts, Daily Blessings, Kind Words, Natures Gifts, Health And Wellness, Milestones, Giving Back
+5. **Board Games** — 10 puzzle: Classic Games, Card Games, Game Night, Dice And Chance, Puzzle Games, Game Pieces, Word Games, Strategy Moves, Party Fun, Game Strategy
+
+**Per ogni tema:** PDFs (A4+US Letter), ZIP, 5 immagini gallery Etsy, 5 pin Pinterest.
+**Draft listing creati su Etsy** con immagini e file caricati. IDs: winter-cozy=4592521546, new-year=4592521602, hanukkah=4592521734, gratitude=4592506479, board-games=4592506543.
+
+### BUNDLE AGGIORNATO (10 ott) — 42 temi / 420 puzzles
+
+- Bundle espanso da 37→42 temi (370→420 puzzle)
+- Immagini bundle rigenerate (main + whats_inside)
+- ZIP ricostruito con 84 PDF
+- Draft listing aggiornato su Etsy (ID: 4592507695)
+
+### AZIONI PENDENTI (aggiornato 10 ott)
+- [ ] **USER:** review + publish 5 draft Q4 temi su Etsy
+- [ ] **USER:** review + publish bundle aggiornato (42 temi) su Etsy
+- [ ] **USER P1:** chiedere recensione al compratore Farm
+- [ ] **USER P2:** attività social Pinterest 15 min/gg
+- [ ] **USER P3:** compilare About shop Etsy + caricare icona e banner
+- [ ] **USER P4:** claim sito Etsy su Pinterest (rich pins)
+- [ ] **USER:** attivare Etsy Ads 1€/gg (Farm + Beach Summer + Hiking)
+- [ ] **CLAUDE:** completare Gumroad (23+ prodotti + bundle)
+- [ ] **ATTESA:** Pinterest Standard upgrade (video v2 in review)
