@@ -35,411 +35,591 @@ def _pack(slug, title, tags, description, price=PRICE):
 PACKS = [
     _pack(
         "coffee-lovers-word-search",
-        "Coffee Word Search Printable | 10 Coffee Lover Puzzles PDF | Adult Word Search Book | Instant Download Gift for Coffee Lovers",
-        ["coffee word search", "printable puzzles", "coffee lover gift", "word search pdf",
-         "coffee gift idea", "puzzle book pdf", "adult word search", "cafe printable",
-         "coffee puzzles", "instant download", "word puzzle game", "barista gift", "activity printable"],
-        "Calling all coffee lovers! 10 cozy coffee-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). "
-        "Print at home or solve on a tablet (GoodNotes / Notability).\n\n"
-        "GREAT FOR: gifts for coffee lovers, baristas, cozy nights, travel, classroom downtime.\n\n"
-        "Instant digital download (2 PDF files). No physical item shipped. Personal use only; not for resale.\n(c) Riddlewood",
+        "Coffee Word Search Printable | Large Print Puzzles PDF | Gift for Coffee Lovers | Instant Download",
+        ["print at home", "word find puzzle", "easy for seniors", "caffeine fan",
+         "barista present", "brain teaser game", "cozy night in", "screen free game",
+         "care package idea", "birthday present", "relaxing pastime", "espresso fan", "latte art fan"],
+        "Large print coffee word search puzzles — cozy, easy-to-read puzzles for coffee lovers! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet (GoodNotes / Notability).\n\n"
+        "GREAT FOR: coffee lover gifts, birthday presents, care packages, cozy nights, senior activities.\n\n"
+        "Screen-free brain game for adults, seniors, and coffee fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "cat-lovers-word-search",
-        "Cat Word Search Printable | 10 Cat Lover Puzzles PDF | Adult Word Search Book | Instant Download Gift for Cat Lovers",
-        ["cat word search", "printable puzzles", "cat lover gift", "word search pdf",
-         "cat gift idea", "puzzle book pdf", "adult word search", "cat mom gift",
-         "cat puzzles", "instant download", "word puzzle game", "crazy cat lady", "activity printable"],
-        "For everyone owned by a cat! 10 purr-fect cat-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: cat lover gifts, cat moms and dads, relaxing breaks, kids and adults.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Cat Word Search Printable | Large Print Puzzles PDF | Gift for Cat Lovers | Instant Download",
+        ["print at home", "word find puzzle", "cat mom present", "cat dad present",
+         "kitten fan", "brain teaser game", "easy for seniors", "screen free game",
+         "birthday present", "relaxing pastime", "rainy day fun", "feline fan", "gift for her"],
+        "Large print cat word search puzzles — purr-fect for everyone owned by a cat! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: cat lover gifts, cat moms and dads, birthday presents, relaxing breaks.\n\n"
+        "Screen-free brain game for adults, seniors, and cat fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "garden-word-search",
-        "Garden Word Search Printable | 10 Gardening Puzzles PDF | Relaxing Adult Word Search | Instant Download Gift for Plant Lovers",
-        ["garden word search", "printable puzzles", "gardener gift", "word search pdf",
-         "plant lover gift", "puzzle book pdf", "adult word search", "gardening gift",
-         "garden puzzles", "instant download", "word puzzle game", "nature printable", "activity printable"],
-        "A relaxing pick for green thumbs! 10 garden-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve digitally.\n\n"
-        "GREAT FOR: gardener gifts, plant lovers, calm afternoons, seniors, classrooms.\n\n"
-        "Instant digital download (2 PDF files). No physical product. Personal use only; no resale.\n(c) Riddlewood",
+        "Garden Word Search Printable | Large Print Puzzles PDF | Gift for Plant Lovers | Instant Download",
+        ["print at home", "word find puzzle", "green thumb gift", "plant mom present",
+         "botanical fan", "brain teaser game", "easy for seniors", "screen free game",
+         "birthday present", "relaxing pastime", "spring activity", "gift for grandma", "nature lover"],
+        "Large print garden word search puzzles — a relaxing pick for green thumbs! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: gardener gifts, plant lovers, birthday presents, calm afternoons, seniors.\n\n"
+        "Screen-free brain game for adults, seniors, and nature fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "self-care-word-search",
-        "Self Care Word Search Printable | 10 Mindfulness Puzzles PDF | Relaxing Adult Word Search | Calm Self Care Gift Download",
-        ["selfcare word search", "printable puzzles", "mindfulness gift", "word search pdf",
-         "self care gift", "puzzle book pdf", "adult word search", "relaxing puzzle",
-         "calm puzzles", "instant download", "word puzzle game", "wellness printable", "anxiety relief"],
-        "Slow down and unwind. 10 gentle self-care and mindfulness word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "Self Care Word Search Printable | Large Print Mindfulness Puzzles PDF | Wellness Gift | Instant Download",
+        ["print at home", "word find puzzle", "anxiety relief", "mental health gift",
+         "spa day activity", "brain teaser game", "easy for seniors", "screen free game",
+         "cozy night in", "calming pastime", "gift for her", "quiet time fun", "zen activity"],
+        "Large print self-care word search puzzles — slow down and unwind with gentle, easy-to-read puzzles. "
+        "10 mindfulness-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
         "GREAT FOR: self-care gifts, mindfulness routines, anxiety-relief breaks, cozy evenings.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Screen-free brain game for adults and seniors seeking calm.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "beach-summer-word-search",
-        "Beach Word Search Printable | 10 Summer Puzzles PDF | Adult Word Search Book | Beach Vacation Activity | Instant Download",
-        ["beach word search", "summer printable", "vacation activity", "word search pdf",
-         "summer gift idea", "puzzle book pdf", "adult word search", "travel printable",
-         "beach puzzles", "instant download", "word puzzle game", "kids activity", "activity printable"],
-        "Bring on the sunshine! 10 beach and summer word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: summer road trips, beach bags, vacation downtime, kids and adults.\n\n"
-        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+        "Beach Word Search Printable | Large Print Summer Puzzles PDF | Vacation Activity | Instant Download",
+        ["print at home", "word find puzzle", "pool party game", "tropical theme",
+         "sand and surf", "brain teaser game", "road trip game", "travel fun game",
+         "gift for kids", "family fun game", "rainy day fun", "easy for seniors", "screen free game"],
+        "Large print beach and summer word search puzzles — bring on the sunshine! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: summer road trips, beach bags, vacation downtime, pool parties, kids and adults.\n\n"
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "christmas-word-search",
-        "Christmas Word Search Printable | 10 Holiday Puzzles PDF | Adult Word Search Book | Stocking Stuffer | Instant Download Xmas",
-        ["christmas wordsearch", "holiday printable", "stocking stuffer", "word search pdf",
-         "christmas activity", "puzzle book pdf", "adult word search", "xmas gift idea",
-         "holiday puzzles", "instant download", "word puzzle game", "family activity", "classroom printable"],
-        "Festive fun for the whole family! 10 Christmas word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: stocking stuffers, classroom parties, Christmas Eve, family game night.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Christmas Word Search Printable | Large Print Holiday Puzzles PDF | Stocking Stuffer | Instant Download",
+        ["print at home", "word find puzzle", "holiday game night", "xmas party game",
+         "classroom party", "brain teaser game", "family fun game", "gift for grandma",
+         "advent activity", "winter break fun", "secret santa gift", "easy for seniors", "festive fun game"],
+        "Large print Christmas word search puzzles — festive fun for the whole family! "
+        "10 holiday-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: stocking stuffers, classroom parties, Christmas Eve, family game night, Secret Santa.\n\n"
+        "Screen-free brain game for kids, adults, and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "dog-lovers-word-search",
-        "Dog Word Search Printable | 10 Dog Lover Puzzles PDF | Adult Word Search Book | Instant Download Gift for Dog Lovers",
-        ["dog word search", "printable puzzles", "dog lover gift", "word search pdf",
-         "dog mom gift", "puzzle book pdf", "adult word search", "dog dad gift",
-         "dog puzzles", "instant download", "word puzzle game", "puppy gift", "activity printable"],
-        "For everyone who loves dogs! 10 dog-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: dog lover gifts, dog moms and dads, relaxing breaks, kids and adults.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Dog Word Search Printable | Large Print Puzzles PDF | Gift for Dog Lovers | Instant Download",
+        ["print at home", "word find puzzle", "dog mom present", "dog dad present",
+         "puppy fan", "brain teaser game", "easy for seniors", "screen free game",
+         "birthday present", "relaxing pastime", "rainy day fun", "canine lover", "gift for her"],
+        "Large print dog word search puzzles — for everyone who loves dogs! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: dog lover gifts, dog moms and dads, birthday presents, relaxing breaks.\n\n"
+        "Screen-free brain game for adults, seniors, and dog fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "halloween-word-search",
-        "Halloween Word Search Printable | 10 Spooky Puzzles PDF | Kids & Adults Word Search | Classroom Activity | Instant Download",
-        ["halloween wordsearch", "printable puzzles", "halloween activity", "word search pdf",
-         "spooky printable", "puzzle book pdf", "kids word search", "classroom activity",
-         "halloween puzzles", "instant download", "word puzzle game", "trick or treat", "party printable"],
-        "Spooky fun for kids and adults! 10 Halloween word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "Halloween Word Search Printable | Large Print Spooky Puzzles PDF | Classroom Activity | Instant Download",
+        ["print at home", "word find puzzle", "october activity", "spooky party game",
+         "trick or treat", "brain teaser game", "family fun game", "fall festival",
+         "costume party fun", "haunted theme", "easy for seniors", "gift for kids", "ghost theme fun"],
+        "Large print Halloween word search puzzles — spooky fun for kids and adults! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
         "GREAT FOR: classroom parties, trick-or-treat downtime, Halloween gatherings, family game night.\n\n"
-        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "fall-thanksgiving-word-search",
-        "Fall Word Search Printable | 10 Autumn & Thanksgiving Puzzles PDF | Adult Word Search | Classroom Activity | Instant Download",
-        ["fall word search", "printable puzzles", "thanksgiving game", "word search pdf",
-         "autumn printable", "puzzle book pdf", "adult word search", "classroom activity",
-         "fall puzzles", "instant download", "word puzzle game", "thanksgiving gift", "family activity"],
-        "Cozy up with autumn! 10 fall and Thanksgiving word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "Fall Word Search Printable | Large Print Thanksgiving Puzzles PDF | Harvest Activity | Instant Download",
+        ["print at home", "word find puzzle", "autumn theme", "pumpkin season",
+         "gratitude game", "brain teaser game", "family game night", "easy for seniors",
+         "classroom party", "cozy night in", "turkey day fun", "holiday table fun", "screen free game"],
+        "Large print fall and Thanksgiving word search puzzles — cozy up with autumn! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
         "GREAT FOR: Thanksgiving table activities, classroom fun, cozy fall afternoons, family game night.\n\n"
-        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+        "Screen-free brain game for kids, adults, and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "wine-lovers-word-search",
-        "Wine Word Search Printable | 10 Wine Lover Puzzles PDF | Adult Word Search Book | Girls Night Gift | Instant Download",
-        ["wine word search", "printable puzzles", "wine lover gift", "word search pdf",
-         "wine gift idea", "puzzle book pdf", "adult word search", "girls night game",
-         "wine puzzles", "instant download", "word puzzle game", "wine tasting", "party printable"],
-        "For wine lovers! 10 wine-themed word search puzzles with full solutions - sip and solve.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: girls night, wine tasting parties, gifts for wine lovers, relaxing evenings.\n\n"
-        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+        "Wine Word Search Printable | Large Print Puzzles PDF | Girls Night Gift | Instant Download",
+        ["print at home", "word find puzzle", "vino lover", "sommelier present",
+         "vineyard theme", "brain teaser game", "bachelorette game", "book club game",
+         "date night fun", "gift for her", "relaxing pastime", "easy for seniors", "cozy night in"],
+        "Large print wine word search puzzles — sip and solve! "
+        "10 wine-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: girls night, wine tasting parties, bachelorette games, date night, book clubs.\n\n"
+        "Screen-free brain game for adults and wine lovers.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "tea-lovers-word-search",
-        "Tea Word Search Printable | 10 Tea Lover Puzzles PDF | Relaxing Adult Word Search | Instant Download Gift for Tea Lovers",
-        ["tea word search", "printable puzzles", "tea lover gift", "word search pdf",
-         "tea gift idea", "puzzle book pdf", "adult word search", "relaxing puzzle",
-         "tea puzzles", "instant download", "word puzzle game", "afternoon tea", "activity printable"],
-        "For tea lovers! 10 tea-themed word search puzzles with full solutions - steep, sip, and solve.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: gifts for tea lovers, cozy afternoons, relaxing breaks, quiet moments.\n\n"
-        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+        "Tea Word Search Printable | Large Print Puzzles PDF | Gift for Tea Lovers | Instant Download",
+        ["print at home", "word find puzzle", "herbal tea fan", "afternoon tea",
+         "tea party game", "brain teaser game", "easy for seniors", "screen free game",
+         "cozy night in", "relaxing pastime", "gift for grandma", "birthday present", "british tea time"],
+        "Large print tea word search puzzles — steep, sip, and solve! "
+        "10 tea-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: gifts for tea lovers, cozy afternoons, tea parties, quiet moments.\n\n"
+        "Screen-free brain game for adults, seniors, and tea fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "travel-word-search",
-        "Travel Word Search Printable | 10 Wanderlust Puzzles PDF | Adult Word Search Book | Vacation Activity | Instant Download",
-        ["travel word search", "printable puzzles", "travel gift idea", "word search pdf",
-         "wanderlust gift", "puzzle book pdf", "adult word search", "vacation activity",
-         "travel puzzles", "instant download", "word puzzle game", "road trip game", "activity printable"],
-        "For travel lovers and dreamers! 10 travel-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: road trips, flights, vacation downtime, gifts for travelers and adventurers.\n\n"
-        "Instant digital download (2 PDF files). No physical item. Personal use only; no resale.\n(c) Riddlewood",
+        "Travel Word Search Printable | Large Print Puzzles PDF | Wanderlust Gift | Instant Download",
+        ["print at home", "word find puzzle", "adventure seeker", "globe trotter",
+         "road trip game", "brain teaser game", "easy for seniors", "screen free game",
+         "vacation fun", "airport activity", "flight activity", "care package idea", "retirement gift"],
+        "Large print travel word search puzzles — for dreamers and adventurers! "
+        "10 travel-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: road trips, flights, vacation downtime, gifts for travelers and retirees.\n\n"
+        "Screen-free brain game for adults, seniors, and adventure lovers.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "music-lovers-word-search",
-        "Music Word Search Printable | 10 Music Lover Puzzles PDF | Adult Word Search Book | Instant Download Gift for Musicians",
-        ["music word search", "printable puzzles", "music lover gift", "word search pdf",
-         "gift for musician", "puzzle book pdf", "adult word search", "band gift",
-         "music puzzles", "instant download", "word puzzle game", "music teacher gift", "activity printable"],
-        "For everyone who loves music! 10 music-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: musicians, music teachers, band members, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Music Word Search Printable | Large Print Puzzles PDF | Gift for Musicians | Instant Download",
+        ["print at home", "word find puzzle", "band member gift", "melody lover",
+         "guitar fan", "brain teaser game", "easy for seniors", "screen free game",
+         "choir present", "vinyl collector", "gift for teacher", "birthday present", "relaxing pastime"],
+        "Large print music word search puzzles — for everyone who loves music! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: musicians, music teachers, band members, birthday presents.\n\n"
+        "Screen-free brain game for adults, seniors, and music fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "cooking-baking-word-search",
-        "Kitchen Word Search Printable | 10 Cooking & Baking Puzzles PDF | Adult Word Search Book | Instant Download Gift for Foodies",
-        ["kitchen word search", "printable puzzles", "foodie gift", "word search pdf",
-         "gift for cook", "puzzle book pdf", "adult word search", "baking gift",
-         "cooking puzzles", "instant download", "word puzzle game", "chef gift", "activity printable"],
-        "For everyone who loves to cook and bake! 10 kitchen-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: home cooks, bakers, foodies, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Kitchen Word Search Printable | Large Print Cooking Puzzles PDF | Foodie Gift | Instant Download",
+        ["print at home", "word find puzzle", "chef present", "home cook gift",
+         "recipe lover", "brain teaser game", "easy for seniors", "screen free game",
+         "culinary fan", "baking lover", "gift for mom", "birthday present", "housewarming gift"],
+        "Large print kitchen and cooking word search puzzles — for everyone who loves to cook! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: home cooks, bakers, foodies, birthday and housewarming gifts.\n\n"
+        "Screen-free brain game for adults, seniors, and food fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "ocean-sea-word-search",
-        "Ocean Word Search Printable | 10 Sea Life Puzzles PDF | Adult Word Search Book | Instant Download Gift for Beach Lovers",
-        ["ocean word search", "printable puzzles", "beach lover gift", "word search pdf",
-         "sea life puzzles", "puzzle book pdf", "adult word search", "nautical gift",
-         "ocean puzzles", "instant download", "word puzzle game", "summer activity", "activity printable"],
-        "For everyone who loves the sea! 10 ocean and sea life word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: beach lovers, ocean fans, summer trips, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Ocean Word Search Printable | Large Print Sea Life Puzzles PDF | Beach Lover Gift | Instant Download",
+        ["print at home", "word find puzzle", "marine biology", "nautical theme",
+         "shell collector", "brain teaser game", "easy for seniors", "screen free game",
+         "coastal fan", "tide pool lover", "gift for kids", "summer fun game", "relaxing pastime"],
+        "Large print ocean and sea life word search puzzles — dive into puzzle time! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: beach lovers, ocean fans, summer activities, kids and adults.\n\n"
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "birds-word-search",
-        "Bird Word Search Printable | 10 Birdwatching Puzzles PDF | Adult Word Search Book | Instant Download Gift for Bird Lovers",
-        ["bird word search", "printable puzzles", "bird lover gift", "word search pdf",
-         "birdwatching gift", "puzzle book pdf", "adult word search", "birder gift",
-         "bird puzzles", "instant download", "word puzzle game", "nature activity", "activity printable"],
-        "For everyone who loves birds! 10 bird and birdwatching word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: birdwatchers, nature lovers, grandparents, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Bird Word Search Printable | Large Print Birdwatching Puzzles PDF | Nature Lover Gift | Instant Download",
+        ["print at home", "word find puzzle", "birder present", "ornithology fan",
+         "feathered friend", "brain teaser game", "easy for seniors", "screen free game",
+         "backyard birding", "gift for grandpa", "retirement gift", "relaxing pastime", "avian lover"],
+        "Large print bird and birdwatching word search puzzles — for everyone who loves birds! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: birdwatchers, nature lovers, grandparents, retirees, relaxing breaks.\n\n"
+        "Screen-free brain game for adults, seniors, and nature fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "camping-word-search",
-        "Camping Word Search Printable | 10 Outdoor Puzzles PDF | Adult Word Search Book | Instant Download Gift for Campers",
-        ["camping word search", "printable puzzles", "camping gift", "word search pdf",
-         "outdoor puzzles", "puzzle book pdf", "adult word search", "camper gift",
-         "nature puzzles", "instant download", "word puzzle game", "road trip game", "activity printable"],
-        "For everyone who loves the outdoors! 10 camping and outdoor word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: campers, hikers, road trips, family camping nights.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Camping Word Search Printable | Large Print Outdoor Puzzles PDF | Camper Gift | Instant Download",
+        ["print at home", "word find puzzle", "campfire fun", "tent life lover",
+         "hiking trail fan", "brain teaser game", "easy for seniors", "screen free game",
+         "road trip game", "scout leader gift", "bonfire night fun", "cabin trip game", "nature lover"],
+        "Large print camping and outdoor word search puzzles — for everyone who loves the outdoors! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: campers, hikers, road trips, scout leaders, cabin weekends.\n\n"
+        "Screen-free brain game for adults, seniors, and nature fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "yoga-mindfulness-word-search",
-        "Yoga Word Search Printable | 10 Mindfulness Puzzles PDF | Adult Word Search Book | Instant Download Self Care Gift",
-        ["yoga word search", "printable puzzles", "mindfulness gift", "word search pdf",
-         "self care puzzles", "puzzle book pdf", "adult word search", "yoga gift",
-         "wellness puzzles", "instant download", "word puzzle game", "relaxing activity", "activity printable"],
-        "For everyone who loves yoga and calm! 10 yoga and mindfulness word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: yogis, wellness lovers, self-care, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Yoga Word Search Printable | Large Print Mindfulness Puzzles PDF | Self Care Gift | Instant Download",
+        ["print at home", "word find puzzle", "yogi present", "meditation fan",
+         "zen lifestyle", "brain teaser game", "easy for seniors", "screen free game",
+         "wellness retreat", "calming pastime", "gift for her", "quiet time fun", "spa day activity"],
+        "Large print yoga and mindfulness word search puzzles — find your calm! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: yogis, wellness lovers, self-care gifts, spa days, quiet breaks.\n\n"
+        "Screen-free brain game for adults and seniors seeking calm.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "sports-word-search",
-        "Sports Word Search Printable | 10 Sports Fan Puzzles PDF | Adult Word Search Book | Instant Download Gift for Sports Lovers",
-        ["sports word search", "printable puzzles", "sports fan gift", "word search pdf",
-         "gift for him", "puzzle book pdf", "adult word search", "coach gift",
-         "sports puzzles", "instant download", "word puzzle game", "teen activity", "activity printable"],
-        "For every sports fan! 10 sports-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: sports fans, players, coaches, teens, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Sports Word Search Printable | Large Print Puzzles PDF | Gift for Sports Fans | Instant Download",
+        ["print at home", "word find puzzle", "coach present", "athlete gift",
+         "team spirit fan", "brain teaser game", "easy for seniors", "screen free game",
+         "gift for him", "birthday present", "game day fun", "tailgate party", "gift for dad"],
+        "Large print sports word search puzzles — for every sports fan! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: sports fans, coaches, athletes, birthday presents, game day.\n\n"
+        "Screen-free brain game for teens, adults, and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "flowers-word-search",
-        "Flower Word Search Printable | 10 Floral & Botanical Puzzles PDF | Adult Word Search Book | Instant Download Gift for Her",
-        ["flower word search", "printable puzzles", "floral gift", "word search pdf",
-         "gift for her", "puzzle book pdf", "adult word search", "botanical gift",
-         "flower puzzles", "instant download", "word puzzle game", "garden lover gift", "activity printable"],
-        "For flower and garden lovers! 10 floral and botanical word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: flower lovers, gardeners, mothers, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Flower Word Search Printable | Large Print Botanical Puzzles PDF | Gift for Her | Instant Download",
+        ["print at home", "word find puzzle", "floral design fan", "garden club gift",
+         "plant mom present", "brain teaser game", "easy for seniors", "screen free game",
+         "mothers day gift", "spring activity", "gift for grandma", "relaxing pastime", "nature lover"],
+        "Large print flower and botanical word search puzzles — for flower and garden lovers! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: flower lovers, gardeners, mothers, birthday and Mother's Day gifts.\n\n"
+        "Screen-free brain game for adults, seniors, and nature fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "farm-word-search",
-        "Farm Word Search Printable | 10 Country & Farm Animal Puzzles PDF | Adult Word Search Book | Instant Download Gift",
-        ["farm word search", "printable puzzles", "farm animal gift", "word search pdf",
-         "country gift", "puzzle book pdf", "adult word search", "farmhouse gift",
-         "farm puzzles", "instant download", "word puzzle game", "kids activity", "activity printable"],
-        "For country and farm lovers! 10 farm and country word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: farm lovers, country living, kids and adults, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Farm Word Search Printable | Large Print Country Puzzles PDF | Farm Animal Gift | Instant Download",
+        ["print at home", "word find puzzle", "country living", "farmhouse decor",
+         "barnyard fan", "brain teaser game", "easy for seniors", "screen free game",
+         "gift for kids", "ranch life lover", "rural theme fun", "tractor fan", "homestead lover"],
+        "Large print farm and country word search puzzles — for farm lovers and country fans! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: farm lovers, country living fans, kids and adults, relaxing breaks.\n\n"
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "space-word-search",
-        "Space Word Search Printable | 10 Astronomy Puzzles PDF | Adult & Kids Word Search | Instant Download Gift for Space Fans",
-        ["space word search", "printable puzzles", "astronomy gift", "word search pdf",
-         "space lover gift", "puzzle book pdf", "adult word search", "science gift",
-         "space puzzles", "instant download", "word puzzle game", "kids activity", "activity printable"],
-        "For space and astronomy fans! 10 space-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: space lovers, stargazers, students, kids and adults.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Space Word Search Printable | Large Print Astronomy Puzzles PDF | Gift for Space Fans | Instant Download",
+        ["print at home", "word find puzzle", "nasa fan", "stargazer gift",
+         "science lover", "brain teaser game", "easy for seniors", "screen free game",
+         "rocket theme", "galaxy fan", "cosmos lover", "planet explorer", "stem activity"],
+        "Large print space and astronomy word search puzzles — for space fans and stargazers! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: space lovers, stargazers, students, STEM fans, kids and adults.\n\n"
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "fishing-word-search",
-        "Fishing Word Search Printable | 10 Angler Puzzles PDF | Adult Word Search Book | Instant Download Gift for Fishermen",
-        ["fishing word search", "printable puzzles", "fishing gift", "word search pdf",
-         "gift for dad", "puzzle book pdf", "adult word search", "angler gift",
-         "fishing puzzles", "instant download", "word puzzle game", "gift for grandpa", "activity printable"],
-        "For everyone who loves fishing! 10 fishing and angling word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: anglers, dads, grandpas, cabin trips, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Fishing Word Search Printable | Large Print Angler Puzzles PDF | Gift for Fishermen | Instant Download",
+        ["print at home", "word find puzzle", "tackle box gift", "fly fishing fan",
+         "bass angler", "brain teaser game", "easy for seniors", "screen free game",
+         "gift for dad", "gift for grandpa", "lake life lover", "cabin trip game", "retirement gift"],
+        "Large print fishing word search puzzles — for everyone who loves fishing! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: anglers, dads, grandpas, cabin trips, retirement gifts.\n\n"
+        "Screen-free brain game for adults and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "horses-word-search",
-        "Horse Word Search Printable | 10 Equestrian Puzzles PDF | Adult Word Search Book | Instant Download Gift for Horse Lovers",
-        ["horse word search", "printable puzzles", "horse lover gift", "word search pdf",
-         "equestrian gift", "puzzle book pdf", "adult word search", "pony gift",
-         "horse puzzles", "instant download", "word puzzle game", "girls activity", "activity printable"],
-        "For horse lovers and riders! 10 horse and equestrian word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: horse lovers, riders, girls, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Horse Word Search Printable | Large Print Equestrian Puzzles PDF | Gift for Horse Lovers | Instant Download",
+        ["print at home", "word find puzzle", "pony fan", "stable life",
+         "riding lover", "brain teaser game", "easy for seniors", "screen free game",
+         "cowgirl gift", "gift for girls", "barn life fun", "equine lover", "ranch theme fun"],
+        "Large print horse and equestrian word search puzzles — for horse lovers and riders! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: horse lovers, riders, cowgirls, birthday gifts, relaxing breaks.\n\n"
+        "Screen-free brain game for kids, teens, and adults.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "hiking-word-search",
-        "Hiking Word Search Printable | 10 Mountain Trail Puzzles PDF | Adult Word Search Book | Instant Download Gift for Hikers",
-        ["hiking word search", "printable puzzles", "hiker gift", "word search pdf",
-         "mountain puzzles", "puzzle book pdf", "adult word search", "trail gift",
-         "hiking puzzles", "instant download", "word puzzle game", "outdoor activity", "activity printable"],
-        "For everyone who loves the trails! 10 hiking and mountain word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: hikers, trail runners, mountain lovers, camping trips, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Hiking Word Search Printable | Large Print Trail Puzzles PDF | Gift for Hikers | Instant Download",
+        ["print at home", "word find puzzle", "mountain lover", "backpacker gift",
+         "trail runner fan", "brain teaser game", "easy for seniors", "screen free game",
+         "outdoor adventure", "national park fan", "nature lover", "camping trip fun", "summit seeker"],
+        "Large print hiking and trail word search puzzles — for everyone who loves the trails! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: hikers, trail runners, mountain lovers, camping trips, retirees.\n\n"
+        "Screen-free brain game for adults and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "butterflies-word-search",
-        "Butterfly Word Search Printable | 10 Insect & Garden Puzzles PDF | Adult Word Search Book | Instant Download Nature Gift",
-        ["butterfly puzzles", "printable puzzles", "nature lover gift", "word search pdf",
-         "insect puzzles", "puzzle book pdf", "adult word search", "garden gift",
-         "butterfly search", "instant download", "word puzzle game", "spring activity", "activity printable"],
-        "For nature and butterfly lovers! 10 butterfly and insect word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: nature lovers, gardeners, kids, spring activities, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Butterfly Word Search Printable | Large Print Nature Puzzles PDF | Gift for Nature Lovers | Instant Download",
+        ["print at home", "word find puzzle", "insect fan", "garden lover",
+         "monarch theme", "brain teaser game", "easy for seniors", "screen free game",
+         "spring fun game", "entomology fan", "caterpillar fan", "pollinator lover", "gift for kids"],
+        "Large print butterfly and nature word search puzzles — for nature and butterfly lovers! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: nature lovers, gardeners, kids, spring activities, birthday gifts.\n\n"
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "wildlife-word-search",
-        "Wildlife Word Search Printable | 10 Wild Animal Puzzles PDF | Adult Word Search Book | Instant Download Safari Gift",
-        ["wildlife word search", "printable puzzles", "animal lover gift", "word search pdf",
-         "safari puzzles", "puzzle book pdf", "adult word search", "zoo gift",
-         "wildlife puzzles", "instant download", "word puzzle game", "nature activity", "activity printable"],
-        "For wildlife and animal fans! 10 wild animal and safari word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: animal lovers, safari fans, zoo visits, kids and adults, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Wildlife Word Search Printable | Large Print Animal Puzzles PDF | Safari Gift | Instant Download",
+        ["print at home", "word find puzzle", "zoo lover gift", "jungle theme",
+         "animal kingdom", "brain teaser game", "easy for seniors", "screen free game",
+         "safari adventure", "gift for kids", "wild animal fan", "national park fun", "nature lover"],
+        "Large print wildlife and animal word search puzzles — for animal and safari fans! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: animal lovers, safari fans, zoo visits, kids and adults.\n\n"
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "fitness-word-search",
-        "Fitness Word Search Printable | 10 Workout Puzzles PDF | Adult Word Search Book | Instant Download Gift for Gym Lovers",
-        ["fitness word search", "printable puzzles", "gym lover gift", "word search pdf",
-         "workout puzzles", "puzzle book pdf", "adult word search", "fitness gift",
-         "exercise puzzles", "instant download", "word puzzle game", "gym gift", "activity printable"],
-        "For fitness fans! 10 workout and gym word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: gym lovers, personal trainers, fitness buffs, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Fitness Word Search Printable | Large Print Workout Puzzles PDF | Gym Lover Gift | Instant Download",
+        ["print at home", "word find puzzle", "gym rat present", "exercise fan",
+         "crossfit lover", "brain teaser game", "easy for seniors", "screen free game",
+         "trainer present", "weight lifting", "athlete gift", "birthday present", "health nut"],
+        "Large print fitness and workout word search puzzles — for fitness fans! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: gym lovers, personal trainers, fitness buffs, birthday presents.\n\n"
+        "Screen-free brain game for adults and fitness fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "movie-night-word-search",
-        "Movie Word Search Printable | 10 Cinema Puzzles PDF | Adult Word Search Book | Instant Download Movie Night Gift",
-        ["movie word search", "printable puzzles", "movie lover gift", "word search pdf",
-         "cinema puzzles", "puzzle book pdf", "adult word search", "film gift",
-         "movie night game", "instant download", "word puzzle game", "family game", "activity printable"],
-        "For movie lovers! 10 cinema and film word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: movie nights, film buffs, family game night, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Movie Word Search Printable | Large Print Cinema Puzzles PDF | Movie Night Gift | Instant Download",
+        ["print at home", "word find puzzle", "film buff present", "cinema fan",
+         "date night game", "brain teaser game", "easy for seniors", "screen free game",
+         "oscar party game", "family game night", "popcorn night fun", "gift for him", "hollywood fan"],
+        "Large print movie and cinema word search puzzles — for movie lovers! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: movie nights, film buffs, date night, family game night, Oscar parties.\n\n"
+        "Screen-free brain game for adults and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "baking-word-search",
-        "Baking Word Search Printable | 10 Pastry Puzzles PDF | Adult Word Search Book | Instant Download Gift for Bakers",
-        ["baking word search", "printable puzzles", "baker gift", "word search pdf",
-         "pastry puzzles", "puzzle book pdf", "adult word search", "kitchen gift",
-         "baking puzzles", "instant download", "word puzzle game", "bread lover", "activity printable"],
-        "For everyone who loves to bake! 10 baking and pastry word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: bakers, pastry chefs, bread lovers, relaxing breaks.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Baking Word Search Printable | Large Print Pastry Puzzles PDF | Gift for Bakers | Instant Download",
+        ["print at home", "word find puzzle", "sourdough lover", "pastry chef fan",
+         "bread maker", "brain teaser game", "easy for seniors", "screen free game",
+         "kitchen gift idea", "gift for mom", "cookie lover", "birthday present", "cake decorator"],
+        "Large print baking and pastry word search puzzles — for everyone who loves to bake! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: bakers, pastry chefs, bread lovers, birthday and kitchen gifts.\n\n"
+        "Screen-free brain game for adults and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "book-lovers-word-search",
-        "Book Word Search Printable | 10 Reading Puzzles PDF | Adult Word Search Book | Instant Download Gift for Readers",
-        ["book word search", "printable puzzles", "book lover gift", "word search pdf",
-         "reading puzzles", "puzzle book pdf", "adult word search", "reader gift",
-         "bookworm puzzles", "instant download", "word puzzle game", "library gift", "activity printable"],
-        "For bookworms and readers! 10 book and reading word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: book lovers, readers, librarians, book club gifts.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Book Word Search Printable | Large Print Reading Puzzles PDF | Gift for Book Lovers | Instant Download",
+        ["print at home", "word find puzzle", "bookworm present", "library fan",
+         "book club gift", "brain teaser game", "easy for seniors", "screen free game",
+         "literary gift", "avid reader", "bibliophile", "gift for her", "quiet time fun"],
+        "Large print book and reading word search puzzles — for bookworms and readers! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: book lovers, readers, librarians, book club gifts, birthday presents.\n\n"
+        "Screen-free brain game for adults and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "teachers-word-search",
-        "Teacher Word Search Printable | 10 School Puzzles PDF | Classroom Activity | Instant Download Teacher Gift",
-        ["teacher word search", "printable puzzles", "teacher gift", "word search pdf",
-         "classroom activity", "puzzle book pdf", "school printable", "educator gift",
-         "school puzzles", "instant download", "word puzzle game", "end of year gift", "activity printable"],
-        "For teachers and educators! 10 school-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: teacher appreciation, classroom activities, end-of-year gifts.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Teacher Word Search Printable | Large Print School Puzzles PDF | Teacher Gift | Instant Download",
+        ["print at home", "word find puzzle", "educator present", "classroom fun",
+         "end of year gift", "brain teaser game", "easy for seniors", "screen free game",
+         "appreciation week", "back to school", "substitute gift", "principal gift", "school supply fun"],
+        "Large print teacher and school word search puzzles — for teachers and educators! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: teacher appreciation, classroom activities, end-of-year gifts, back to school.\n\n"
+        "Screen-free brain game for educators and students.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "dinosaurs-word-search",
-        "Dinosaur Word Search Printable | 10 Prehistoric Puzzles PDF | Dino Lover Activity | Instant Download Fossil Gift",
-        ["dinosaur word search", "printable puzzles", "dino lover gift", "word search pdf",
-         "prehistoric puzzle", "puzzle book pdf", "fossil printable", "jurassic puzzles",
-         "dinosaur activity", "instant download", "word puzzle game", "dino gift idea", "activity printable"],
-        "Roar into puzzle time! 10 dinosaur-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: dino fans, kids and adults, paleontology lovers, birthday party activities.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Dinosaur Word Search Printable | Large Print Prehistoric Puzzles PDF | Dino Gift | Instant Download",
+        ["print at home", "word find puzzle", "fossil hunter fan", "jurassic lover",
+         "dino party game", "brain teaser game", "easy for seniors", "screen free game",
+         "paleontology fan", "gift for boys", "birthday party fun", "extinct animal", "museum gift idea"],
+        "Large print dinosaur word search puzzles — roar into puzzle time! "
+        "10 prehistoric-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: dino fans, kids and adults, birthday parties, paleontology lovers.\n\n"
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "baby-shower-word-search",
-        "Baby Shower Word Search Printable | 10 Baby Puzzles PDF | Shower Game Activity | Instant Download Party Gift",
-        ["baby shower game", "printable puzzles", "shower word search", "word search pdf",
-         "baby shower activity", "puzzle book pdf", "party game", "new baby gift",
-         "baby puzzles", "instant download", "word puzzle game", "shower printable", "baby party game"],
-        "Sweet puzzles for baby showers! 10 baby-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: baby shower games, gender reveal parties, new parent gifts.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Baby Shower Word Search Printable | Large Print Party Puzzles PDF | Shower Game | Instant Download",
+        ["print at home", "word find puzzle", "gender reveal", "mom to be gift",
+         "new parent gift", "brain teaser game", "diaper party", "sprinkle party",
+         "nursery theme", "expecting mom", "gift for mom", "party favor idea", "baby sprinkle"],
+        "Large print baby shower word search puzzles — sweet puzzles for baby showers! "
+        "10 baby-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: baby shower games, gender reveal parties, sprinkles, new parent gifts.\n\n"
+        "Screen-free party game for guests of all ages.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "nursing-word-search",
-        "Nurse Word Search Printable | 10 Healthcare Puzzles PDF | Nursing Gift | Instant Download Nurse Appreciation",
-        ["nurse word search", "printable puzzles", "nurse gift idea", "word search pdf",
-         "healthcare puzzle", "puzzle book pdf", "nursing printable", "nurse week gift",
-         "medical puzzles", "instant download", "word puzzle game", "rn gift idea", "activity printable"],
-        "For healthcare heroes! 10 nursing-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
-        "GREAT FOR: Nurse Appreciation Week, nursing students, hospital staff gifts.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Nurse Word Search Printable | Large Print Healthcare Puzzles PDF | Nurse Appreciation Gift | Instant Download",
+        ["print at home", "word find puzzle", "rn gift idea", "cna gift idea",
+         "medical student", "brain teaser game", "easy for seniors", "screen free game",
+         "hospital staff", "nursing school", "frontline worker", "caregiver present", "thank you gift"],
+        "Large print nursing and healthcare word search puzzles — for healthcare heroes! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: Nurse Appreciation Week, nursing students, hospital staff, caregiver gifts.\n\n"
+        "Screen-free brain game for healthcare professionals.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "video-games-word-search",
-        "Video Games Word Search Printable | 10 Gaming Puzzles PDF | Gamer Gift Activity | Instant Download",
-        ["gaming word search", "printable puzzles", "gamer gift idea", "word search pdf",
-         "video game puzzle", "puzzle book pdf", "retro gaming", "gaming printable",
-         "gamer puzzles", "instant download", "word puzzle game", "nerd gift idea", "activity printable"],
-        "Level up with puzzles! 10 video game-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "Video Game Word Search Printable | Large Print Gaming Puzzles PDF | Gamer Gift | Instant Download",
+        ["print at home", "word find puzzle", "retro gaming fan", "console lover",
+         "arcade theme", "brain teaser game", "easy for seniors", "screen free game",
+         "nerd gift idea", "gift for him", "birthday present", "esports fan", "pixel art fan"],
+        "Large print video game word search puzzles — level up with puzzles! "
+        "10 gaming-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
         "GREAT FOR: gamers, retro gaming fans, birthday gifts, game night activities.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Screen-free brain game (the irony!) for gamers of all ages.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
     _pack(
         "mythology-word-search",
-        "Greek Mythology Word Search Printable | 10 Ancient Legend Puzzles PDF | Mythology Lover Gift | Instant Download",
-        ["myth word search", "printable puzzles", "greek mythology", "word search pdf",
-         "ancient greece", "puzzle book pdf", "mythology gift", "olympian puzzles",
-         "legend puzzles", "instant download", "word puzzle game", "mythology lover", "activity printable"],
-        "Epic puzzles from ancient legends! 10 Greek mythology-themed word search puzzles with full solutions.\n\n"
-        "WHAT YOU GET: 10 unique puzzles + answer key, in 2 print sizes (A4 and US Letter). Print or solve on a tablet.\n\n"
+        "Greek Mythology Word Search Printable | Large Print Legend Puzzles PDF | History Buff Gift | Instant Download",
+        ["print at home", "word find puzzle", "ancient greece", "olympian theme",
+         "zeus fan", "brain teaser game", "easy for seniors", "screen free game",
+         "myth lover", "classical studies", "gift for student", "history nerd", "trojan war fan"],
+        "Large print Greek mythology word search puzzles — epic puzzles from ancient legends! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
         "GREAT FOR: mythology fans, history buffs, students, classical literature lovers.\n\n"
-        "Instant digital download (2 PDF files). Nothing shipped. Personal use only; no resale.\n(c) Riddlewood",
+        "Screen-free brain game for adults and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
+    ),
+    _pack(
+        "winter-cozy-word-search",
+        "Winter Cozy Word Search Printable | Large Print Hygge Puzzles PDF | Cozy Gift | Instant Download",
+        ["print at home", "word find puzzle", "hygge lifestyle", "fireplace night",
+         "snow day fun", "brain teaser game", "easy for seniors", "screen free game",
+         "stocking stuffer", "cozy night in", "gift for grandma", "holiday gift idea", "warm and fuzzy"],
+        "Large print winter cozy word search puzzles — warm and snuggly puzzles for cold days! "
+        "10 hygge-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: cozy nights, stocking stuffers, holiday gifts, snow day activities, seniors.\n\n"
+        "Screen-free brain game for adults and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
+    ),
+    _pack(
+        "new-year-word-search",
+        "New Year Word Search Printable | Large Print NYE Puzzles PDF | New Year Party Game | Instant Download",
+        ["print at home", "word find puzzle", "nye party game", "countdown fun",
+         "resolution planner", "brain teaser game", "easy for seniors", "screen free game",
+         "celebration game", "midnight party", "champagne toast", "family fun game", "holiday activity"],
+        "Large print New Year word search puzzles — ring in the new year with puzzles! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: New Year's Eve parties, countdown activities, family game night, resolutions.\n\n"
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
+    ),
+    _pack(
+        "hanukkah-word-search",
+        "Hanukkah Word Search Printable | Large Print Festival Puzzles PDF | Hanukkah Gift | Instant Download",
+        ["print at home", "word find puzzle", "menorah candles", "dreidel game",
+         "festival of light", "brain teaser game", "easy for seniors", "screen free game",
+         "jewish holiday", "eight nights", "latkes fan", "family tradition", "holiday activity"],
+        "Large print Hanukkah word search puzzles — Festival of Lights puzzle fun! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: Hanukkah celebrations, family nights, holiday gifts, eight nights of fun.\n\n"
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
+    ),
+    _pack(
+        "gratitude-word-search",
+        "Gratitude Word Search Printable | Large Print Thankful Puzzles PDF | Mindfulness Gift | Instant Download",
+        ["print at home", "word find puzzle", "thankful heart", "blessing counter",
+         "kindness theme", "brain teaser game", "easy for seniors", "screen free game",
+         "wellness present", "journaling gift", "gift for her", "quiet time fun", "calming pastime"],
+        "Large print gratitude word search puzzles — count your blessings one word at a time! "
+        "10 thankfulness-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: mindfulness gifts, gratitude journals, self-care, wellness lovers.\n\n"
+        "Screen-free brain game for adults and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
+    ),
+    _pack(
+        "board-games-word-search",
+        "Board Game Word Search Printable | Large Print Game Night Puzzles PDF | Gamer Gift | Instant Download",
+        ["print at home", "word find puzzle", "game night fun", "tabletop fan",
+         "dice roller", "brain teaser game", "easy for seniors", "screen free game",
+         "family fun game", "stocking stuffer", "card game lover", "birthday present", "party game idea"],
+        "Large print board game word search puzzles — roll the dice and find every word! "
+        "10 game night-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: game night, board game fans, family fun, stocking stuffers, birthday gifts.\n\n"
+        "Screen-free brain game for the whole family.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
 ]
 
@@ -449,14 +629,18 @@ def bundle():
     base = ROOT / "products" / slug
     images = [str(base / "img" / "bundle_main.png"), str(base / "img" / "bundle_whats_inside.png")]
     return {"slug": slug, "price": BUNDLE_PRICE, "file": str(base / f"{slug}.zip"), "images": images,
-            "title": "Word Search Bundle Printable | 370 Adult Word Search Puzzles PDF | 37 Themes | Instant Download Gift",
-            "tags": ["word search bundle", "printable puzzles", "puzzle bundle pdf", "word search pdf",
-                     "adult word search", "puzzle book pdf", "gift for grandma", "instant download",
-                     "word puzzle game", "puzzles for adults", "activity printable", "senior activity", "large print puzzle"],
-            "description": "The whole collection! 37 themed packs - 370 word search puzzles with full solutions. Best value!\n\n"
+            "title": "Large Print Word Search Bundle | 420 Puzzles Printable PDF | 42 Themes | Best Value Gift Download",
+            "tags": ["print at home", "word find bundle", "gift for seniors", "gift for grandma",
+                     "brain game adults", "screen free fun", "retirement gift", "care package idea",
+                     "classroom set", "birthday present", "stocking stuffer", "rainy day activity", "relaxing gift set"],
+            "description": "Large print word search mega bundle — 420 puzzles across 42 themes! Best value in the shop.\n\n"
                            "THEMES: Coffee, Cat, Garden, Self-Care, Beach, Christmas, Dog, Halloween, Fall, Wine, Tea, Travel, "
-                           "Music, Kitchen & Baking, Ocean, Birds, Camping, Yoga, Sports, Flowers, Farm, Space, Fishing, Horses, "
+                           "Music, Kitchen & Cooking, Ocean, Birds, Camping, Yoga, Sports, Flowers, Farm, Space, Fishing, Horses, "
                            "Hiking, Butterflies, Wildlife, Fitness, Movie Night, Baking, Book Lovers, Teachers, Dinosaurs, "
-                           "Baby Shower, Nursing, Video Games and Greek Mythology.\n\n"
-                           "WHAT YOU GET: 370 unique puzzles across 37 themes + answer keys, in A4 and US Letter.\n\n"
-                           "Instant digital download. No physical item. Personal use only; no resale.\n(c) Riddlewood"}
+                           "Baby Shower, Nursing, Video Games, Greek Mythology, Winter Cozy, New Year, Hanukkah, Gratitude, "
+                           "and Board Games.\n\n"
+                           "WHAT YOU GET: 420 unique puzzles (15×15 grid, 12 words each) + answer keys. "
+                           "All 42 themed packs in A4 and US Letter. Print at home or solve on tablet.\n\n"
+                           "GREAT FOR: seniors, grandparents, retirees, care packages, classrooms, birthday gifts, stocking stuffers.\n\n"
+                           "Screen-free brain game for adults and seniors — months of puzzle fun!\n\n"
+                           "Digital download. No physical item. Personal use only; not for resale.\n© Riddlewood"}
