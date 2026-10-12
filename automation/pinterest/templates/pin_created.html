@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Pin Created — Riddlewood Pin Scheduler{% endblock %}
+
+{% block nav %}
+<nav>
+  <div class="inner">
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 64 64" fill="none"><rect width="64" height="64" rx="16" fill="#c8553d"/><path d="M20 44V20h6l6 14 6-14h6v24h-5V29l-5.5 13h-3L25 29v15z" fill="#fff"/></svg>
+      Riddlewood
+    </div>
+    <div class="nav-links">
+      <a href="/dashboard">Dashboard</a>
+      <a href="/boards">Boards</a>
+      <a href="/create-pin">Create Pin</a>
+      <a href="/disconnect" class="btn btn-outline btn-sm" style="margin-left:8px">Disconnect</a>
+    </div>
+  </div>
+</nav>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div style="max-width:520px;margin:60px auto;text-align:center">
+    <div style="width:64px;height:64px;border-radius:50%;background:var(--green-bg);display:flex;align-items:center;justify-content:center;margin:0 auto 20px">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="var(--green)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <h1 style="font-family:'DM Serif Display',serif;font-size:1.75rem;margin-bottom:8px">Pin Created!</h1>
+    <p style="color:var(--fg-muted);margin-bottom:24px">
+      Your pin "{{ pin.get('title', 'Untitled') }}" has been posted successfully.
+    </p>
+
+    {% if pin.get('media', {}).get('images', {}).get('600x', {}).get('url') %}
+    <div style="margin-bottom:24px">
+      <img src="{{ pin.media.images['600x'].url }}" alt="" style="max-width:280px;border-radius:12px;box-shadow:var(--shadow-md)">
+    </div>
+    {% endif %}
+
+    <div style="display:flex;gap:12px;justify-content:center">
+      <a href="/create-pin" class="btn btn-primary">Create Another</a>
+      <a href="/dashboard" class="btn btn-outline">Back to Dashboard</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

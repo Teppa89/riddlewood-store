@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — Riddlewood Pin Scheduler{% endblock %}
+
+{% block nav %}
+<nav>
+  <div class="inner">
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 64 64" fill="none"><rect width="64" height="64" rx="16" fill="#c8553d"/><path d="M20 44V20h6l6 14 6-14h6v24h-5V29l-5.5 13h-3L25 29v15z" fill="#fff"/></svg>
+      Riddlewood
+    </div>
+    <div class="nav-links">
+      <a href="/dashboard" class="active">Dashboard</a>
+      <a href="/boards">Boards</a>
+      <a href="/create-pin">Create Pin</a>
+      <a href="/disconnect" class="btn btn-outline btn-sm" style="margin-left:8px">Disconnect</a>
+    </div>
+  </div>
+</nav>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="page-header">
+    <h1>Dashboard</h1>
+    <p>Your Pinterest account overview</p>
+  </div>
+
+  <!-- User info -->
+  <div class="user-badge">
+    <div class="user-avatar">
+      {% if user.profile_image %}
+        <img src="{{ user.profile_image }}" alt="" style="width:40px;height:40px;border-radius:50%">
+      {% else %}
+        {{ (user.get('username', 'R'))[0]|upper }}
+      {% endif %}
+    </div>
+    <div class="user-info">
+      <div class="name">{{ user.get('username', 'Pinterest User') }}</div>
+      <div class="handle">Connected via Pinterest API v5</div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stat-row">
+    <div class="stat-card">
+      <div class="number">{{ boards|length }}</div>
+      <div class="label">Boards</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">{{ pins|length }}</div>
+      <div class="label">Recent Pins</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">{{ user.get('follower_count', 0) }}</div>
+      <div class="label">Followers</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">{{ user.get('pin_count', 0) }}</div>
+      <div class="label">Total Pins</div>
+    </div>
+  </div>
+
+  <!-- Boards -->
+  <div class="section-header">
+    <h2>Your Boards</h2>
+    <a href="/boards" class="btn btn-outline btn-sm">View All</a>
+  </div>
+  <div class="card-grid" style="margin-bottom:40px">
+    {% for board in boards[:6] %}
+    <div class="card" style="padding:16px">
+      <div style="display:flex;align-items:center;gap:12px">
+        {% if board.get('media', {}).get('image_cover_url') %}
+          <img src="{{ board.media.image_cover_url }}" class="board-thumb" alt="">
+        {% else %}
+          <div class="board-thumb" style="display:flex;align-items:center;justify-content:center;color:var(--fg-light);font-size:.75rem">No image</div>
+        {% endif %}
+        <div>
+          <h3 style="font-size:.9375rem;font-weight:600;margin-bottom:2px">{{ board.name }}</h3>
+          <p style="font-size:.8125rem;color:var(--fg-muted)">{{ board.get('pin_count', 0) }} pins</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Recent Pins -->
+  {% if pins %}
+  <div class="section-header">
+    <h2>Recent Pins</h2>
+    <a href="/create-pin" class="btn btn-primary btn-sm">Create Pin</a>
+  </div>
+  <div class="pin-grid" style="margin-bottom:40px">
+    {% for pin in pins[:8] %}
+    <div class="pin-card">
+      {% if pin.get('media', {}).get('images', {}).get('600x', {}).get('url') %}
+        <img src="{{ pin.media.images['600x'].url }}" alt="">
+      {% elif pin.get('media', {}).get('images', {}).get('400x300', {}).get('url') %}
+        <img src="{{ pin.media.images['400x300'].url }}" alt="">
+      {% else %}
+        <div style="height:180px;background:var(--surface-alt);display:flex;align-items:center;justify-content:center;color:var(--fg-light)">No preview</div>
+      {% endif %}
+      <div class="pin-info">
+        <div class="pin-title">{{ pin.get('title', 'Untitled') }}</div>
+        <div class="pin-board">{{ pin.get('board_id', '') }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Quick Actions -->
+  <div class="section-header">
+    <h2>Quick Actions</h2>
+  </div>
+  <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px">
+    <a href="/create-pin" class="btn btn-primary">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      Create New Pin
+    </a>
+    <a href="/boards" class="btn btn-outline">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1.5" y="1.5" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="9.5" y="1.5" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="1.5" y="9.5" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.5"/></svg>
+      Manage Boards
+    </a>
+  </div>
+</div>
+{% endblock %}

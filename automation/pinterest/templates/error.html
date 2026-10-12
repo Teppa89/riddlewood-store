@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Error — Riddlewood Pin Scheduler{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div style="max-width:480px;margin:80px auto;text-align:center">
+    <div style="width:64px;height:64px;border-radius:50%;background:var(--red-bg);display:flex;align-items:center;justify-content:center;margin:0 auto 20px">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 9v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="var(--red)" stroke-width="2" stroke-linecap="round"/></svg>
+    </div>
+    <h1 style="font-family:'DM Serif Display',serif;font-size:1.5rem;margin-bottom:8px">Something went wrong</h1>
+    <p style="color:var(--fg-muted);margin-bottom:24px">{{ message }}</p>
+    <a href="/" class="btn btn-primary">Go Home</a>
+  </div>
+</div>
+{% endblock %}

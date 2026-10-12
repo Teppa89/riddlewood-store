@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block title %}Create Pin — Riddlewood Pin Scheduler{% endblock %}
+
+{% block nav %}
+<nav>
+  <div class="inner">
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 64 64" fill="none"><rect width="64" height="64" rx="16" fill="#c8553d"/><path d="M20 44V20h6l6 14 6-14h6v24h-5V29l-5.5 13h-3L25 29v15z" fill="#fff"/></svg>
+      Riddlewood
+    </div>
+    <div class="nav-links">
+      <a href="/dashboard">Dashboard</a>
+      <a href="/boards">Boards</a>
+      <a href="/create-pin" class="active">Create Pin</a>
+      <a href="/disconnect" class="btn btn-outline btn-sm" style="margin-left:8px">Disconnect</a>
+    </div>
+  </div>
+</nav>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="page-header">
+    <h1>Create Pin</h1>
+    <p>Post a new pin to one of your boards</p>
+  </div>
+
+  {% if error %}
+  <div class="alert alert-error">{{ error }}</div>
+  {% endif %}
+
+  <div style="max-width:560px">
+    <form method="POST" enctype="multipart/form-data" class="card">
+      <div class="form-group">
+        <label for="board_id">Board</label>
+        <select name="board_id" id="board_id" required>
+          <option value="">Select a board...</option>
+          {% for board in boards %}
+          <option value="{{ board.id }}">{{ board.name }} ({{ board.get('pin_count', 0) }} pins)</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="title">Pin Title</label>
+        <input type="text" name="title" id="title" placeholder="Printable Word Search Puzzles — Farm Theme" maxlength="100" required>
+        <div class="help">Up to 100 characters</div>
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea name="description" id="description" rows="4" placeholder="Describe your pin with relevant keywords..." maxlength="500"></textarea>
+        <div class="help">Up to 500 characters. Use keywords for discoverability.</div>
+      </div>
+
+      <div class="form-group">
+        <label for="link">Destination URL</label>
+        <input type="url" name="link" id="link" placeholder="https://www.etsy.com/listing/...">
+        <div class="help">Where the pin links to (your Etsy listing)</div>
+      </div>
+
+      <div class="form-group">
+        <label for="image">Pin Image</label>
+        <input type="file" name="image" id="image" accept="image/png,image/jpeg" required
+               style="padding:10px;border:2px dashed var(--border-strong);border-radius:8px;background:var(--surface-alt)">
+        <div class="help">PNG or JPEG, recommended 1000x1500px (2:3 ratio)</div>
+      </div>
+
+      <div style="display:flex;gap:12px;margin-top:8px">
+        <button type="submit" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          Create Pin
+        </button>
+        <a href="/dashboard" class="btn btn-outline">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

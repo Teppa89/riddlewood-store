@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Boards — Riddlewood Pin Scheduler{% endblock %}
+
+{% block nav %}
+<nav>
+  <div class="inner">
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 64 64" fill="none"><rect width="64" height="64" rx="16" fill="#c8553d"/><path d="M20 44V20h6l6 14 6-14h6v24h-5V29l-5.5 13h-3L25 29v15z" fill="#fff"/></svg>
+      Riddlewood
+    </div>
+    <div class="nav-links">
+      <a href="/dashboard">Dashboard</a>
+      <a href="/boards" class="active">Boards</a>
+      <a href="/create-pin">Create Pin</a>
+      <a href="/disconnect" class="btn btn-outline btn-sm" style="margin-left:8px">Disconnect</a>
+    </div>
+  </div>
+</nav>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="page-header">
+    <h1>Your Boards</h1>
+    <p>{{ boards|length }} boards on your Pinterest account</p>
+  </div>
+
+  {% for board in boards %}
+  <div class="board-item">
+    {% if board.get('media', {}).get('image_cover_url') %}
+      <img src="{{ board.media.image_cover_url }}" class="board-thumb" alt="">
+    {% else %}
+      <div class="board-thumb" style="display:flex;align-items:center;justify-content:center;color:var(--fg-light);font-size:.75rem">No cover</div>
+    {% endif %}
+    <div class="board-info">
+      <h3>{{ board.name }}</h3>
+      <p>{{ board.get('description', 'No description')[:80] }}</p>
+      <p style="margin-top:4px;font-size:.75rem;color:var(--fg-light)">
+        Privacy: {{ board.get('privacy', 'PUBLIC') }}
+      </p>
+    </div>
+    <div class="board-pins-count">{{ board.get('pin_count', 0) }}</div>
+  </div>
+  {% endfor %}
+
+  {% if not boards %}
+  <div class="card" style="text-align:center;padding:48px">
+    <p style="color:var(--fg-muted)">No boards found. Create boards on Pinterest first.</p>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}
