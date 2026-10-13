@@ -254,6 +254,34 @@ def disconnect():
     return redirect(url_for("index"))
 
 
+# --- Demo routes (render real templates with mock data for review video) ---
+
+DEMO_USER = {"username": "riddlewoodshop", "profile_image": "", "account_type": "BUSINESS"}
+DEMO_BOARDS = [
+    {"id": "b1", "name": "Printable Word Search Puzzles", "description": "Fun printable word search puzzle books", "pin_count": 25, "privacy": "PUBLIC"},
+    {"id": "b2", "name": "Word Search Puzzles for Adults", "description": "Challenging word search puzzles for grown-ups", "pin_count": 18, "privacy": "PUBLIC"},
+    {"id": "b3", "name": "Printable Puzzle Gifts", "description": "Gift-worthy printable puzzle collections", "pin_count": 22, "privacy": "PUBLIC"},
+    {"id": "b4", "name": "Self Care & Relaxing Printables", "description": "Relaxation through puzzles", "pin_count": 15, "privacy": "PUBLIC"},
+    {"id": "b5", "name": "Seasonal & Holiday Printables", "description": "Holiday-themed word search puzzles", "pin_count": 20, "privacy": "PUBLIC"},
+]
+DEMO_PINS = [{"id": "p1", "title": "Farm Animals Word Search", "description": "10 puzzles", "board_id": "b1"}]
+
+
+@app.route("/demo/dashboard")
+def demo_dashboard():
+    return render_template("dashboard.html", user=DEMO_USER, boards=DEMO_BOARDS, pins=DEMO_PINS)
+
+
+@app.route("/demo/boards")
+def demo_boards():
+    return render_template("boards.html", boards=DEMO_BOARDS)
+
+
+@app.route("/demo/create-pin")
+def demo_create_pin():
+    return render_template("create_pin.html", boards=DEMO_BOARDS)
+
+
 if __name__ == "__main__":
     print("\n  Riddlewood Pin Scheduler")
     print(f"  Open http://localhost:3004\n")
