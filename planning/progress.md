@@ -642,3 +642,88 @@ Upload completo (cover landscape + thumbnail square + zip content) e pubblicazio
   3. Iniziare registrazione schermo
   4. Click "Connect with Pinterest" → autorizzare → esplorare Dashboard → Boards → Create Pin
   5. Fermare registrazione e caricare sul developer portal
+
+## 2026-10-31 — Stats check + maintenance
+
+### ETSY STATS OTTOBRE (2-31 ott 2026) — CHECK BISETTIMANALE
+
+**Negozio:**
+- **Listing attivi:** 31 | **Scaduti:** 13 | **Bozze:** 0
+- **Shop setup:** 4/5 (manca seller photo)
+
+**Traffico (30gg):**
+- **Visite:** 14 (vs 3 in ott 1-8 parziale)
+- **Ordini:** 0
+- **Entrate:** 0,00€
+- **Tasso conversione:** 0%
+- **Preferenze:** 0 | **Follower:** 0 | **Recensioni:** 0
+
+### SORGENTI TRAFFICO OTTOBRE
+- **Marketing e SEO Etsy:** 10 (71%)
+- **Traffico diretto/referral:** 2 (14%)
+- **Ricerche Etsy:** 1 (7%)
+- **App e pagine Etsy:** 0
+- **Etsy Ads:** 0 (non attivati)
+- **Social media:** 0 (Pinterest non converte ancora)
+
+### 13 LISTING SCADUTI (29 ott)
+Tutti scaduti 29 ott 2026 (dopo ~4 mesi):
+1. 370 Word Search Puzzles Bundle (19,99€)
+2. Travel Word Search
+3. Wine Lover's Word Search
+4. Tea Lover's Word Search
+5. Fall & Thanksgiving Word Search
+6. Halloween Word Search
+7. Dog Lover's Word Search
+8. Christmas Word Search
+9. Self Care & Calm Word Search
+10. Beach & Summer Word Search
+11. In The Garden Word Search
+12. Cat Lover's Word Search
+13. Coffee Lover's Word Search
+- **AZIONE USER:** rinnovare tutti (13 × €0.18 = €2.34)
+
+### PINTEREST (120 pin totali, 13% coverage)
+- Ultimo pin: 10 ott (21 giorni fa)
+- Pin Engine API: bloccato (Trial access, Standard in review)
+- Video demo v5 (screen recording reale) creato e pushato (22d2ef5)
+- **AZIONE USER:** caricare video su developers.pinterest.com/apps/1609452/upgrade/
+
+### THEME FACTORY
+- Ultimo run: doveva girare 15 ott, non ha prodotto (da investigare)
+- Routine ID: trig_01Sedw7pQKUCZXi1GLGHBwJu
+
+### CONFRONTO TREND (set vs ott)
+| Metrica | Settembre | Ottobre | Delta |
+|---------|-----------|---------|-------|
+| Visite | 4 | 14 | +250% |
+| Ordini | 0 | 0 | = |
+| Entrate | 0€ | 0€ | = |
+| Social traffic | 0 | 0 | = |
+| SEO traffic | 4 | 10 | +150% |
+
+### DIAGNOSI
+1. **SEO recovery in corso.** 14 visite vs 4 settembre = +250%. Audit SEO di ott 10 sta funzionando lentamente.
+2. **13 listing scaduti = urgente.** 30% del catalogo offline. Bundle incluso. Rinnovare subito.
+3. **Pinterest → Etsy funnel ancora rotto.** 120 pin → 0 social traffic. Serve engagement social attivo + Standard API.
+4. **Ads mai attivati.** Con traffico organico basso, Ads 1€/gg necessari.
+5. **Theme Factory non ha girato.** 42 temi fermi da ott 10.
+
+### AZIONI PENDENTI (aggiornato 31 ott)
+- [ ] **USER URGENTE:** rinnovare 13 listing scaduti su Etsy (€2.34)
+- [ ] **USER:** caricare video demo v5 su Pinterest developer portal
+- [ ] **USER:** attivare Etsy Ads 1€/gg
+- [ ] **USER:** chiedere recensione compratore Farm
+- [ ] **CLAUDE:** 5 pin Pinterest oggi
+- [ ] **CLAUDE:** attività social Pinterest (follow, repin, commenti)
+- [ ] **CLAUDE:** About shop Etsy + seller photo/icon
+- [ ] **CLAUDE:** completare Gumroad (28 prodotti + bundle rimanenti)
+- [ ] **CLAUDE:** investigare Theme Factory (routine trig_01Sedw7pQKUCZXi1GLGHBwJu)
+
+### PINTEREST PINS (31 ott) — 5 nuovi pin manuali
+1. Baby Shower Word Search pin5 → Seasonal & Holiday Printables
+2. Baking Word Search pin5 → Word Search Puzzles for Adults
+3. Birds Word Search pin5 → Self Care & Relaxing Printables
+4. Board Games Word Search pin2 → Printable Puzzle Gifts
+5. Book Lovers Word Search pin5 → Printable Word Search Puzzles
+- **Totale pin:** 125/925 (13.5% coverage). Tutte 5 board coperte, una per pin. Gap di 21 giorni dall'ultimo pin (10 ott).
