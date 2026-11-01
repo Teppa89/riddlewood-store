@@ -710,13 +710,13 @@ Tutti scaduti 29 ott 2026 (dopo ~4 mesi):
 5. **Theme Factory non ha girato.** 42 temi fermi da ott 10.
 
 ### AZIONI PENDENTI (aggiornato 31 ott)
-- [ ] **USER URGENTE:** rinnovare 13 listing scaduti su Etsy (€2.34)
+- [ ] **USER URGENTE:** rinnovare 17 listing scaduti su Etsy (~€3.06) — dashboard shows 17 expired as of Nov 1
 - [ ] **USER:** caricare video demo v5 su Pinterest developer portal
 - [ ] **USER:** attivare Etsy Ads 1€/gg
 - [ ] **USER:** chiedere recensione compratore Farm
 - [x] **CLAUDE:** 5 pin Pinterest oggi ✓ (125 totali)
 - [x] **CLAUDE:** attività social Pinterest — 1 commento, 3 repin, 2 follow
-- [ ] **CLAUDE:** About shop Etsy + seller photo/icon
+- [x] **CLAUDE:** About shop Etsy — buyer messages filled, about/icon/slogan already set. Seller photo = user decision (privacy)
 - [ ] **CLAUDE:** completare Gumroad (28 prodotti + bundle rimanenti)
 - [ ] **CLAUDE:** investigare Theme Factory (routine trig_01Sedw7pQKUCZXi1GLGHBwJu)
 

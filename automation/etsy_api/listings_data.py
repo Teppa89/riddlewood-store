@@ -621,6 +621,76 @@ PACKS = [
         "Screen-free brain game for the whole family.\n\n"
         "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
     ),
+    _pack(
+        "chocolate-word-search",
+        "Chocolate Word Search Printable | Large Print Puzzles PDF | Gift for Chocolate Lovers | Instant Download",
+        ["print at home", "word find puzzle", "chocoholic gift", "cocoa lover",
+         "sweet tooth fun", "brain teaser game", "easy for seniors", "screen free game",
+         "care package idea", "stocking stuffer", "holiday gift idea", "dessert fan", "candy lover"],
+        "Large print chocolate word search puzzles — sweet brain teasers for chocoholics! "
+        "10 themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: chocolate lover gifts, stocking stuffers, care packages, holiday presents.\n\n"
+        "Screen-free brain game for adults, seniors, and chocolate fans.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
+    ),
+    _pack(
+        "birthday-word-search",
+        "Birthday Word Search Printable | Large Print Party Puzzles PDF | Birthday Gift | Instant Download",
+        ["print at home", "word find puzzle", "party activity", "birthday fun",
+         "celebration game", "brain teaser game", "easy for seniors", "screen free game",
+         "kids party game", "classroom party", "party favor idea", "birthday present", "party printable"],
+        "Large print birthday word search puzzles — party-themed brain fun for all ages! "
+        "10 celebration puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: birthday parties, party favors, classroom celebrations, kids activities.\n\n"
+        "Screen-free party game for kids, teens, and adults.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
+    ),
+    _pack(
+        "pirates-word-search",
+        "Pirate Word Search Printable | Large Print Adventure Puzzles PDF | Kids Gift | Instant Download",
+        ["print at home", "word find puzzle", "pirate adventure", "treasure hunt",
+         "kids activity", "brain teaser game", "easy for seniors", "screen free game",
+         "classroom activity", "birthday present", "rainy day fun", "pirate party", "ocean adventure"],
+        "Large print pirate word search puzzles — ahoy, treasure-hunting brain fun! "
+        "10 adventure-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: pirate fans, kids activities, classroom fun, birthday parties, rainy days.\n\n"
+        "Screen-free adventure game for kids and adults.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
+    ),
+    _pack(
+        "fairy-tales-word-search",
+        "Fairy Tale Word Search Printable | Large Print Story Puzzles PDF | Kids Gift | Instant Download",
+        ["print at home", "word find puzzle", "fairy tale fun", "storybook theme",
+         "princess puzzle", "brain teaser game", "easy for seniors", "screen free game",
+         "classroom activity", "birthday present", "enchanted theme", "kids activity", "magical puzzle"],
+        "Large print fairy tale word search puzzles — enchanting brain fun from once upon a time! "
+        "10 magical story-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: fairy tale fans, kids gifts, classroom activities, birthday presents.\n\n"
+        "Screen-free brain game for kids and the young at heart.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
+    ),
+    _pack(
+        "arts-crafts-word-search",
+        "Arts & Crafts Word Search Printable | Large Print Creative Puzzles PDF | Crafter Gift | Instant Download",
+        ["print at home", "word find puzzle", "crafter gift", "art lover fun",
+         "maker present", "brain teaser game", "easy for seniors", "screen free game",
+         "craft room decor", "teacher gift idea", "creative activity", "birthday present", "diy enthusiast"],
+        "Large print arts & crafts word search puzzles — creative brain fun for makers! "
+        "10 craft-themed puzzles with full solutions.\n\n"
+        "WHAT YOU GET: 10 unique puzzles (15×15 grid, 12 words each) + answer key. "
+        "2 print sizes (A4 + US Letter). Print at home or solve on tablet.\n\n"
+        "GREAT FOR: crafter gifts, art lovers, teacher presents, craft room fun.\n\n"
+        "Screen-free brain game for creative adults and seniors.\n\n"
+        "Digital download (2 PDF files). No physical item. Personal use only; not for resale.\n© Riddlewood",
+    ),
 ]
 
 
@@ -629,18 +699,18 @@ def bundle():
     base = ROOT / "products" / slug
     images = [str(base / "img" / "bundle_main.png"), str(base / "img" / "bundle_whats_inside.png")]
     return {"slug": slug, "price": BUNDLE_PRICE, "file": str(base / f"{slug}.zip"), "images": images,
-            "title": "Large Print Word Search Bundle | 420 Puzzles Printable PDF | 42 Themes | Best Value Gift Download",
+            "title": "Large Print Word Search Bundle | 470 Puzzles Printable PDF | 47 Themes | Best Value Gift Download",
             "tags": ["print at home", "word find bundle", "gift for seniors", "gift for grandma",
                      "brain game adults", "screen free fun", "retirement gift", "care package idea",
                      "classroom set", "birthday present", "stocking stuffer", "rainy day activity", "relaxing gift set"],
-            "description": "Large print word search mega bundle — 420 puzzles across 42 themes! Best value in the shop.\n\n"
+            "description": "Large print word search mega bundle — 470 puzzles across 47 themes! Best value in the shop.\n\n"
                            "THEMES: Coffee, Cat, Garden, Self-Care, Beach, Christmas, Dog, Halloween, Fall, Wine, Tea, Travel, "
                            "Music, Kitchen & Cooking, Ocean, Birds, Camping, Yoga, Sports, Flowers, Farm, Space, Fishing, Horses, "
                            "Hiking, Butterflies, Wildlife, Fitness, Movie Night, Baking, Book Lovers, Teachers, Dinosaurs, "
                            "Baby Shower, Nursing, Video Games, Greek Mythology, Winter Cozy, New Year, Hanukkah, Gratitude, "
-                           "and Board Games.\n\n"
-                           "WHAT YOU GET: 420 unique puzzles (15×15 grid, 12 words each) + answer keys. "
-                           "All 42 themed packs in A4 and US Letter. Print at home or solve on tablet.\n\n"
+                           "Board Games, Chocolate, Birthday, Pirates, Fairy Tales, and Arts & Crafts.\n\n"
+                           "WHAT YOU GET: 470 unique puzzles (15×15 grid, 12 words each) + answer keys. "
+                           "All 47 themed packs in A4 and US Letter. Print at home or solve on tablet.\n\n"
                            "GREAT FOR: seniors, grandparents, retirees, care packages, classrooms, birthday gifts, stocking stuffers.\n\n"
                            "Screen-free brain game for adults and seniors — months of puzzle fun!\n\n"
                            "Digital download. No physical item. Personal use only; not for resale.\n© Riddlewood"}
