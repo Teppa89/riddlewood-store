@@ -738,3 +738,32 @@ Tutti scaduti 29 ott 2026 (dopo ~4 mesi):
   1. Word Search Studio (@ModernSocialVibe) — 8 followers, word search niche
   2. Printablee (@dailyprintablegraphics) — 387.8k followers, printables niche
 - **Goal:** boost algorithm visibility, signal active account, attract follow-backs from niche creators
+
+### THEME FACTORY (1 nov) — manual run (routine non-functional)
+- Created 5 new themes: Chocolate, Birthday, Pirates, Fairy Tales, Arts & Crafts
+- Built 10 PDFs (5 themes × A4 + US Letter) + 5 zips
+- Generated 25 pin images (5 themes × 5 variants)
+- Published 5 new Etsy listings via API (drafts with images + zip)
+  - Chocolate: listing 4607433069
+  - Birthday: listing 4607433107
+  - Pirates: listing 4607453612
+  - Fairy Tales: listing 4607433191
+  - Arts & Crafts: listing 4607453686
+- **Total: 47 themes / 470 puzzles** (was 42/420)
+
+### BUNDLE UPDATE (1 nov)
+- Rebuilt bundle zip: 47 themes, 3.0 MB
+- Regenerated bundle collage images (47 covers)
+- Updated Etsy bundle listing: new images, new zip, title "470 Puzzles...47 Themes"
+- Listing ID 4592507695
+
+### AZIONI PENDENTI (aggiornato 1 nov)
+- [ ] **USER URGENTE:** rinnovare 17 listing scaduti su Etsy (~€3.06)
+- [ ] **USER:** caricare video demo v5 su Pinterest developer portal
+- [ ] **USER:** attivare Etsy Ads 1€/gg
+- [ ] **USER:** chiedere recensione compratore Farm
+- [x] **CLAUDE:** Theme Factory manuale — 5 nuovi temi ✓
+- [x] **CLAUDE:** Bundle aggiornato su Etsy (47 temi) ✓
+- [ ] **CLAUDE:** completare Gumroad (33 prodotti + bundle rimanenti — was 28, now +5)
+- [ ] **CLAUDE:** Pinterest analytics check
+- [ ] **CLAUDE:** creare scheduled task Theme Factory funzionante
