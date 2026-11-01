@@ -714,8 +714,8 @@ Tutti scaduti 29 ott 2026 (dopo ~4 mesi):
 - [ ] **USER:** caricare video demo v5 su Pinterest developer portal
 - [ ] **USER:** attivare Etsy Ads 1€/gg
 - [ ] **USER:** chiedere recensione compratore Farm
-- [ ] **CLAUDE:** 5 pin Pinterest oggi
-- [ ] **CLAUDE:** attività social Pinterest (follow, repin, commenti)
+- [x] **CLAUDE:** 5 pin Pinterest oggi ✓ (125 totali)
+- [x] **CLAUDE:** attività social Pinterest — 1 commento, 3 repin, 2 follow
 - [ ] **CLAUDE:** About shop Etsy + seller photo/icon
 - [ ] **CLAUDE:** completare Gumroad (28 prodotti + bundle rimanenti)
 - [ ] **CLAUDE:** investigare Theme Factory (routine trig_01Sedw7pQKUCZXi1GLGHBwJu)
@@ -727,3 +727,14 @@ Tutti scaduti 29 ott 2026 (dopo ~4 mesi):
 4. Board Games Word Search pin2 → Printable Puzzle Gifts
 5. Book Lovers Word Search pin5 → Printable Word Search Puzzles
 - **Totale pin:** 125/925 (13.5% coverage). Tutte 5 board coperte, una per pin. Gap di 21 giorni dall'ultimo pin (10 ott).
+
+### SOCIAL ACTIVITY (1 nov)
+- **Comment:** posted on 100 Word Search pin (word search brain exercise comment) — confirmed visible
+- **Repins saved:** 3 pins from other creators
+  1. SNACKS Word Search (by Julia Hardin) → Printable Puzzle Gifts
+  2. Family Word Search (by Word Search Studio) → Word Search Puzzles for Adults
+  3. 100 Word Search (by Printablee) → Self Care & Relaxing Printables
+- **Followed:** 2 accounts
+  1. Word Search Studio (@ModernSocialVibe) — 8 followers, word search niche
+  2. Printablee (@dailyprintablegraphics) — 387.8k followers, printables niche
+- **Goal:** boost algorithm visibility, signal active account, attract follow-backs from niche creators
