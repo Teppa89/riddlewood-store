@@ -757,13 +757,45 @@ Tutti scaduti 29 ott 2026 (dopo ~4 mesi):
 - Updated Etsy bundle listing: new images, new zip, title "470 Puzzles...47 Themes"
 - Listing ID 4592507695
 
-### AZIONI PENDENTI (aggiornato 1 nov)
-- [ ] **USER URGENTE:** rinnovare 17 listing scaduti su Etsy (~€3.06)
+## 2026-11-13
+
+### GUMROAD STORE LAUNCH — 10/33 products published
+- Created and published 10 Gumroad products (€4.49 each, with cover, thumbnail, description, zip):
+  1. Christmas Word Search → riddlewood.gumroad.com/l/christmas-word-search
+  2. Halloween Word Search → riddlewood.gumroad.com/l/halloween-word-search
+  3. Fall Thanksgiving → riddlewood.gumroad.com/l/fall-thanksgiving-word-search
+  4. Music Lovers → riddlewood.gumroad.com/l/music-lovers-word-search
+  5. Cooking-Baking → riddlewood.gumroad.com/l/cooking-baking-word-search
+  6. Ocean-Sea → riddlewood.gumroad.com/l/ocean-sea-word-search
+  7. Birds → riddlewood.gumroad.com/l/birds-word-search
+  8. Camping → riddlewood.gumroad.com/l/camping-word-search
+  9. Yoga-Mindfulness → riddlewood.gumroad.com/l/yoga-mindfulness-word-search
+  10. Sports → riddlewood.gumroad.com/l/sports-word-search
+- **Hit Gumroad daily limit** (10 products/day). Can resume Nov 14 after 12:04 PM CET.
+- **23 products remaining:** flowers, farm, space, fishing, horses, hiking, butterflies, wildlife, fitness, movie-night, baking, book-lovers, teachers, winter-cozy, new-year, hanukkah, gratitude, board-games, chocolate, birthday, pirates, fairy-tales, arts-crafts + bundle
+
+### PINTEREST ANALYTICS (30 days: 14 oct – 13 nov 2026)
+- **Impressioni: 101** (+177% vs prev 30d)
+- **Interazioni: 2** (+100%)
+- **Clic in uscita: 0**
+- **Salvataggi: 0**
+- **Pubblico totale: 79** (+315%)
+- **Pubblico coinvolto: 2** (+100%)
+- **Top pins:** Hanukkah (9 impr), Wine Lovers (8), Book Lovers (8), Space (7), Baby Shower (6)
+- **Trend:** two peaks in impressions (mid-Oct ~12/day, early Nov ~10/day). Growth positive but no outbound clicks yet.
+
+### ETSY BUNDLE UPDATE (done earlier this session)
+- Bundle updated: 47 themes / 470 puzzles
+- New images + zip uploaded, title/description/tags refreshed
+
+### AZIONI PENDENTI (aggiornato 13 nov)
+- [ ] **CLAUDE:** completare Gumroad — 23 prodotti + bundle rimanenti (daily limit, riprendere 14 nov)
+- [ ] **USER URGENTE:** rinnovare listing scaduti su Etsy
 - [ ] **USER:** caricare video demo v5 su Pinterest developer portal
 - [ ] **USER:** attivare Etsy Ads 1€/gg
 - [ ] **USER:** chiedere recensione compratore Farm
+- [x] **CLAUDE:** Gumroad 10/33 prodotti pubblicati ✓
+- [x] **CLAUDE:** Pinterest analytics check ✓
 - [x] **CLAUDE:** Theme Factory manuale — 5 nuovi temi ✓
 - [x] **CLAUDE:** Bundle aggiornato su Etsy (47 temi) ✓
-- [ ] **CLAUDE:** completare Gumroad (33 prodotti + bundle rimanenti — was 28, now +5)
-- [ ] **CLAUDE:** Pinterest analytics check
 - [ ] **CLAUDE:** creare scheduled task Theme Factory funzionante
